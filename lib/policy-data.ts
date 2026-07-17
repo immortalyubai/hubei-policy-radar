@@ -1,0 +1,442 @@
+import { getDatabase } from "@/db";
+import type {
+  ItemType,
+  PolicyItem,
+  PolicySource,
+  VerificationStatus,
+} from "@/lib/policy-types";
+export type { ItemType, PolicyItem, PolicySource, VerificationStatus } from "@/lib/policy-types";
+
+// The first screen remains useful before a new workspace has applied its D1
+// migration. Deployment switches to persisted rows as soon as the table exists.
+export const verifiedSeedItems: PolicyItem[] = [
+  {
+    id: "wuhan-assistive-tech-2026",
+    title: "市科技创新局关于征集科技助残创新技术产品的通知",
+    itemType: "application",
+    regionName: "湖北省",
+    cityName: "武汉市",
+    publisherName: "武汉市科技创新局",
+    summary: "面向高校、科研院所、企事业单位等，征集已应用、中试或具备明确产业化路径的助残产品、技术及场景方案。",
+    applicationTargets: "高校、科研院所、企事业单位及相关创新团队",
+    benefits: "成果展示、供需对接与应用场景转化机会",
+    topics: ["成果转化", "助残科技", "应用场景"],
+    publishedAt: "2026-06-11",
+    deadlineAt: "2026-07-20T17:00:00+08:00",
+    lifecycleStatus: "open",
+    verificationStatus: "official_verified",
+    primaryUrl: "https://kjj.wuhan.gov.cn/zzzq/zzzq_tzgg/202606/t20260611_2776207.shtml",
+    primarySourceType: "official_site",
+    primarySourceName: "武汉市科技创新局",
+    sourceCount: 1,
+    score: 98,
+    screeningReason: "临近截止，且兼具成果转化与场景落地属性，建议立即评估。",
+    documentNumber: null,
+    discoveredAt: "2026-07-17T09:00:00+08:00",
+  },
+  {
+    id: "hubei-data-factor-contest-2026",
+    title: "2026年“数据要素×”大赛湖北分赛",
+    itemType: "event",
+    regionName: "湖北省",
+    cityName: null,
+    publisherName: "湖北省数据局等 23 个部门",
+    summary: "设置智能制造、科技教育、医疗健康、数据洞察与人工智能等 15 个赛道，企业、高校、科研院所及事业单位均可组队参赛。",
+    applicationTargets: "企事业单位、高校、科研院所及联合团队",
+    benefits: "湖北分赛推荐、项目展示和产业资源对接",
+    topics: ["数据要素", "人工智能", "智能制造", "科创赛事"],
+    publishedAt: "2026-06-17",
+    deadlineAt: "2026-07-20",
+    lifecycleStatus: "open",
+    verificationStatus: "official_verified",
+    primaryUrl: "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202606/t20260617_2778377.shtml",
+    primarySourceType: "official_site",
+    primarySourceName: "东湖高新区管委会",
+    sourceCount: 1,
+    score: 97,
+    screeningReason: "赛道覆盖 AI、制造、数据和未来产业，且报名窗口即将关闭。",
+    documentNumber: null,
+    discoveredAt: "2026-07-17T09:05:00+08:00",
+  },
+  {
+    id: "chutian-talent-team-2026",
+    title: "关于做好2026年“楚天英才计划·双创团队”项目申报推荐工作的通知",
+    itemType: "application",
+    regionName: "湖北省",
+    cityName: null,
+    publisherName: "湖北省科学技术厅",
+    summary: "依托科技型企业或九类国家级、省级科创平台申报，重点支持拥有自主知识产权和产业化能力的高水平团队。",
+    applicationTargets: "科技型企业、重点实验室、技术创新中心等科创平台",
+    benefits: "省级高层次人才与创新创业团队项目支持",
+    topics: ["人才计划", "双创团队", "科技企业"],
+    publishedAt: "2026-07-01",
+    deadlineAt: "2026-07-31T23:59:59+08:00",
+    lifecycleStatus: "open",
+    verificationStatus: "official_verified",
+    primaryUrl: "https://kjt.hubei.gov.cn/kjdt/tzgg/202607/t20260701_5967838.shtml",
+    primarySourceType: "official_site",
+    primarySourceName: "湖北省科技厅通知公告",
+    sourceCount: 1,
+    score: 96,
+    screeningReason: "省级重点人才项目，与科技企业、科研平台和产业化团队高度相关。",
+    documentNumber: null,
+    discoveredAt: "2026-07-17T09:10:00+08:00",
+  },
+  {
+    id: "hubei-lab-animal-skills-2026",
+    title: "关于开展2026年湖北省实验动物从业人员动物实验操作技能竞赛的通知",
+    itemType: "event",
+    regionName: "湖北省",
+    cityName: null,
+    publisherName: "湖北省实验动物学会",
+    summary: "面向持有有效实验动物设施许可证单位的专业人员，设置小鼠注射、采血、动物模型制备等四类实操项目。",
+    applicationTargets: "持有有效实验动物设施许可证单位的专业人员",
+    benefits: "专业技能展示与行业交流",
+    topics: ["生命科学", "实验动物", "技能竞赛"],
+    publishedAt: "2026-07-15",
+    deadlineAt: "2026-07-31",
+    lifecycleStatus: "open",
+    verificationStatus: "official_verified",
+    primaryUrl: "https://kjt.hubei.gov.cn/sydw/portal/kjdt/detail?id=e52b1391-c3f8-4fbd-a32c-b03be1d358ab",
+    primarySourceType: "official_site",
+    primarySourceName: "湖北省科技厅实验动物信息平台",
+    sourceCount: 1,
+    score: 82,
+    screeningReason: "新近发布的垂直专业赛事，适合生命科学与科研平台用户。",
+    documentNumber: null,
+    discoveredAt: "2026-07-17T09:15:00+08:00",
+  },
+  {
+    id: "hubei-overseas-innovation-contest-2026",
+    title: "第二届湖北省留学人员创新创业大赛",
+    itemType: "event",
+    regionName: "湖北省",
+    cityName: null,
+    publisherName: "湖北省人力资源和社会保障厅",
+    summary: "设置创新赛、创业赛和海外境外专项赛，覆盖机器人、人工智能、新能源、新材料、生物医药等赛道。",
+    applicationTargets: "留学人员创新项目、创业企业及海外境外团队",
+    benefits: "最高 60 万元奖励及省级创新创业资源对接",
+    topics: ["留学人才", "人工智能", "机器人", "生物医药"],
+    publishedAt: "2026-06-23",
+    deadlineAt: "2026-08-15",
+    lifecycleStatus: "open",
+    verificationStatus: "official_verified",
+    primaryUrl: "https://rst.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/202606/t20260623_5963295.shtml",
+    primarySourceType: "official_site",
+    primarySourceName: "湖北省人社厅公开文件",
+    sourceCount: 1,
+    score: 94,
+    screeningReason: "奖励明确、窗口开放，覆盖湖北重点发展的多个硬科技赛道。",
+    documentNumber: null,
+    discoveredAt: "2026-07-17T09:20:00+08:00",
+  },
+  {
+    id: "hubei-61020-achievements-2026",
+    title: "关于组织开展2026年度“61020”科技创新成果推荐工作的通知",
+    itemType: "application",
+    regionName: "湖北省",
+    cityName: null,
+    publisherName: "湖北省科学技术厅",
+    summary: "征集重大基础研究成果、关键核心技术和标志性创新产品，突出自主可控、首发首创及省内产业落地。",
+    applicationTargets: "高校院所、科技企业及重大创新平台",
+    benefits: "进入省级重点科技创新成果推荐与转化体系",
+    topics: ["61020", "关键核心技术", "创新成果"],
+    publishedAt: "2026-03-06",
+    deadlineAt: "2026-09-15T17:00:00+08:00",
+    lifecycleStatus: "open",
+    verificationStatus: "official_verified",
+    primaryUrl: "https://kjt.hubei.gov.cn/kjdt/tzgg/202603/t20260306_5886325.shtml",
+    primarySourceType: "official_site",
+    primarySourceName: "湖北省科技厅通知公告",
+    sourceCount: 1,
+    score: 95,
+    screeningReason: "与湖北重点产业集群直接相关，是成果转化类核心高价值项目。",
+    documentNumber: null,
+    discoveredAt: "2026-07-17T09:25:00+08:00",
+  },
+  {
+    id: "hubei-high-tech-enterprise-2026",
+    title: "关于组织开展2026年度高新技术企业培育与认定工作的通知",
+    itemType: "application",
+    regionName: "湖北省",
+    cityName: null,
+    publisherName: "湖北省科学技术厅",
+    summary: "面向湖北注册满一年的居民企业，实行常年申报、及时审核；2023 年认定的高新技术企业需重新申请。",
+    applicationTargets: "湖北省内注册满一年的居民企业",
+    benefits: "高新技术企业资质认定及配套政策支持",
+    topics: ["高新技术企业", "企业资质", "常年申报"],
+    publishedAt: "2026-04-16",
+    deadlineAt: "2026-10-10",
+    lifecycleStatus: "open",
+    verificationStatus: "official_verified",
+    primaryUrl: "https://kjt.hubei.gov.cn/kjdt/tzgg/202604/t20260416_5915189.shtml",
+    primarySourceType: "official_site",
+    primarySourceName: "湖北省科技厅通知公告",
+    sourceCount: 1,
+    score: 93,
+    screeningReason: "覆盖企业面广，且各地推荐节点可能更早，需要持续追踪市区通知。",
+    documentNumber: null,
+    discoveredAt: "2026-07-17T09:30:00+08:00",
+  },
+  {
+    id: "hubei-innovation-voucher-2026",
+    title: "关于组织开展2026年度湖北省科技创新券申领和兑付工作的通知",
+    itemType: "application",
+    regionName: "湖北省",
+    cityName: null,
+    publisherName: "湖北省科学技术厅",
+    summary: "支持科技型企业购买研发、仪器共享、检验检测等服务，每家企业每年申领不超过 20 万元，按实际服务金额 30% 兑付。",
+    applicationTargets: "湖北省科技型企业",
+    benefits: "每家企业每年最高申领 20 万元，按服务金额 30% 兑付",
+    topics: ["创新券", "惠企资金", "研发服务"],
+    publishedAt: "2026-03-05",
+    deadlineAt: "2026-11-05",
+    lifecycleStatus: "open",
+    verificationStatus: "official_verified",
+    primaryUrl: "https://kjt.hubei.gov.cn/kjdt/ztzl/kjcxq/cxgzjz/202603/t20260305_5885193.shtml",
+    primarySourceType: "official_site",
+    primarySourceName: "湖北省科技厅科技创新券专题",
+    sourceCount: 1,
+    score: 92,
+    screeningReason: "直接涉及企业资金收益，持续申领、即报即审，应长期保持高优先级。",
+    documentNumber: null,
+    discoveredAt: "2026-07-17T09:35:00+08:00",
+  },
+  {
+    id: "wechat-hubei-15th-five-year-plan",
+    title: "湖北省国民经济和社会发展第十五个五年规划纲要（全文）",
+    itemType: "policy",
+    regionName: "湖北省",
+    cityName: null,
+    publisherName: "湖北发布",
+    summary: "湖北官方公众号发布“十五五”规划纲要全文，覆盖科技创新、现代产业体系、区域协同和民生发展等未来五年重点任务。",
+    applicationTargets: "关注湖北产业布局、科技创新与区域发展的企业和机构",
+    benefits: "用于判断湖北未来五年的重点产业方向与政策机会",
+    topics: ["十五五", "产业规划", "科技创新"],
+    publishedAt: "2026-04-23T09:50:00+08:00",
+    deadlineAt: null,
+    lifecycleStatus: "evergreen",
+    verificationStatus: "pending_official",
+    primaryUrl: "https://mp.weixin.qq.com/s/K727SKsgz7t7TLLUYjLQPA",
+    primarySourceType: "wechat",
+    primarySourceName: "湖北发布",
+    sourceCount: 1,
+    score: 86,
+    screeningReason: "公众号公开全文已成功解析，内容属于省级中长期规划；等待补充政府官网原文作为第二来源。",
+    documentNumber: null,
+    discoveredAt: "2026-07-17T11:55:00+08:00",
+  },
+];
+
+export const seedSources: PolicySource[] = [
+  {
+    id: "hubei-gov-files",
+    name: "湖北省政府文件",
+    sourceType: "official_site",
+    publisherName: "湖北省人民政府",
+    entryUrl: "https://www.hubei.gov.cn/zfwj/",
+    healthStatus: "healthy",
+    pollIntervalMinutes: 120,
+    lastCheckedAt: null,
+    lastSuccessAt: null,
+    priority: 100,
+  },
+  {
+    id: "hubei-kjt-notices",
+    name: "湖北省科技厅通知",
+    sourceType: "official_site",
+    publisherName: "湖北省科学技术厅",
+    entryUrl: "https://kjt.hubei.gov.cn/kjdt/tzgg/",
+    healthStatus: "healthy",
+    pollIntervalMinutes: 120,
+    lastCheckedAt: null,
+    lastSuccessAt: null,
+    priority: 100,
+  },
+  {
+    id: "wuhan-kj-notices",
+    name: "武汉科技创新通知",
+    sourceType: "official_site",
+    publisherName: "武汉市科技创新局",
+    entryUrl: "https://kjj.wuhan.gov.cn/wmfw/tzgg/",
+    healthStatus: "healthy",
+    pollIntervalMinutes: 120,
+    lastCheckedAt: null,
+    lastSuccessAt: null,
+    priority: 95,
+  },
+  {
+    id: "east-lake-notices",
+    name: "东湖高新区通知公告",
+    sourceType: "official_site",
+    publisherName: "武汉东湖新技术开发区管理委员会",
+    entryUrl: "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/",
+    healthStatus: "healthy",
+    pollIntervalMinutes: 120,
+    lastCheckedAt: null,
+    lastSuccessAt: null,
+    priority: 94,
+  },
+  {
+    id: "hubei-jxt-files",
+    name: "湖北省经信厅公开文件",
+    sourceType: "official_site",
+    publisherName: "湖北省经济和信息化厅",
+    entryUrl: "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/",
+    healthStatus: "healthy",
+    pollIntervalMinutes: 120,
+    lastCheckedAt: null,
+    lastSuccessAt: null,
+    priority: 93,
+  },
+  {
+    id: "hubei-rst-files",
+    name: "湖北省人社厅公开文件",
+    sourceType: "official_site",
+    publisherName: "湖北省人力资源和社会保障厅",
+    entryUrl: "https://rst.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/",
+    healthStatus: "healthy",
+    pollIntervalMinutes: 120,
+    lastCheckedAt: null,
+    lastSuccessAt: null,
+    priority: 92,
+  },
+  {
+    id: "wechat-watchlist",
+    name: "湖北公众号白名单",
+    sourceType: "wechat",
+    publisherName: "湖北政策发布机构",
+    entryUrl: "https://mp.weixin.qq.com/",
+    healthStatus: "paused",
+    pollIntervalMinutes: 120,
+    lastCheckedAt: null,
+    lastSuccessAt: null,
+    priority: 90,
+  },
+];
+
+function parseTopics(value: unknown): string[] {
+  if (typeof value !== "string") return [];
+  try {
+    const parsed = JSON.parse(value);
+    return Array.isArray(parsed)
+      ? parsed.filter((topic): topic is string => typeof topic === "string")
+      : [];
+  } catch {
+    return [];
+  }
+}
+
+function mapItem(row: Record<string, unknown>): PolicyItem {
+  return {
+    id: String(row.id),
+    title: String(row.title),
+    itemType: String(row.item_type) as ItemType,
+    regionName: String(row.region_name),
+    cityName: row.city_name ? String(row.city_name) : null,
+    publisherName: String(row.publisher_name),
+    summary: String(row.summary ?? ""),
+    applicationTargets: row.application_targets
+      ? String(row.application_targets)
+      : null,
+    benefits: row.benefits ? String(row.benefits) : null,
+    topics: parseTopics(row.topics_json),
+    publishedAt: String(row.published_at),
+    deadlineAt: row.deadline_at ? String(row.deadline_at) : null,
+    lifecycleStatus: String(row.lifecycle_status),
+    verificationStatus: String(row.verification_status) as VerificationStatus,
+    primaryUrl: String(row.primary_url),
+    primarySourceType: String(row.primary_source_type),
+    primarySourceName: String(row.primary_source_name),
+    sourceCount: Number(row.source_count ?? 1),
+    score: Number(row.score ?? 50),
+    screeningReason: String(row.screening_reason ?? ""),
+    documentNumber: row.document_number ? String(row.document_number) : null,
+    discoveredAt: String(row.discovered_at),
+  };
+}
+
+export async function getPolicyItems(): Promise<PolicyItem[]> {
+  try {
+    const result = await getDatabase()
+      .prepare(
+        `SELECT id, title, item_type, region_name, city_name, publisher_name,
+          summary, application_targets, benefits, topics_json, published_at,
+          deadline_at, lifecycle_status, verification_status, primary_url,
+          primary_source_type, primary_source_name, source_count, score,
+          screening_reason, document_number, discovered_at
+        FROM items
+        WHERE verification_status <> 'source_only'
+        ORDER BY score DESC, published_at DESC
+        LIMIT 100`
+      )
+      .all<Record<string, unknown>>();
+
+    const rows = result.results.map(mapItem);
+    const merged = new Map<string, PolicyItem>();
+    for (const item of verifiedSeedItems) merged.set(item.primaryUrl, item);
+    for (const item of rows) merged.set(item.primaryUrl, item);
+    return [...merged.values()].sort(
+      (left, right) => right.score - left.score || right.publishedAt.localeCompare(left.publishedAt)
+    );
+  } catch {
+    return verifiedSeedItems;
+  }
+}
+
+export async function getPolicyItem(id: string): Promise<PolicyItem | null> {
+  try {
+    const row = await getDatabase()
+      .prepare(
+        `SELECT id, title, item_type, region_name, city_name, publisher_name,
+          summary, application_targets, benefits, topics_json, published_at,
+          deadline_at, lifecycle_status, verification_status, primary_url,
+          primary_source_type, primary_source_name, source_count, score,
+          screening_reason, document_number, discovered_at
+        FROM items WHERE id = ?1 LIMIT 1`
+      )
+      .bind(id)
+      .first<Record<string, unknown>>();
+    if (row) return mapItem(row);
+  } catch {
+    // Local previews can run before the D1 migration has been applied.
+  }
+
+  return verifiedSeedItems.find((item) => item.id === id) ?? null;
+}
+
+function mapSource(row: Record<string, unknown>): PolicySource {
+  return {
+    id: String(row.id),
+    name: String(row.name),
+    sourceType: String(row.source_type) as PolicySource["sourceType"],
+    publisherName: String(row.publisher_name),
+    entryUrl: String(row.entry_url),
+    healthStatus: String(row.health_status) as PolicySource["healthStatus"],
+    pollIntervalMinutes: Number(row.poll_interval_minutes),
+    lastCheckedAt: row.last_checked_at ? String(row.last_checked_at) : null,
+    lastSuccessAt: row.last_success_at ? String(row.last_success_at) : null,
+    priority: Number(row.priority),
+  };
+}
+
+export async function getPolicySources(): Promise<PolicySource[]> {
+  try {
+    const result = await getDatabase()
+      .prepare(
+        `SELECT id, name, source_type, publisher_name, entry_url, health_status,
+          poll_interval_minutes, last_checked_at, last_success_at, priority
+        FROM sources ORDER BY priority DESC, name ASC`
+      )
+      .all<Record<string, unknown>>();
+    const rows = result.results.map(mapSource);
+    const merged = new Map<string, PolicySource>();
+    for (const source of seedSources) merged.set(source.id, source);
+    for (const source of rows) merged.set(source.id, source);
+    return [...merged.values()].sort(
+      (left, right) => right.priority - left.priority || left.name.localeCompare(right.name, "zh-CN")
+    );
+  } catch {
+    return seedSources;
+  }
+}

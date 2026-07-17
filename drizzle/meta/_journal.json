@@ -1,0 +1,20 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1784260116228,
+      "tag": "0000_cheerful_nightshade",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1784260153374,
+      "tag": "0001_supreme_vin_gonzales",
+      "breakpoints": true
+    }
+  ]
+}
