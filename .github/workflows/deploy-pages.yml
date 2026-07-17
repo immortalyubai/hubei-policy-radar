@@ -1,0 +1,62 @@
+name: Refresh and deploy policy radar
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "17 */2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: policy-radar-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: ${{ github.event_name != 'push' || !contains(github.event.head_commit.message, '[skip radar refresh]') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Collect official Hubei sources
+        continue-on-error: true
+        run: node scripts/collect-hubei.mjs --limit 12 --no-delay --output work/hubei-collection.json
+      - name: Merge new public records
+        if: ${{ hashFiles('work/hubei-collection.json') != '' }}
+        run: node scripts/merge-static-data.mjs --input work/hubei-collection.json
+      - name: Persist sanitized policy snapshot
+        if: ${{ github.event_name != 'push' }}
+        run: |
+          git config user.name "policy-radar-bot"
+          git config user.email "policy-radar-bot@users.noreply.github.com"
+          git add static-site/data/policy-data.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh policy snapshot [skip radar refresh]"
+            git push
+          fi
+      - run: npm run test:pages
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: pages-dist
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

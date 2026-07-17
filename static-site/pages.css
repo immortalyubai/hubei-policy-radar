@@ -1,0 +1,146 @@
+.static-pages .card-arrow {
+  display: grid;
+  width: 44px;
+  height: 44px;
+  place-items: center;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+.static-pages .mobile-search {
+  display: none;
+}
+
+.static-pages .mobile-verify-tabs {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 2px;
+}
+
+.static-pages .mobile-verify-tabs button {
+  min-height: 44px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--white);
+  color: var(--muted);
+  padding: 0 15px;
+  white-space: nowrap;
+}
+
+.static-pages .mobile-verify-tabs button.active {
+  border-color: var(--green);
+  background: var(--green-soft);
+  color: var(--green-dark);
+}
+
+.static-pages .health-pill.configured {
+  background: var(--blue-soft);
+  color: var(--blue);
+}
+
+.static-pages .source-boundary-note {
+  margin-top: 22px;
+  border: 1px solid #ead9c9;
+  border-radius: 14px;
+  background: #fffaf5;
+  padding: 20px;
+}
+
+.static-pages .source-boundary-note strong {
+  color: var(--orange);
+}
+
+.static-pages .source-boundary-note p {
+  margin: 8px 0 0;
+  color: var(--muted);
+  line-height: 1.75;
+}
+
+.static-pages button,
+.static-pages a {
+  touch-action: manipulation;
+}
+
+@media (max-width: 900px) {
+  .static-pages .mobile-search {
+    display: grid;
+    gap: 10px;
+    margin-bottom: 12px;
+  }
+}
+
+@media (max-width: 620px) {
+  .static-pages .wrap {
+    width: min(100% - 28px, 1180px);
+  }
+
+  .static-pages .nav-inner {
+    min-height: 68px;
+    gap: 14px;
+  }
+
+  .static-pages .brand b {
+    font-size: 15px;
+  }
+
+  .static-pages .brand small,
+  .static-pages .nav-status {
+    display: none;
+  }
+
+  .static-pages .nav-inner nav {
+    display: flex;
+    gap: 14px;
+    font-size: 13px;
+  }
+
+  .static-pages .nav-inner nav a {
+    display: inline-flex;
+    min-height: 44px;
+    align-items: center;
+  }
+
+  .static-pages .nav-inner nav a.active::after {
+    bottom: -12px;
+  }
+
+  .static-pages .hero-actions {
+    align-items: stretch;
+  }
+
+  .static-pages .primary-action,
+  .static-pages .secondary-action {
+    min-height: 48px;
+  }
+
+  .static-pages .mobile-type-tabs button {
+    min-height: 44px;
+  }
+
+  .static-pages .policy-card-side {
+    align-items: center;
+  }
+
+  .static-pages .sources-table {
+    border: 0;
+    background: transparent;
+  }
+
+  .static-pages .source-row,
+  .static-pages .source-row.head {
+    grid-template-columns: 1fr;
+  }
+
+  .static-pages .source-row {
+    margin-bottom: 12px;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    background: var(--white);
+  }
+
+  .static-pages .source-row.head {
+    display: none;
+  }
+}

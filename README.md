@@ -11,6 +11,7 @@
 - D1 持久化结构：`items`、`item_sources`、`sources`、`source_runs`。
 - 统一严格去重：来源外部 ID、规范 URL、文号、地区 + 标题 + 发布单位 + 日期。
 - 响应式政策库、详情页、来源状态页和只读 JSON API。
+- 独立的 GitHub Pages 静态版：不依赖 Cloudflare、D1 或写入密钥，支持手机筛选、详情和原文跳转。
 
 ## 本地运行
 
@@ -60,12 +61,15 @@ npm run import:wechat -- "https://mp.weixin.qq.com/s/..."
 
 ## 定时运行
 
-`.github/workflows/collect-hubei.yml` 默认每两小时执行一次。推送到 GitHub 后，在仓库 Secrets 中配置：
+`.github/workflows/deploy-pages.yml` 默认每两小时执行一次：抓取湖北政府官网、合并公开政策快照、重新构建并发布 GitHub Pages。静态版不需要 `POLICY_RADAR_URL` 或 `POLICY_INGEST_KEY`。
 
-- `POLICY_RADAR_URL`
-- `POLICY_INGEST_KEY`
+公众号账号级扫描仍依赖用户扫码后的浏览器会话，不能放到 GitHub Actions。页面关闭、电脑休眠或四天登录到期时，该部分会暂停并要求重新扫码；政府官网扫描继续运行。
 
-定时任务只会将候选数据发送到自己的站点。日志仅输出标题和写入结果，不输出密钥或完整正文。
+本地验证静态版：
+
+```bash
+npm run test:pages
+```
 
 ## API
 

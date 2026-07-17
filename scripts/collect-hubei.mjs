@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 
 import * as cheerio from "cheerio";
+import { mkdir, writeFile } from "node:fs/promises";
+import { dirname, resolve } from "node:path";
 
 const SOURCES = [
   {
@@ -66,6 +68,7 @@ const selectedId = typeof args.get("source") === "string" ? args.get("source") :
 const limit = Math.min(Math.max(Number(args.get("limit") ?? 12), 1), 50);
 const minScore = Math.min(Math.max(Number(args.get("min-score") ?? 60), 0), 100);
 const sources = selectedId ? SOURCES.filter((source) => source.id === selectedId) : SOURCES;
+const outputPath = typeof args.get("output") === "string" ? resolve(args.get("output")) : null;
 if (sources.length === 0) throw new Error(`unknown source: ${selectedId}`);
 
 function normalizeText(value) {
@@ -280,12 +283,23 @@ async function postCandidates(candidates) {
 }
 
 const allCandidates = [];
+const sourceRuns = [];
 for (const source of sources) {
+  const startedAt = new Date().toISOString();
   try {
     const candidates = await collectSource(source);
     allCandidates.push(...candidates);
+    sourceRuns.push({ sourceId: source.id, status: "success", startedAt, finishedAt: new Date().toISOString(), count: candidates.length });
     process.stderr.write(`[${source.id}] ${candidates.length} candidates\n`);
   } catch (error) {
+    sourceRuns.push({
+      sourceId: source.id,
+      status: "failed",
+      startedAt,
+      finishedAt: new Date().toISOString(),
+      count: 0,
+      error: error instanceof Error ? error.message.slice(0, 300) : "unknown error",
+    });
     process.stderr.write(`[${source.id}] failed: ${error instanceof Error ? error.message : "unknown error"}\n`);
   }
   if (!args.has("no-delay")) await new Promise((resolve) => setTimeout(resolve, 2_500));
@@ -297,12 +311,21 @@ const output = ingestResult
       collectedAt: new Date().toISOString(),
       count: allCandidates.length,
       titles: allCandidates.map((candidate) => candidate.title),
+      sourceRuns,
       ingestResult,
     }
   : {
       collectedAt: new Date().toISOString(),
       count: allCandidates.length,
       candidates: allCandidates,
+      sourceRuns,
       ingestResult: null,
     };
-process.stdout.write(`${JSON.stringify(output, null, 2)}\n`);
+const serialized = `${JSON.stringify(output, null, 2)}\n`;
+if (outputPath) {
+  await mkdir(dirname(outputPath), { recursive: true });
+  await writeFile(outputPath, serialized, "utf8");
+  process.stderr.write(`collection saved: ${outputPath}\n`);
+} else {
+  process.stdout.write(serialized);
+}
