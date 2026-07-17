@@ -6,9 +6,6 @@ import { getPolicyItems, getPolicySources } from "@/lib/policy-data";
 export const metadata: Metadata = {
   title: "华中政策雷达｜湖北政策、申报与科创赛事",
   description: "公众号优先发现，政府官网权威核验。聚合湖北政策、项目申报和科创赛事。",
-  other: {
-    "codex-preview": "development",
-  },
 };
 
 export const dynamic = "force-dynamic";
@@ -30,7 +27,7 @@ export default async function Home() {
           <nav aria-label="主导航">
             <a className="active" href="#policy-list">政策库</a>
             <a href="/sources">监控源</a>
-            <span className="nav-status"><i /> 系统运行中</span>
+            <span className="nav-status"><i /> 查看监控状态</span>
           </nav>
         </div>
       </header>

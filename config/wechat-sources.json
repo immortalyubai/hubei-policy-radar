@@ -1,0 +1,38 @@
+[
+  {
+    "fakeid": "MzA5MzY2MDkzOQ==",
+    "alias": "hubeifabu",
+    "nickname": "湖北发布",
+    "verifiedIdentityName": "中共湖北省委宣传部(湖北省人民政府新闻办公室、湖北省新闻出版局(湖北省版权局)、湖北省电影局、湖北省精神文明建设指导委员会办公室)",
+    "sourceId": "wechat-hubei-publish",
+    "publisherName": "湖北发布",
+    "regionCode": "420000",
+    "regionName": "湖北省",
+    "cityName": null,
+    "priority": 90
+  },
+  {
+    "fakeid": "MzkzODIxMDk1Ng==",
+    "alias": "hbskjt",
+    "nickname": "湖北科技",
+    "verifiedIdentityName": "湖北省科学技术厅",
+    "sourceId": "wechat-hubei-science",
+    "publisherName": "湖北省科学技术厅",
+    "regionCode": "420000",
+    "regionName": "湖北省",
+    "cityName": null,
+    "priority": 95
+  },
+  {
+    "fakeid": "MzUzOTUwODkzNg==",
+    "alias": "wh-kjcx",
+    "nickname": "武汉科技创新",
+    "verifiedIdentityName": "武汉市科学技术局",
+    "sourceId": "wechat-wuhan-innovation",
+    "publisherName": "武汉市科技创新局",
+    "regionCode": "420100",
+    "regionName": "湖北省",
+    "cityName": "武汉市",
+    "priority": 95
+  }
+]

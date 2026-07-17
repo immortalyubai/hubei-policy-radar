@@ -83,7 +83,7 @@ export default async function PolicyDetailPage({
                 <div><span>适用对象</span><strong>{item.applicationTargets ?? "以官网申报指南为准"}</strong></div>
                 <div><span>支持内容</span><strong>{item.benefits ?? "以官网原文为准"}</strong></div>
                 <div><span>发布单位</span><strong>{item.publisherName}</strong></div>
-                <div><span>截止日期</span><strong>{item.deadlineAt ? item.deadlineAt.slice(0, 16).replace("T", " ") : "长期有效"}</strong></div>
+                <div><span>截止日期</span><strong>{item.deadlineAt ? item.deadlineAt.slice(0, 16).replace("T", " ") : item.lifecycleStatus === "pending_deadline" ? "待核验" : "长期有效"}</strong></div>
               </div>
             </section>
 

@@ -48,6 +48,11 @@ export interface PolicySource {
   pollIntervalMinutes: number;
   lastCheckedAt: string | null;
   lastSuccessAt: string | null;
+  lastInsertedCount?: number;
+  loginExpiresAt?: string | null;
+  lastErrorAt?: string | null;
+  lastErrorMessage?: string | null;
+  consecutiveFailures?: number;
   priority: number;
 }
 

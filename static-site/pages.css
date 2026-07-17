@@ -40,6 +40,103 @@
   color: var(--blue);
 }
 
+.static-pages .health-pill.degraded {
+  background: #fff4df;
+  color: #9a641d;
+}
+
+.static-pages .health-pill.degraded::before {
+  background: #d79536;
+}
+
+.static-pages .health-pill.failing {
+  background: #fff0ef;
+  color: #b44841;
+}
+
+.static-pages .health-pill.failing::before {
+  background: #d75d55;
+}
+
+.static-pages .live-dot.monitor-degraded {
+  border-color: rgba(225, 174, 85, 0.26);
+  background: rgba(188, 123, 28, 0.12);
+  color: #f0ca84;
+}
+
+.static-pages .live-dot.monitor-degraded::before {
+  background: #e0a64e;
+  box-shadow: 0 0 0 4px rgba(224, 166, 78, 0.08), 0 0 12px rgba(224, 166, 78, 0.42);
+}
+
+.static-pages .live-dot.monitor-failing {
+  border-color: rgba(235, 127, 117, 0.25);
+  background: rgba(190, 67, 56, 0.12);
+  color: #f4b0aa;
+}
+
+.static-pages .live-dot.monitor-failing::before {
+  background: #e67b72;
+  box-shadow: 0 0 0 4px rgba(230, 123, 114, 0.08), 0 0 12px rgba(230, 123, 114, 0.42);
+}
+
+.static-pages .monitor-legend {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.static-pages .monitor-legend span {
+  display: grid;
+  align-content: start;
+  gap: 4px;
+  min-width: 0;
+}
+
+.static-pages .monitor-legend span:last-child {
+  margin-left: 0;
+}
+
+.static-pages .monitor-legend b {
+  overflow: hidden;
+  font-size: 11px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.static-pages .source-row {
+  grid-template-columns: minmax(190px, 1.25fr) 0.78fr 1fr 0.62fr 1fr 90px;
+  gap: 16px;
+}
+
+.static-pages .wechat-source {
+  background: linear-gradient(90deg, rgba(232, 248, 243, 0.58), rgba(255, 255, 255, 0) 32%);
+}
+
+.static-pages .source-cell {
+  min-width: 0;
+  color: #5f6b73;
+  line-height: 1.55;
+}
+
+.static-pages .source-status {
+  display: grid;
+  gap: 7px;
+  min-width: 0;
+}
+
+.static-pages .source-status small {
+  overflow: hidden;
+  color: #a04d47;
+  font-size: 9px;
+  line-height: 1.45;
+  text-overflow: ellipsis;
+}
+
+.static-pages .source-row [data-label]::before {
+  display: none;
+}
+
 .static-pages .source-boundary-note {
   margin-top: 22px;
   border: 1px solid #ead9c9;
@@ -68,6 +165,20 @@
     display: grid;
     gap: 10px;
     margin-bottom: 12px;
+  }
+}
+
+@media (min-width: 621px) and (max-width: 900px) {
+  .static-pages .sources-table {
+    overflow-x: auto;
+  }
+
+  .static-pages .source-row {
+    min-width: 840px;
+  }
+
+  .static-pages .source-row > :nth-child(4) {
+    display: grid;
   }
 }
 
@@ -142,5 +253,51 @@
 
   .static-pages .source-row.head {
     display: none;
+  }
+
+  .static-pages .source-row > :nth-child(2),
+  .static-pages .source-row > :nth-child(3),
+  .static-pages .source-row > :nth-child(4),
+  .static-pages .source-row > :nth-child(5),
+  .static-pages .source-row > :nth-child(6) {
+    display: grid;
+  }
+
+  .static-pages .source-name {
+    margin-bottom: 2px;
+    border-bottom: 1px solid var(--soft-line);
+    padding-bottom: 13px;
+  }
+
+  .static-pages .source-row [data-label] {
+    grid-template-columns: 92px minmax(0, 1fr);
+    align-items: start;
+    gap: 12px;
+  }
+
+  .static-pages .source-row [data-label]::before {
+    display: block;
+    color: #8a949b;
+    content: attr(data-label);
+    font-size: 10px;
+    font-weight: 650;
+  }
+
+  .static-pages .source-status .health-pill {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .static-pages .source-status small {
+    grid-column: 2;
+  }
+
+  .static-pages .monitor-legend {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .static-pages .monitor-legend span:last-child {
+    display: grid;
+    grid-column: 1 / -1;
   }
 }

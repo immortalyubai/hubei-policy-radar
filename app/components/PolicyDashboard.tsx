@@ -36,7 +36,10 @@ function Icon({ name }: { name: "search" | "arrow" | "check" | "clock" | "source
   return <svg viewBox="0 0 24 24" aria-hidden="true">{paths[name]}</svg>;
 }
 
-function deadlineCopy(deadlineAt: string | null) {
+function deadlineCopy(deadlineAt: string | null, lifecycleStatus: string) {
+  if (!deadlineAt && lifecycleStatus === "pending_deadline") {
+    return { label: "截止时间待核验", tone: "muted" };
+  }
   const days = daysUntil(deadlineAt);
   if (days === null) return { label: "长期有效", tone: "calm" };
   if (days < 0) return { label: "已截止", tone: "muted" };
@@ -88,9 +91,37 @@ export default function PolicyDashboard({
     const days = daysUntil(item.deadlineAt);
     return days !== null && days >= 0 && days <= 14;
   }).length;
-  const healthySources = sources.filter(
+  const wechatSources = sources.filter((source) => source.sourceType === "wechat");
+  const healthyWechatSources = wechatSources.filter(
     (source) => source.healthStatus === "healthy"
-  ).length;
+  );
+  const completeWechatScanAt = wechatSources
+    .map((source) => source.lastCheckedAt)
+    .filter((value): value is string => Boolean(value))
+    .sort()[0] ?? null;
+  const wechatInsertedCount = wechatSources.reduce(
+    (sum, source) => sum + (source.lastInsertedCount ?? 0),
+    0
+  );
+  const wechatLoginExpiresAt = wechatSources
+    .map((source) => source.loginExpiresAt)
+    .filter((value): value is string => Boolean(value))
+    .sort()[0] ?? null;
+  const scanTime = completeWechatScanAt
+    ? new Intl.DateTimeFormat("zh-CN", {
+        hour: "2-digit",
+        minute: "2-digit",
+        hour12: false,
+        timeZone: "Asia/Shanghai",
+      }).format(new Date(completeWechatScanAt))
+    : "待首次扫描";
+  const loginDate = wechatLoginExpiresAt
+    ? new Intl.DateTimeFormat("zh-CN", {
+        month: "numeric",
+        day: "numeric",
+        timeZone: "Asia/Shanghai",
+      }).format(new Date(wechatLoginExpiresAt))
+    : "待登录";
 
   return (
     <>
@@ -110,10 +141,10 @@ export default function PolicyDashboard({
         <aside className="radar-card" aria-label="系统运行状态">
           <div className="radar-card-top">
             <div>
-              <span className="panel-kicker">运行状态</span>
-              <strong>{healthySources}/{sources.length} 个来源在线</strong>
+              <span className="panel-kicker">公众号实时监测</span>
+              <strong>{healthyWechatSources.length}/{wechatSources.length} 个账号在线</strong>
             </div>
-            <span className="live-dot">采集中</span>
+            <span className="live-dot">{scanTime} 已扫描</span>
           </div>
           <div className="radar-visual" aria-hidden="true">
             <span className="radar-ring ring-one" />
@@ -126,9 +157,9 @@ export default function PolicyDashboard({
             <span className="radar-core">鄂</span>
           </div>
           <div className="radar-legend">
-            <span><i className="official" /> 官网</span>
-            <span><i className="wechat" /> 公众号</span>
-            <span>下次扫描 <b>2 小时内</b></span>
+            <span><i className="wechat" /> {wechatSources.length} 个公众号</span>
+            <span>本轮发现 <b>{wechatInsertedCount} 篇</b></span>
+            <span>登录有效至 <b>{loginDate}</b></span>
           </div>
         </aside>
       </section>
@@ -197,7 +228,7 @@ export default function PolicyDashboard({
           {visibleItems.length > 0 ? (
             <div className="policy-list">
               {visibleItems.map((item) => {
-                const deadline = deadlineCopy(item.deadlineAt);
+                const deadline = deadlineCopy(item.deadlineAt, item.lifecycleStatus);
                 return (
                   <article className="policy-card" key={item.id}>
                     <div className="policy-card-body">

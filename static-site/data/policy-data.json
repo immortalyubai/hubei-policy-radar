@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generatedAt": "2026-07-17T14:26:34+08:00",
+    "generatedAt": "2026-07-17T09:38:40.041Z",
     "scope": "湖北省与武汉市优先",
     "updateIntervalMinutes": 120,
-    "lastCollectionCount": 1,
-    "successfulSources": 1,
+    "lastCollectionCount": 2,
+    "successfulSources": 3,
     "failedSources": 0
   },
   "items": [
@@ -95,6 +95,34 @@
       ]
     },
     {
+      "id": "wuhan-assistive-tech-2026",
+      "title": "市科技创新局关于征集科技助残创新技术产品的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉市科技创新局",
+      "summary": "面向高校、科研院所、企事业单位等，征集已应用、中试或具备明确产业化路径的助残产品、技术及场景方案。",
+      "applicationTargets": "高校、科研院所、企事业单位及相关创新团队",
+      "benefits": "成果展示、供需对接与应用场景转化机会",
+      "topics": [
+        "成果转化",
+        "助残科技",
+        "应用场景"
+      ],
+      "publishedAt": "2026-06-11",
+      "deadlineAt": "2026-07-20T17:00:00+08:00",
+      "lifecycleStatus": "open",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://kjj.wuhan.gov.cn/zzzq/zzzq_tzgg/202606/t20260611_2776207.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "武汉市科技创新局",
+      "sourceCount": 1,
+      "score": 98,
+      "screeningReason": "临近截止，且兼具成果转化与场景落地属性，建议立即评估。",
+      "documentNumber": null,
+      "discoveredAt": "2026-07-17T09:00:00+08:00"
+    },
+    {
       "id": "hubei-data-bureau-opc-measures-2026",
       "title": "关于支持OPC（一人公司）新模式加快发展若干措施",
       "itemType": "policy",
@@ -138,6 +166,35 @@
       ]
     },
     {
+      "id": "hubei-data-factor-contest-2026",
+      "title": "2026年“数据要素×”大赛湖北分赛",
+      "itemType": "event",
+      "regionName": "湖北省",
+      "cityName": null,
+      "publisherName": "湖北省数据局等 23 个部门",
+      "summary": "设置智能制造、科技教育、医疗健康、数据洞察与人工智能等 15 个赛道，企业、高校、科研院所及事业单位均可组队参赛。",
+      "applicationTargets": "企事业单位、高校、科研院所及联合团队",
+      "benefits": "湖北分赛推荐、项目展示和产业资源对接",
+      "topics": [
+        "数据要素",
+        "人工智能",
+        "智能制造",
+        "科创赛事"
+      ],
+      "publishedAt": "2026-06-17",
+      "deadlineAt": "2026-07-20",
+      "lifecycleStatus": "open",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202606/t20260617_2778377.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区管委会",
+      "sourceCount": 1,
+      "score": 97,
+      "screeningReason": "赛道覆盖 AI、制造、数据和未来产业，且报名窗口即将关闭。",
+      "documentNumber": null,
+      "discoveredAt": "2026-07-17T09:05:00+08:00"
+    },
+    {
       "id": "wuhan-opc-online-community-intake-2026",
       "title": "武汉市OPC线上开放社区人工智能产品长期征集",
       "itemType": "application",
@@ -173,6 +230,34 @@
           "sourceName": "武汉市科技创新局"
         }
       ]
+    },
+    {
+      "id": "chutian-talent-team-2026",
+      "title": "关于做好2026年“楚天英才计划·双创团队”项目申报推荐工作的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": null,
+      "publisherName": "湖北省科学技术厅",
+      "summary": "依托科技型企业或九类国家级、省级科创平台申报，重点支持拥有自主知识产权和产业化能力的高水平团队。",
+      "applicationTargets": "科技型企业、重点实验室、技术创新中心等科创平台",
+      "benefits": "省级高层次人才与创新创业团队项目支持",
+      "topics": [
+        "人才计划",
+        "双创团队",
+        "科技企业"
+      ],
+      "publishedAt": "2026-07-01",
+      "deadlineAt": "2026-07-31T23:59:59+08:00",
+      "lifecycleStatus": "open",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/202607/t20260701_5967838.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "湖北省科技厅通知公告",
+      "sourceCount": 1,
+      "score": 96,
+      "screeningReason": "省级重点人才项目，与科技企业、科研平台和产业化团队高度相关。",
+      "documentNumber": null,
+      "discoveredAt": "2026-07-17T09:10:00+08:00"
     },
     {
       "id": "wuchang-ai-opc-support-2026",
@@ -212,6 +297,34 @@
       ]
     },
     {
+      "id": "hubei-61020-achievements-2026",
+      "title": "关于组织开展2026年度“61020”科技创新成果推荐工作的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": null,
+      "publisherName": "湖北省科学技术厅",
+      "summary": "征集重大基础研究成果、关键核心技术和标志性创新产品，突出自主可控、首发首创及省内产业落地。",
+      "applicationTargets": "高校院所、科技企业及重大创新平台",
+      "benefits": "进入省级重点科技创新成果推荐与转化体系",
+      "topics": [
+        "61020",
+        "关键核心技术",
+        "创新成果"
+      ],
+      "publishedAt": "2026-03-06",
+      "deadlineAt": "2026-09-15T17:00:00+08:00",
+      "lifecycleStatus": "open",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/202603/t20260306_5886325.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "湖北省科技厅通知公告",
+      "sourceCount": 1,
+      "score": 95,
+      "screeningReason": "与湖北重点产业集群直接相关，是成果转化类核心高价值项目。",
+      "documentNumber": null,
+      "discoveredAt": "2026-07-17T09:25:00+08:00"
+    },
+    {
       "id": "qiaokou-ai-policy-2025",
       "title": "硚口区促进人工智能发展若干政策措施（试行）",
       "itemType": "policy",
@@ -249,6 +362,35 @@
       ]
     },
     {
+      "id": "hubei-overseas-innovation-contest-2026",
+      "title": "第二届湖北省留学人员创新创业大赛",
+      "itemType": "event",
+      "regionName": "湖北省",
+      "cityName": null,
+      "publisherName": "湖北省人力资源和社会保障厅",
+      "summary": "设置创新赛、创业赛和海外境外专项赛，覆盖机器人、人工智能、新能源、新材料、生物医药等赛道。",
+      "applicationTargets": "留学人员创新项目、创业企业及海外境外团队",
+      "benefits": "最高 60 万元奖励及省级创新创业资源对接",
+      "topics": [
+        "留学人才",
+        "人工智能",
+        "机器人",
+        "生物医药"
+      ],
+      "publishedAt": "2026-06-23",
+      "deadlineAt": "2026-08-15",
+      "lifecycleStatus": "open",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://rst.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/202606/t20260623_5963295.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "湖北省人社厅公开文件",
+      "sourceCount": 1,
+      "score": 94,
+      "screeningReason": "奖励明确、窗口开放，覆盖湖北重点发展的多个硬科技赛道。",
+      "documentNumber": null,
+      "discoveredAt": "2026-07-17T09:20:00+08:00"
+    },
+    {
       "id": "east-lake-ai-software-policy-2025",
       "title": "东湖高新区加快促进软件和信息技术服务业创新发展的若干措施",
       "itemType": "policy",
@@ -284,185 +426,6 @@
           "sourceName": "东湖高新区管委会"
         }
       ]
-    },
-    {
-      "id": "wechat-national-opc-policy-report-2026",
-      "title": "全国OPC省级政策全景报告（终稿）",
-      "itemType": "policy",
-      "regionName": "全国",
-      "cityName": null,
-      "publisherName": "AI+OPC生态构建的使者AI飞",
-      "summary": "公众号汇总广东、海南、湖北、辽宁、北京、重庆、上海、天津等地OPC专项或相关政策，可用于全国线索发现，但并非政府政策原文。",
-      "applicationTargets": "关注全国OPC政策版图、选址和区域比较的创业者、园区及研究机构",
-      "benefits": "快速查看各地OPC政策线索；文中的奖励额度、适用条件和申报窗口需要逐项回到政府官网核验。",
-      "topics": [
-        "OPC",
-        "全国政策",
-        "政策汇编",
-        "需复核"
-      ],
-      "publishedAt": "2026-07-11T16:14:00+08:00",
-      "deadlineAt": null,
-      "lifecycleStatus": "reference",
-      "verificationStatus": "source_only",
-      "primaryUrl": "https://mp.weixin.qq.com/s/PEfDpR8uJlQd4DobmtaXUQ",
-      "primarySourceType": "wechat",
-      "primarySourceName": "AI+OPC生态构建的使者AI飞",
-      "sourceCount": 1,
-      "score": 83,
-      "screeningReason": "适合作为全国政策发现入口，但其湖北部分遗漏了2026年5月省政府办公厅新文件，不能替代官方核验。",
-      "documentNumber": null,
-      "discoveredAt": "2026-07-17T14:26:34+08:00",
-      "sourceLinks": [
-        {
-          "label": "打开公众号汇编",
-          "url": "https://mp.weixin.qq.com/s/PEfDpR8uJlQd4DobmtaXUQ",
-          "sourceType": "wechat",
-          "sourceName": "AI+OPC生态构建的使者AI飞"
-        }
-      ]
-    },
-    {
-      "id": "wuhan-assistive-tech-2026",
-      "title": "市科技创新局关于征集科技助残创新技术产品的通知",
-      "itemType": "application",
-      "regionName": "湖北省",
-      "cityName": "武汉市",
-      "publisherName": "武汉市科技创新局",
-      "summary": "面向高校、科研院所、企事业单位等，征集已应用、中试或具备明确产业化路径的助残产品、技术及场景方案。",
-      "applicationTargets": "高校、科研院所、企事业单位及相关创新团队",
-      "benefits": "成果展示、供需对接与应用场景转化机会",
-      "topics": [
-        "成果转化",
-        "助残科技",
-        "应用场景"
-      ],
-      "publishedAt": "2026-06-11",
-      "deadlineAt": "2026-07-20T17:00:00+08:00",
-      "lifecycleStatus": "open",
-      "verificationStatus": "official_verified",
-      "primaryUrl": "https://kjj.wuhan.gov.cn/zzzq/zzzq_tzgg/202606/t20260611_2776207.shtml",
-      "primarySourceType": "official_site",
-      "primarySourceName": "武汉市科技创新局",
-      "sourceCount": 1,
-      "score": 98,
-      "screeningReason": "临近截止，且兼具成果转化与场景落地属性，建议立即评估。",
-      "documentNumber": null,
-      "discoveredAt": "2026-07-17T09:00:00+08:00"
-    },
-    {
-      "id": "hubei-data-factor-contest-2026",
-      "title": "2026年“数据要素×”大赛湖北分赛",
-      "itemType": "event",
-      "regionName": "湖北省",
-      "cityName": null,
-      "publisherName": "湖北省数据局等 23 个部门",
-      "summary": "设置智能制造、科技教育、医疗健康、数据洞察与人工智能等 15 个赛道，企业、高校、科研院所及事业单位均可组队参赛。",
-      "applicationTargets": "企事业单位、高校、科研院所及联合团队",
-      "benefits": "湖北分赛推荐、项目展示和产业资源对接",
-      "topics": [
-        "数据要素",
-        "人工智能",
-        "智能制造",
-        "科创赛事"
-      ],
-      "publishedAt": "2026-06-17",
-      "deadlineAt": "2026-07-20",
-      "lifecycleStatus": "open",
-      "verificationStatus": "official_verified",
-      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202606/t20260617_2778377.shtml",
-      "primarySourceType": "official_site",
-      "primarySourceName": "东湖高新区管委会",
-      "sourceCount": 1,
-      "score": 97,
-      "screeningReason": "赛道覆盖 AI、制造、数据和未来产业，且报名窗口即将关闭。",
-      "documentNumber": null,
-      "discoveredAt": "2026-07-17T09:05:00+08:00"
-    },
-    {
-      "id": "chutian-talent-team-2026",
-      "title": "关于做好2026年“楚天英才计划·双创团队”项目申报推荐工作的通知",
-      "itemType": "application",
-      "regionName": "湖北省",
-      "cityName": null,
-      "publisherName": "湖北省科学技术厅",
-      "summary": "依托科技型企业或九类国家级、省级科创平台申报，重点支持拥有自主知识产权和产业化能力的高水平团队。",
-      "applicationTargets": "科技型企业、重点实验室、技术创新中心等科创平台",
-      "benefits": "省级高层次人才与创新创业团队项目支持",
-      "topics": [
-        "人才计划",
-        "双创团队",
-        "科技企业"
-      ],
-      "publishedAt": "2026-07-01",
-      "deadlineAt": "2026-07-31T23:59:59+08:00",
-      "lifecycleStatus": "open",
-      "verificationStatus": "official_verified",
-      "primaryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/202607/t20260701_5967838.shtml",
-      "primarySourceType": "official_site",
-      "primarySourceName": "湖北省科技厅通知公告",
-      "sourceCount": 1,
-      "score": 96,
-      "screeningReason": "省级重点人才项目，与科技企业、科研平台和产业化团队高度相关。",
-      "documentNumber": null,
-      "discoveredAt": "2026-07-17T09:10:00+08:00"
-    },
-    {
-      "id": "hubei-61020-achievements-2026",
-      "title": "关于组织开展2026年度“61020”科技创新成果推荐工作的通知",
-      "itemType": "application",
-      "regionName": "湖北省",
-      "cityName": null,
-      "publisherName": "湖北省科学技术厅",
-      "summary": "征集重大基础研究成果、关键核心技术和标志性创新产品，突出自主可控、首发首创及省内产业落地。",
-      "applicationTargets": "高校院所、科技企业及重大创新平台",
-      "benefits": "进入省级重点科技创新成果推荐与转化体系",
-      "topics": [
-        "61020",
-        "关键核心技术",
-        "创新成果"
-      ],
-      "publishedAt": "2026-03-06",
-      "deadlineAt": "2026-09-15T17:00:00+08:00",
-      "lifecycleStatus": "open",
-      "verificationStatus": "official_verified",
-      "primaryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/202603/t20260306_5886325.shtml",
-      "primarySourceType": "official_site",
-      "primarySourceName": "湖北省科技厅通知公告",
-      "sourceCount": 1,
-      "score": 95,
-      "screeningReason": "与湖北重点产业集群直接相关，是成果转化类核心高价值项目。",
-      "documentNumber": null,
-      "discoveredAt": "2026-07-17T09:25:00+08:00"
-    },
-    {
-      "id": "hubei-overseas-innovation-contest-2026",
-      "title": "第二届湖北省留学人员创新创业大赛",
-      "itemType": "event",
-      "regionName": "湖北省",
-      "cityName": null,
-      "publisherName": "湖北省人力资源和社会保障厅",
-      "summary": "设置创新赛、创业赛和海外境外专项赛，覆盖机器人、人工智能、新能源、新材料、生物医药等赛道。",
-      "applicationTargets": "留学人员创新项目、创业企业及海外境外团队",
-      "benefits": "最高 60 万元奖励及省级创新创业资源对接",
-      "topics": [
-        "留学人才",
-        "人工智能",
-        "机器人",
-        "生物医药"
-      ],
-      "publishedAt": "2026-06-23",
-      "deadlineAt": "2026-08-15",
-      "lifecycleStatus": "open",
-      "verificationStatus": "official_verified",
-      "primaryUrl": "https://rst.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/202606/t20260623_5963295.shtml",
-      "primarySourceType": "official_site",
-      "primarySourceName": "湖北省人社厅公开文件",
-      "sourceCount": 1,
-      "score": 94,
-      "screeningReason": "奖励明确、窗口开放，覆盖湖北重点发展的多个硬科技赛道。",
-      "documentNumber": null,
-      "discoveredAt": "2026-07-17T09:20:00+08:00"
     },
     {
       "id": "hubei-high-tech-enterprise-2026",
@@ -575,6 +538,75 @@
       "discoveredAt": "2026-07-17T11:55:00+08:00"
     },
     {
+      "id": "wechat-wuhan-innovation-1b2c11ff74a1",
+      "title": "关于发布煤炭重大专项2027年度公开项目申报指南的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉市科技创新局",
+      "summary": "武汉科技创新发布，详情请查看公众号原文。",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [],
+      "publishedAt": "2026-07-16T13:34:29.000Z",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "pending_official",
+      "primaryUrl": "https://mp.weixin.qq.com/s/4tzSn5DZSVghOIbdFYPYUA",
+      "primarySourceType": "wechat",
+      "primarySourceName": "武汉科技创新",
+      "sourceCount": 1,
+      "score": 85,
+      "screeningReason": "公众号白名单；命中政策、申报机会；等待政府官网同源信息核验。",
+      "documentNumber": null,
+      "discoveredAt": "2026-07-17T09:34:51.009Z",
+      "sourceLinks": [
+        {
+          "label": "打开公众号原文",
+          "url": "https://mp.weixin.qq.com/s/4tzSn5DZSVghOIbdFYPYUA",
+          "sourceType": "wechat",
+          "sourceName": "武汉科技创新"
+        }
+      ]
+    },
+    {
+      "id": "wechat-national-opc-policy-report-2026",
+      "title": "全国OPC省级政策全景报告（终稿）",
+      "itemType": "policy",
+      "regionName": "全国",
+      "cityName": null,
+      "publisherName": "AI+OPC生态构建的使者AI飞",
+      "summary": "公众号汇总广东、海南、湖北、辽宁、北京、重庆、上海、天津等地OPC专项或相关政策，可用于全国线索发现，但并非政府政策原文。",
+      "applicationTargets": "关注全国OPC政策版图、选址和区域比较的创业者、园区及研究机构",
+      "benefits": "快速查看各地OPC政策线索；文中的奖励额度、适用条件和申报窗口需要逐项回到政府官网核验。",
+      "topics": [
+        "OPC",
+        "全国政策",
+        "政策汇编",
+        "需复核"
+      ],
+      "publishedAt": "2026-07-11T16:14:00+08:00",
+      "deadlineAt": null,
+      "lifecycleStatus": "reference",
+      "verificationStatus": "source_only",
+      "primaryUrl": "https://mp.weixin.qq.com/s/PEfDpR8uJlQd4DobmtaXUQ",
+      "primarySourceType": "wechat",
+      "primarySourceName": "AI+OPC生态构建的使者AI飞",
+      "sourceCount": 1,
+      "score": 83,
+      "screeningReason": "适合作为全国政策发现入口，但其湖北部分遗漏了2026年5月省政府办公厅新文件，不能替代官方核验。",
+      "documentNumber": null,
+      "discoveredAt": "2026-07-17T14:26:34+08:00",
+      "sourceLinks": [
+        {
+          "label": "打开公众号汇编",
+          "url": "https://mp.weixin.qq.com/s/PEfDpR8uJlQd4DobmtaXUQ",
+          "sourceType": "wechat",
+          "sourceName": "AI+OPC生态构建的使者AI飞"
+        }
+      ]
+    },
+    {
       "id": "hubei-lab-animal-skills-2026",
       "title": "关于开展2026年湖北省实验动物从业人员动物实验操作技能竞赛的通知",
       "itemType": "event",
@@ -601,6 +633,38 @@
       "screeningReason": "新近发布的垂直专业赛事，适合生命科学与科研平台用户。",
       "documentNumber": null,
       "discoveredAt": "2026-07-17T09:15:00+08:00"
+    },
+    {
+      "id": "wechat-wuhan-innovation-5c022126f3ad",
+      "title": "直通车 | 关于转发《关于组织申报国家网络空间安全国家科技重大专项第三批项目的通知（公开类）》的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉市科技创新局",
+      "summary": "武汉科技创新发布，详情请查看公众号原文。",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [],
+      "publishedAt": "2026-07-15T12:00:00.000Z",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "pending_official",
+      "primaryUrl": "https://mp.weixin.qq.com/s/XiiPel-86tzgIxO8XtwfvA",
+      "primarySourceType": "wechat",
+      "primarySourceName": "武汉科技创新",
+      "sourceCount": 1,
+      "score": 70,
+      "screeningReason": "公众号白名单；命中申报机会；等待政府官网同源信息核验。",
+      "documentNumber": null,
+      "discoveredAt": "2026-07-17T09:34:51.009Z",
+      "sourceLinks": [
+        {
+          "label": "打开公众号原文",
+          "url": "https://mp.weixin.qq.com/s/XiiPel-86tzgIxO8XtwfvA",
+          "sourceType": "wechat",
+          "sourceName": "武汉科技创新"
+        }
+      ]
     }
   ],
   "sources": [
@@ -677,16 +741,55 @@
       "priority": 92
     },
     {
-      "id": "wechat-watchlist",
-      "name": "湖北公众号白名单",
+      "id": "wechat-hubei-publish",
+      "name": "湖北发布",
       "sourceType": "wechat",
-      "publisherName": "湖北政策发布机构",
-      "entryUrl": "https://mp.weixin.qq.com/",
-      "healthStatus": "paused",
+      "publisherName": "湖北发布",
+      "entryUrl": "https://mp.weixin.qq.com/s/c74hPGnSA5FYaD7X9DXHMg",
+      "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": null,
-      "lastSuccessAt": null,
-      "priority": 90
+      "lastCheckedAt": "2026-07-17T09:34:48.646Z",
+      "lastSuccessAt": "2026-07-17T09:34:48.646Z",
+      "lastInsertedCount": 0,
+      "loginExpiresAt": "2026-07-21T09:17:53.608Z",
+      "lastErrorMessage": null,
+      "consecutiveFailures": 0,
+      "priority": 91,
+      "lastErrorAt": null
+    },
+    {
+      "id": "wechat-hubei-science",
+      "name": "湖北科技",
+      "sourceType": "wechat",
+      "publisherName": "湖北科技",
+      "entryUrl": "https://mp.weixin.qq.com/s/Bo8qN5TjA7z9YJlB49mrAQ",
+      "healthStatus": "healthy",
+      "pollIntervalMinutes": 120,
+      "lastCheckedAt": "2026-07-17T09:34:48.654Z",
+      "lastSuccessAt": "2026-07-17T09:34:48.654Z",
+      "lastInsertedCount": 0,
+      "loginExpiresAt": "2026-07-21T09:17:53.608Z",
+      "lastErrorMessage": null,
+      "consecutiveFailures": 0,
+      "priority": 90,
+      "lastErrorAt": null
+    },
+    {
+      "id": "wechat-wuhan-innovation",
+      "name": "武汉科技创新",
+      "sourceType": "wechat",
+      "publisherName": "武汉科技创新",
+      "entryUrl": "https://mp.weixin.qq.com/s/HMn_jZqt2IAYG2WLkRJ3kA",
+      "healthStatus": "healthy",
+      "pollIntervalMinutes": 120,
+      "lastCheckedAt": "2026-07-17T09:34:48.662Z",
+      "lastSuccessAt": "2026-07-17T09:34:48.662Z",
+      "lastInsertedCount": 2,
+      "loginExpiresAt": "2026-07-21T09:17:53.608Z",
+      "lastErrorMessage": null,
+      "consecutiveFailures": 0,
+      "priority": 89,
+      "lastErrorAt": null
     }
   ]
 }

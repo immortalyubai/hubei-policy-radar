@@ -13,11 +13,13 @@
     "lint": "eslint . --ignore-pattern dist --ignore-pattern pages-dist --ignore-pattern .next",
     "db:generate": "drizzle-kit generate",
     "collect:hubei": "node scripts/collect-hubei.mjs",
+    "collect:wechat-feed": "node scripts/collect-wechat-feed.mjs",
     "import:wechat": "node scripts/import-wechat.mjs",
     "check:wechat": "node scripts/check-wechat-public.mjs",
     "build:pages": "vite build --config vite.pages.config.ts",
     "test:pages": "npm run build:pages && node --test tests/pages-static.test.mjs",
-    "refresh:pages-data": "node scripts/merge-static-data.mjs"
+    "refresh:pages-data": "node scripts/merge-static-data.mjs",
+    "refresh:wechat-pages": "npm run collect:wechat-feed && node scripts/merge-static-data.mjs --input work/wechat-collection.json && npm run test:pages"
   },
   "dependencies": {
     "cheerio": "^1.1.2",

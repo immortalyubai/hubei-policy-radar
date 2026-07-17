@@ -61,8 +61,28 @@ test("renders official and WeChat source status", async () => {
   assert.equal(response.status, 200);
   const html = await response.text();
   assert.match(html, /湖北省科技厅通知/);
-  assert.match(html, /湖北公众号白名单/);
-  assert.match(html, /待启用/);
+  assert.match(html, /湖北发布/);
+  assert.match(html, /湖北科技/);
+  assert.match(html, /武汉科技创新/);
+  assert.match(html, /每 2 小时/);
+  assert.match(html, /登录有效期/);
+  assert.match(html, /正常/);
+  assert.match(html, /电脑休眠/);
+  assert.doesNotMatch(html, /湖北公众号白名单|待启用/);
+});
+
+test("exposes exactly three healthy two-hour WeChat monitors", async () => {
+  const response = await fetchPath("/api/sources");
+  assert.equal(response.status, 200);
+  const payload = await response.json();
+  const wechatSources = payload.sources.filter((source) => source.sourceType === "wechat");
+  assert.equal(wechatSources.length, 3);
+  assert.deepEqual(
+    wechatSources.map((source) => source.name).sort((left, right) => left.localeCompare(right, "zh-CN")),
+    ["湖北发布", "湖北科技", "武汉科技创新"].sort((left, right) => left.localeCompare(right, "zh-CN")),
+  );
+  assert.ok(wechatSources.every((source) => source.healthStatus === "healthy"));
+  assert.ok(wechatSources.every((source) => source.pollIntervalMinutes === 120));
 });
 
 test("exposes a read-only JSON feed", async () => {

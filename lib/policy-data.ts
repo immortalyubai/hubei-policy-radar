@@ -308,16 +308,49 @@ export const seedSources: PolicySource[] = [
     priority: 92,
   },
   {
-    id: "wechat-watchlist",
-    name: "湖北公众号白名单",
+    id: "wechat-hubei-publish",
+    name: "湖北发布",
     sourceType: "wechat",
-    publisherName: "湖北政策发布机构",
+    publisherName: "湖北发布",
     entryUrl: "https://mp.weixin.qq.com/",
-    healthStatus: "paused",
+    healthStatus: "healthy",
     pollIntervalMinutes: 120,
-    lastCheckedAt: null,
-    lastSuccessAt: null,
+    lastCheckedAt: "2026-07-17T17:21:05+08:00",
+    lastSuccessAt: "2026-07-17T17:21:05+08:00",
+    lastInsertedCount: 10,
+    loginExpiresAt: "2026-07-21T17:17:53+08:00",
+    consecutiveFailures: 0,
+    priority: 91,
+  },
+  {
+    id: "wechat-hubei-science",
+    name: "湖北科技",
+    sourceType: "wechat",
+    publisherName: "湖北省科学技术厅",
+    entryUrl: "https://mp.weixin.qq.com/",
+    healthStatus: "healthy",
+    pollIntervalMinutes: 120,
+    lastCheckedAt: "2026-07-17T17:21:12+08:00",
+    lastSuccessAt: "2026-07-17T17:21:12+08:00",
+    lastInsertedCount: 10,
+    loginExpiresAt: "2026-07-21T17:17:53+08:00",
+    consecutiveFailures: 0,
     priority: 90,
+  },
+  {
+    id: "wechat-wuhan-innovation",
+    name: "武汉科技创新",
+    sourceType: "wechat",
+    publisherName: "武汉市科技创新局",
+    entryUrl: "https://mp.weixin.qq.com/",
+    healthStatus: "healthy",
+    pollIntervalMinutes: 120,
+    lastCheckedAt: "2026-07-17T17:21:09+08:00",
+    lastSuccessAt: "2026-07-17T17:21:09+08:00",
+    lastInsertedCount: 27,
+    loginExpiresAt: "2026-07-21T17:17:53+08:00",
+    consecutiveFailures: 0,
+    priority: 89,
   },
 ];
 
@@ -422,6 +455,11 @@ function mapSource(row: Record<string, unknown>): PolicySource {
     pollIntervalMinutes: Number(row.poll_interval_minutes),
     lastCheckedAt: row.last_checked_at ? String(row.last_checked_at) : null,
     lastSuccessAt: row.last_success_at ? String(row.last_success_at) : null,
+    lastInsertedCount: Number(row.last_inserted_count ?? 0),
+    loginExpiresAt: row.session_expires_at ? String(row.session_expires_at) : null,
+    lastErrorAt: row.last_error_at ? String(row.last_error_at) : null,
+    lastErrorMessage: row.last_error_message ? String(row.last_error_message) : null,
+    consecutiveFailures: Number(row.consecutive_failures ?? 0),
     priority: Number(row.priority),
   };
 }
@@ -431,11 +469,14 @@ export async function getPolicySources(): Promise<PolicySource[]> {
     const result = await getDatabase()
       .prepare(
         `SELECT id, name, source_type, publisher_name, entry_url, health_status,
-          poll_interval_minutes, last_checked_at, last_success_at, priority
+          poll_interval_minutes, last_checked_at, last_success_at, last_error_at,
+          last_error_message, consecutive_failures, priority
         FROM sources ORDER BY priority DESC, name ASC`
       )
       .all<Record<string, unknown>>();
-    const rows = result.results.map(mapSource);
+    const rows = result.results
+      .map(mapSource)
+      .filter((source) => source.id !== "wechat-watchlist");
     const merged = new Map<string, PolicySource>();
     for (const source of seedSources) merged.set(source.id, source);
     for (const source of rows) merged.set(source.id, source);
