@@ -115,7 +115,7 @@ export default function PolicyDashboard({
             </div>
             <span className="live-dot">采集中</span>
           </div>
-          <div className="radar-visual">
+          <div className="radar-visual" aria-hidden="true">
             <span className="radar-ring ring-one" />
             <span className="radar-ring ring-two" />
             <span className="radar-ring ring-three" />
