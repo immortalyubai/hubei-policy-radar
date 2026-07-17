@@ -127,7 +127,7 @@ export default function PolicyDashboard({
     <>
       <section className="hero wrap">
         <div className="hero-copy">
-          <div className="eyebrow"><span /> 湖北优先 · 每 2 小时更新</div>
+          <div className="eyebrow"><span /> 湖北优先 · 本机每 2 小时扫描</div>
           <h1>每天，只看值得<br />跟进的政策</h1>
           <p>
             公众号负责第一时间发现，政府官网负责权威核验。政策、申报和科创赛事被统一筛选、去重，再送到你面前。
@@ -138,13 +138,13 @@ export default function PolicyDashboard({
           </div>
         </div>
 
-        <aside className="radar-card" aria-label="系统运行状态">
+        <aside className="radar-card" aria-label="最近一次公众号扫描快照">
           <div className="radar-card-top">
             <div>
-              <span className="panel-kicker">公众号实时监测</span>
-              <strong>{healthyWechatSources.length}/{wechatSources.length} 个账号在线</strong>
+              <span className="panel-kicker">公众号监测 · 最近快照</span>
+              <strong>{healthyWechatSources.length}/{wechatSources.length} 个账号最近正常</strong>
             </div>
-            <span className="live-dot">{scanTime} 已扫描</span>
+            <span className="live-dot">{scanTime} 最近扫描</span>
           </div>
           <div className="radar-visual" aria-hidden="true">
             <span className="radar-ring ring-one" />

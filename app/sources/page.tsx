@@ -15,7 +15,7 @@ const sourceTypeLabels = {
 };
 
 const healthLabels = {
-  healthy: "正常",
+  healthy: "最近正常",
   degraded: "有延迟",
   failing: "异常",
   paused: "待扫码",
@@ -49,7 +49,7 @@ export default async function SourcesPage() {
         <Link href="/" className="back-link"><ArrowIcon /> 返回政策库</Link>
         <div className="page-heading">
           <div><span className="section-kicker">Source Monitor</span><h1>监控源状态</h1></div>
-          <p>湖北与武汉高价值来源优先。公众号账号已完成管理员授权，每两小时扫描一次；政府官网继续负责最终核验。</p>
+          <p>湖北与武汉高价值来源优先。公众号账号已完成管理员授权，本机每两小时扫描一次；本页展示最近一次同步快照，政府官网继续负责最终核验。</p>
         </div>
 
         <section className="sources-table" aria-label="政策监控源列表">

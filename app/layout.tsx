@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "华中政策雷达",
-  description: "湖北政策、项目申报与科创赛事的实时筛选和核验平台。",
+    description: "湖北政策、项目申报与科创赛事的持续筛选和核验平台。",
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",

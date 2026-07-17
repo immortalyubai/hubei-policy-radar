@@ -27,7 +27,12 @@ test("renders the policy radar with verified Hubei records", async () => {
   assert.match(html, /湖北省支持人工智能OPC发展若干措施/);
   assert.match(html, /武汉市支持人工智能OPC创新发展若干措施/);
   assert.match(html, /湖北省国民经济和社会发展第十五个五年规划纲要/);
+  assert.match(html, /关于发布煤炭重大专项2027年度公开项目申报指南的通知/);
+  assert.match(html, /国家网络空间安全国家科技重大专项第三批项目/);
   assert.match(html, /公众号首发 · 待核验/);
+  assert.match(html, /公众号监测 · 最近快照/);
+  assert.match(html, /账号最近正常/);
+  assert.doesNotMatch(html, /公众号实时监测|账号在线|每 2 小时更新/);
   assert.match(html, /官网已核验/);
   assert.doesNotMatch(html, /Your site is taking shape|Building your site/);
 });
@@ -83,6 +88,7 @@ test("exposes exactly three healthy two-hour WeChat monitors", async () => {
   );
   assert.ok(wechatSources.every((source) => source.healthStatus === "healthy"));
   assert.ok(wechatSources.every((source) => source.pollIntervalMinutes === 120));
+  assert.equal(wechatSources.reduce((sum, source) => sum + source.lastInsertedCount, 0), 2);
 });
 
 test("exposes a read-only JSON feed", async () => {
@@ -97,9 +103,11 @@ test("keeps a real WeChat-first policy pending official verification", async () 
   const response = await fetchPath("/api/items?verification=pending_official");
   assert.equal(response.status, 200);
   const payload = await response.json();
-  assert.equal(payload.count, 1);
-  assert.equal(payload.items[0].primarySourceType, "wechat");
-  assert.match(payload.items[0].primaryUrl, /^https:\/\/mp\.weixin\.qq\.com\/s\//);
+  assert.equal(payload.count, 3);
+  assert.ok(payload.items.every((item) => item.primarySourceType === "wechat"));
+  assert.ok(payload.items.every((item) => /^https:\/\/mp\.weixin\.qq\.com\/s\//.test(item.primaryUrl)));
+  assert.ok(payload.items.some((item) => item.id === "wechat-wuhan-innovation-1b2c11ff74a1"));
+  assert.ok(payload.items.some((item) => item.id === "wechat-wuhan-innovation-5c022126f3ad"));
 });
 
 test("exposes the OPC topic through the read-only feed", async () => {

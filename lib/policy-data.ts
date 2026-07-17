@@ -14,7 +14,7 @@ const staticOpcSeedItems = (staticPolicyData.items as unknown as PolicyItem[]).f
   (item) => item.topics.includes("OPC"),
 );
 
-export const verifiedSeedItems: PolicyItem[] = [
+const legacySeedItems: PolicyItem[] = [
   ...staticOpcSeedItems,
   {
     id: "wuhan-assistive-tech-2026",
@@ -234,7 +234,18 @@ export const verifiedSeedItems: PolicyItem[] = [
   },
 ];
 
-export const seedSources: PolicySource[] = [
+export const verifiedSeedItems: PolicyItem[] = (() => {
+  const merged = new Map<string, PolicyItem>();
+  for (const item of legacySeedItems) merged.set(item.primaryUrl, item);
+  for (const item of staticPolicyData.items as unknown as PolicyItem[]) {
+    merged.set(item.primaryUrl, item);
+  }
+  return [...merged.values()].sort(
+    (left, right) => right.score - left.score || right.publishedAt.localeCompare(left.publishedAt)
+  );
+})();
+
+const legacySeedSources: PolicySource[] = [
   {
     id: "hubei-gov-files",
     name: "湖北省政府文件",
@@ -353,6 +364,18 @@ export const seedSources: PolicySource[] = [
     priority: 89,
   },
 ];
+
+export const seedSources: PolicySource[] = (() => {
+  const merged = new Map<string, PolicySource>();
+  for (const source of legacySeedSources) merged.set(source.id, source);
+  for (const source of staticPolicyData.sources as unknown as PolicySource[]) {
+    merged.set(source.id, source);
+  }
+  merged.delete("wechat-watchlist");
+  return [...merged.values()].sort(
+    (left, right) => right.priority - left.priority || left.name.localeCompare(right.name, "zh-CN")
+  );
+})();
 
 function parseTopics(value: unknown): string[] {
   if (typeof value !== "string") return [];
