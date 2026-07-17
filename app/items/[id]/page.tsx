@@ -42,6 +42,14 @@ export default async function PolicyDetailPage({
     application: "申报",
     event: "赛事",
   }[item.itemType];
+  const sourceLinks = item.sourceLinks?.length
+    ? item.sourceLinks
+    : [{
+        label: item.primarySourceType === "wechat" ? "打开公众号原文" : "打开官网原文",
+        url: item.primaryUrl,
+        sourceType: item.primarySourceType,
+        sourceName: item.primarySourceName,
+      }];
 
   return (
     <div className="site-shell">
@@ -98,7 +106,19 @@ export default async function PolicyDetailPage({
             <div className="detail-side-section"><span>匹配度</span><strong>{item.score} / 100</strong></div>
             <div className="detail-side-section"><span>信息来源</span><strong>{item.primarySourceName}</strong></div>
             {item.documentNumber && <div className="detail-side-section"><span>文号</span><strong>{item.documentNumber}</strong></div>}
-            <a className="official-link" href={item.primaryUrl} target="_blank" rel="noreferrer">打开官网原文 <ArrowIcon /></a>
+            <div className="source-link-list" aria-label="政策原文来源">
+              {sourceLinks.map((source) => (
+                <a
+                  className={`official-link ${source.sourceType === "wechat" ? "secondary" : ""}`}
+                  href={source.url}
+                  key={source.url}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {source.label} <ArrowIcon />
+                </a>
+              ))}
+            </div>
           </aside>
         </div>
       </main>

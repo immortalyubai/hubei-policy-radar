@@ -285,6 +285,14 @@ function DetailPage({ id }) {
     return <main className="inner-page wrap"><a href="#/" className="back-link">← 返回政策库</a><div className="empty-state"><span>未找到这条政策</span></div></main>;
   }
   const sourceLabel = item.primarySourceType === "wechat" ? "打开公众号原文" : "打开官网原文";
+  const sourceLinks = item.sourceLinks?.length
+    ? item.sourceLinks
+    : [{
+        label: sourceLabel,
+        url: item.primaryUrl,
+        sourceType: item.primarySourceType,
+        sourceName: item.primarySourceName,
+      }];
   return (
     <main className="inner-page wrap">
       <a href="#/" className="back-link">← 返回政策库</a>
@@ -311,7 +319,19 @@ function DetailPage({ id }) {
           <div className="detail-side-section"><span>匹配度</span><strong>{item.score} / 100</strong></div>
           <div className="detail-side-section"><span>信息来源</span><strong>{item.primarySourceName}</strong></div>
           {item.documentNumber && <div className="detail-side-section"><span>文号</span><strong>{item.documentNumber}</strong></div>}
-          <a className="official-link" href={item.primaryUrl} target="_blank" rel="noreferrer">{sourceLabel} →</a>
+          <div className="source-link-list" aria-label="政策原文来源">
+            {sourceLinks.map((source) => (
+              <a
+                className={`official-link ${source.sourceType === "wechat" ? "secondary" : ""}`}
+                href={source.url}
+                key={source.url}
+                target="_blank"
+                rel="noreferrer"
+              >
+                {source.label} →
+              </a>
+            ))}
+          </div>
         </aside>
       </div>
     </main>

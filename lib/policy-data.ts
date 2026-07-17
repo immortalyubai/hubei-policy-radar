@@ -5,11 +5,17 @@ import type {
   PolicySource,
   VerificationStatus,
 } from "@/lib/policy-types";
+import staticPolicyData from "@/static-site/data/policy-data.json";
 export type { ItemType, PolicyItem, PolicySource, VerificationStatus } from "@/lib/policy-types";
 
 // The first screen remains useful before a new workspace has applied its D1
 // migration. Deployment switches to persisted rows as soon as the table exists.
+const staticOpcSeedItems = (staticPolicyData.items as unknown as PolicyItem[]).filter(
+  (item) => item.topics.includes("OPC"),
+);
+
 export const verifiedSeedItems: PolicyItem[] = [
+  ...staticOpcSeedItems,
   {
     id: "wuhan-assistive-tech-2026",
     title: "市科技创新局关于征集科技助残创新技术产品的通知",

@@ -24,10 +24,24 @@ test("renders the policy radar with verified Hubei records", async () => {
   assert.match(html, /每天，只看值得/);
   assert.match(html, /2026年“数据要素×”大赛湖北分赛/);
   assert.match(html, /湖北省科技创新券申领和兑付/);
+  assert.match(html, /湖北省支持人工智能OPC发展若干措施/);
+  assert.match(html, /武汉市支持人工智能OPC创新发展若干措施/);
   assert.match(html, /湖北省国民经济和社会发展第十五个五年规划纲要/);
   assert.match(html, /公众号首发 · 待核验/);
   assert.match(html, /官网已核验/);
   assert.doesNotMatch(html, /Your site is taking shape|Building your site/);
+});
+
+test("renders an OPC policy with official and WeChat source links", async () => {
+  const response = await fetchPath("/items/wuhan-opc-support-measures-2026", {
+    headers: { accept: "text/html" },
+  });
+  assert.equal(response.status, 200);
+  const html = await response.text();
+  assert.match(html, /武政规〔2026〕4号/);
+  assert.match(html, /打开市政府原文/);
+  assert.match(html, /打开公众号原文/);
+  assert.match(html, /mp\.weixin\.qq\.com\/s\/CoN0rM5jy_umstjvHSgYHQ/);
 });
 
 test("renders a policy detail page and preserves the official source link", async () => {
@@ -66,6 +80,15 @@ test("keeps a real WeChat-first policy pending official verification", async () 
   assert.equal(payload.count, 1);
   assert.equal(payload.items[0].primarySourceType, "wechat");
   assert.match(payload.items[0].primaryUrl, /^https:\/\/mp\.weixin\.qq\.com\/s\//);
+});
+
+test("exposes the OPC topic through the read-only feed", async () => {
+  const response = await fetchPath("/api/items?q=OPC&limit=50");
+  assert.equal(response.status, 200);
+  const payload = await response.json();
+  assert.ok(payload.count >= 8);
+  assert.ok(payload.items.some((item) => item.id === "hubei-opc-support-measures-2026"));
+  assert.ok(payload.items.some((item) => item.id === "wechat-national-opc-policy-report-2026"));
 });
 
 test("fails closed when write ingestion is not configured", async () => {

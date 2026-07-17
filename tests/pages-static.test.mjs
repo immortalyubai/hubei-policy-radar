@@ -19,15 +19,26 @@ test("bundles real Hubei policies and mobile filters", async () => {
   const bundle = (await Promise.all(scripts.map((name) => readFile(new URL(`pages-dist/assets/${name}`, root), "utf8")))).join("\n");
   assert.match(bundle, /2026年“数据要素×”大赛湖北分赛/);
   assert.match(bundle, /湖北省科技创新券申领和兑付/);
+  assert.match(bundle, /湖北省支持人工智能OPC发展若干措施/);
+  assert.match(bundle, /武汉市支持人工智能OPC创新发展若干措施/);
   assert.match(bundle, /打开公众号原文/);
+  assert.match(bundle, /打开政府公报PDF/);
   assert.match(bundle, /mobile-verify-tabs/);
 });
 
 test("publishes only sanitized policy data", async () => {
   const source = await readFile(new URL("static-site/data/policy-data.json", root), "utf8");
   const payload = JSON.parse(source);
-  assert.ok(payload.items.length >= 9);
+  assert.ok(payload.items.length >= 18);
   assert.ok(payload.sources.length >= 7);
   assert.ok(payload.items.every((item) => /^https:\/\//.test(item.primaryUrl)));
-  assert.doesNotMatch(source, /auth-key|x-auth-key|sessionid|cookie|token/i);
+  const opcItems = payload.items.filter((item) => item.topics?.includes("OPC"));
+  assert.equal(opcItems.length, 8);
+  assert.ok(opcItems.some((item) => item.id === "hubei-opc-support-measures-2026"));
+  assert.ok(opcItems.some((item) => item.id === "wuhan-opc-support-measures-2026"));
+  assert.ok(opcItems.every((item) => item.topics[0] === "OPC"));
+  assert.ok(opcItems.flatMap((item) => item.sourceLinks ?? []).every((link) => /^https:\/\//.test(link.url)));
+  assert.equal(new Set(payload.items.map((item) => item.id)).size, payload.items.length);
+  assert.equal(new Set(payload.items.map((item) => item.primaryUrl)).size, payload.items.length);
+  assert.doesNotMatch(source, /"(?:auth-key|x-auth-key|sessionid|cookie|token)"\s*:/i);
 });

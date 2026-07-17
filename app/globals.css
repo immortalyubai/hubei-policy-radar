@@ -815,7 +815,9 @@ svg {
 .detail-side-section:last-child { border-bottom: 0; }
 .detail-side-section span { color: #9099a0; font-size: 10px; }
 .detail-side-section strong { font-size: 13px; line-height: 1.55; }
-.official-link { display: flex; min-height: 45px; align-items: center; justify-content: center; gap: 8px; margin: 20px; border-radius: 9px; background: var(--ink); color: white; font-size: 12px; font-weight: 650; }
+.source-link-list { display: grid; gap: 10px; padding: 20px; }
+.official-link { display: flex; min-height: 45px; align-items: center; justify-content: center; gap: 8px; margin: 0; border-radius: 9px; background: var(--ink); color: white; font-size: 12px; font-weight: 650; }
+.official-link.secondary { border: 1px solid var(--soft-line); background: #eef2f1; color: var(--ink); }
 .official-link svg { width: 14px; height: 14px; }
 
 .page-heading { display: flex; align-items: end; justify-content: space-between; gap: 20px; margin-top: 28px; margin-bottom: 28px; }

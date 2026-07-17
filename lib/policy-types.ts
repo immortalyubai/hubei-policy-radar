@@ -5,6 +5,13 @@ export type VerificationStatus =
   | "source_only"
   | "conflict";
 
+export interface PolicySourceLink {
+  label: string;
+  url: string;
+  sourceType: "official_site" | "wechat" | "manual";
+  sourceName: string;
+}
+
 export interface PolicyItem {
   id: string;
   title: string;
@@ -28,6 +35,7 @@ export interface PolicyItem {
   screeningReason: string;
   documentNumber: string | null;
   discoveredAt: string;
+  sourceLinks?: PolicySourceLink[];
 }
 
 export interface PolicySource {
