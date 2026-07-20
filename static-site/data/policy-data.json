@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generatedAt": "2026-07-17T09:38:40.041Z",
+    "generatedAt": "2026-07-20T05:50:02.517Z",
     "scope": "湖北省与武汉市优先",
     "updateIntervalMinutes": 120,
-    "lastCollectionCount": 2,
-    "successfulSources": 3,
+    "lastCollectionCount": 22,
+    "successfulSources": 5,
     "failedSources": 0
   },
   "items": [
@@ -166,6 +166,45 @@
       ]
     },
     {
+      "id": "chutian-talent-team-2026",
+      "title": "关于做好2026年“楚天英才计划·双创团队”项目申报推荐工作的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": null,
+      "publisherName": "湖北省科学技术厅",
+      "summary": "各市、州、直管市、神农架林区党委组织部，科技管理部门，各有关单位：现就做好2026年“楚天英才计划·双创团队”项目申报推荐工作有关事项通知如下。一、总体要求深入学习贯彻习近平总书记关于做好新时代人才工作的重要思想，以持续深化战略人才力量“十百千万”行动为牵引，围绕“十五五”规划开局和加快建成中部地区崛起重要战略支点目标，聚焦先进制造业现代产业集群做大做强，遴选支持一批促进科技创新和产业创新深度融合、引领战略性新兴产业和未来产业发展的高水平双创团队，加速科技成果高质量转化和产业转型升级，有效提升创新策源能力和产业链现代化水平，为支点建设提供坚实人才支撑。二、申报条件申报团队带头人应具有中国国籍（包括中国香港、中国澳门和中国台湾地区），全职在湖北工作。同时应具备以下条件：（一）团队由1名带头人和不超过5名核心成员组成，团队成员中高层次人才（博士或副高以上职称）须占1／3以上。团队有明确的研发目标和发展计划，有合理的专业、年龄结构和长期合作基础，在人才培养、管理、梯队建设等方面有明确的规划、政策和目标。（二）团队掌握的核心技术应拥有自主知识产权，达到国际先进、国内领先水平，是我省经济社会发展",
+      "applicationTargets": "科技型企业、重点实验室、技术创新中心等科创平台",
+      "benefits": "省级高层次人才与创新创业团队项目支持",
+      "topics": [
+        "科技企业",
+        "成果转化",
+        "人才计划",
+        "惠企资金",
+        "科创赛事",
+        "智能制造"
+      ],
+      "publishedAt": "2026-07-01",
+      "deadlineAt": "2026-07-31",
+      "lifecycleStatus": "open",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/202607/t20260701_5967838.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "湖北省科技厅通知公告",
+      "sourceCount": 1,
+      "score": 97,
+      "screeningReason": "可申报事项；命中重点产业或企业关键词；存在明确资金或奖励信号；30 天内截止。",
+      "documentNumber": null,
+      "discoveredAt": "2026-07-17T09:10:00+08:00",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://kjt.hubei.gov.cn/kjdt/tzgg/202607/t20260701_5967838.shtml",
+          "sourceType": "official_site",
+          "sourceName": "湖北省科技厅通知公告"
+        }
+      ]
+    },
+    {
       "id": "hubei-data-factor-contest-2026",
       "title": "2026年“数据要素×”大赛湖北分赛",
       "itemType": "event",
@@ -230,34 +269,6 @@
           "sourceName": "武汉市科技创新局"
         }
       ]
-    },
-    {
-      "id": "chutian-talent-team-2026",
-      "title": "关于做好2026年“楚天英才计划·双创团队”项目申报推荐工作的通知",
-      "itemType": "application",
-      "regionName": "湖北省",
-      "cityName": null,
-      "publisherName": "湖北省科学技术厅",
-      "summary": "依托科技型企业或九类国家级、省级科创平台申报，重点支持拥有自主知识产权和产业化能力的高水平团队。",
-      "applicationTargets": "科技型企业、重点实验室、技术创新中心等科创平台",
-      "benefits": "省级高层次人才与创新创业团队项目支持",
-      "topics": [
-        "人才计划",
-        "双创团队",
-        "科技企业"
-      ],
-      "publishedAt": "2026-07-01",
-      "deadlineAt": "2026-07-31T23:59:59+08:00",
-      "lifecycleStatus": "open",
-      "verificationStatus": "official_verified",
-      "primaryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/202607/t20260701_5967838.shtml",
-      "primarySourceType": "official_site",
-      "primarySourceName": "湖北省科技厅通知公告",
-      "sourceCount": 1,
-      "score": 96,
-      "screeningReason": "省级重点人才项目，与科技企业、科研平台和产业化团队高度相关。",
-      "documentNumber": null,
-      "discoveredAt": "2026-07-17T09:10:00+08:00"
     },
     {
       "id": "wuchang-ai-opc-support-2026",
@@ -428,6 +439,43 @@
       ]
     },
     {
+      "id": "east-lake-notices-1243a565a026",
+      "title": "关于申报光谷“AI光博300”招募计划的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉东湖新技术开发区管理委员会",
+      "summary": "各有关人才：6月26日，东湖高新区启动“AI光博300”计划（简称“光博”计划），全国首发AI博士前置引才政策，面向全球招募AI领域应届博士，计划三年定向储备300名产业技术骨干。为做好招募计划实施工作，现面向海内外优秀在读博士生开展2026年“光博”计划申报，有关通知如下：一、“光博”计划简介“光博”计划是东湖高新区抢抓人工智能产业机遇，壮大AI芯片、智能传感器、人形机器人三大领域青年人才队伍，面向2027至2029届博士毕业生推出的专项人才引育计划。计划实施周期三年，每年招募约100名优秀应届博士，三年累计300名。“光博”计划实施“前置锁定、在校储备、到岗兑现”机制，博士在校期间报名遴选，毕业后到招募企业全职就业或来光谷自主创业的，可认定为3551优秀青年人才，提供人才资助和相应服务支持。二、申请条件本年度申请“光博”计划的青年博士，应符合以下条件：1.全国“双一流建设高校”或QS世界大学排名榜单前150名海外高校2027年应届博士毕业生，重点面向集成电路、微电子、人工智能、软件工程、电子信息、自动化、机械工程、测控技术、材料科学、通信工程等相关专业。2.政治立场坚定，遵纪守法，",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "人工智能",
+        "人才计划",
+        "惠企资金",
+        "科创赛事"
+      ],
+      "publishedAt": "2026-07-17",
+      "deadlineAt": "2026-09-30",
+      "lifecycleStatus": "open",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202607/t20260717_2822041.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区通知公告",
+      "sourceCount": 1,
+      "score": 93,
+      "screeningReason": "可申报事项；命中重点产业或企业关键词；存在明确资金或奖励信号；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-07-20T05:50:02.517Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202607/t20260717_2822041.shtml",
+          "sourceType": "official_site",
+          "sourceName": "东湖高新区通知公告"
+        }
+      ]
+    },
+    {
       "id": "hubei-high-tech-enterprise-2026",
       "title": "关于组织开展2026年度高新技术企业培育与认定工作的通知",
       "itemType": "application",
@@ -454,6 +502,77 @@
       "screeningReason": "覆盖企业面广，且各地推荐节点可能更早，需要持续追踪市区通知。",
       "documentNumber": null,
       "discoveredAt": "2026-07-17T09:30:00+08:00"
+    },
+    {
+      "id": "east-lake-notices-a820cb27283f",
+      "title": "关于增补完善现代服务业优秀人才储备库的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉东湖新技术开发区管理委员会",
+      "summary": "关于增补完善现代服务业优秀人才储备库的通知 各有关单位：根据市发改委《关于增补完善现代服务业优秀人才储备库的通知》要求，我区现组织开展我市增补完善服务业优秀人才储备库工作，现就有关工作通知如下：一、工作任务围绕“51020”先进制造业产业集群和五大现代服务业产业集群，面向现代服务业重点领域，增补完善现代服务业优秀人才储备库，为选拔培养现代服务业领军人才提供基础支撑。二、遴选对象（一）申报范围申报人所在企业应为在武汉市内依法注册登记，具有法人资格的规模以上服务业企业（包括合伙企业）、限额以上批零住餐业企业；主营业务属于《国民经济行业分类（GB／T4754－2017）》中的批发和零售业，交通运输、仓储和邮政业，住宿和餐饮业，信息传输、软件和信息技术服务业，金融业，租赁和商务服务业，科学研究和技术服务业，水利、环境和公共设施管理业，居民服务、修理和其他服务业，教育，卫生和社会工作，文化、体育和娱乐业等十二大门类及其细分领域。（二）申报条件1.申报人应具备以下条件：（1）具有中国国籍，全职在武汉市工作；（2）拥护中国共产党领导，遵纪守法，廉洁自律，信守社会公德，有较强的事业心和社会责任感；（3",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "科技企业",
+        "成果转化",
+        "人才计划",
+        "智能制造"
+      ],
+      "publishedAt": "2026-07-20",
+      "deadlineAt": "2026-08-01",
+      "lifecycleStatus": "open",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202607/t20260720_2822887.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区通知公告",
+      "sourceCount": 1,
+      "score": 92,
+      "screeningReason": "可申报事项；命中重点产业或企业关键词；30 天内截止；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-07-20T05:50:02.517Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202607/t20260720_2822887.shtml",
+          "sourceType": "official_site",
+          "sourceName": "东湖高新区通知公告"
+        }
+      ]
+    },
+    {
+      "id": "east-lake-notices-2ff5216b4c0e",
+      "title": "关于开展2026年（下半年）东湖高新区工程系列高、中级职称及档案专业初级职称水平能力测试工作的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉东湖新技术开发区管理委员会",
+      "summary": "各有关企事业单位：根据《关于做好2026年度全省职称评审工作的通知》（鄂职改办〔2026〕35号）文件精神，结合东湖高新区职称工作安排，为做好2026年（下半年）东湖高新区工程系列及档案专业初级职称水平能力测试报名有关事项通知如下：一、测试对象拟申报2026年（下半年）工程系列职称评审或档案专业初级起点职务认定，且未取得2024年或2025年相应级别、专业水平能力测试有效合格成绩的专业技术人员。（一）在企事业单位全职工作，且近一年连续在本区缴纳社会保险的专业技术人员。（二）在东湖高新区就业的港澳台专业技术人员，以及持有外国人来华工作许可证或海外高层次人才证明的外籍人员。（三）在东湖高新区缴纳社保的自由职业（灵活就业）专业技术人员。以下情形人员不得申报评审职称：1.公务员（含参照公务员法管理的工作人员）。2.已退休人员和达到退休年龄（包括按政策规定延迟退休年龄）人员。3.受到刑事处罚、政务处分、党纪处分、行政处分等，刑期和处分期（含影响期）未满的。因涉嫌违纪违法，被纪检监察机关立案审查、留置或被司法机关立案调查期间的。4.记入全省职称失信黑名单，且仍在记录期限的。二、测试方法及内容（一）",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "人才计划"
+      ],
+      "publishedAt": "2026-07-15",
+      "deadlineAt": "2026-08-07",
+      "lifecycleStatus": "open",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202607/t20260715_2821207.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区通知公告",
+      "sourceCount": 1,
+      "score": 92,
+      "screeningReason": "可申报事项；命中重点产业或企业关键词；30 天内截止；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-07-20T05:50:02.517Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202607/t20260715_2821207.shtml",
+          "sourceType": "official_site",
+          "sourceName": "东湖高新区通知公告"
+        }
+      ]
     },
     {
       "id": "hubei-innovation-voucher-2026",
@@ -484,6 +603,120 @@
       "discoveredAt": "2026-07-17T09:35:00+08:00"
     },
     {
+      "id": "hubei-jxt-files-b89fcb693043",
+      "title": "省经信厅、省数据局关于联合实施2026年“模数共振”行动的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": null,
+      "publisherName": "湖北省经济和信息化厅",
+      "summary": "各市、州、直管市、神农架林区经信局、数据局，有关企业：为深入贯彻党中央、国务院关于人工智能发展的决策部署，落实《国务院关于深入实施“人工智能+”行动的意见》《“人工智能+制造”专项行动实施意见》要求，推动人工智能模型与数据资源协同互促、同频共振，工业和信息化部、国家数据局印发关于联合实施2026年“模数共振”行动的通知（工信厅联科函〔2026〕193号，见附件1），根据“模数共振”行动工作要求，有关事项通知如下。一、工作目标重点面向钢铁、石化化工、有色金属、建材、工业母机、汽车、医疗装备、电力装备、船舶、航空航天、家居、医药、生物制造、历史经典、电子元器件、消费电子、新型显示、软件、信息通信、网络安全等行业或领域（以下统称“行业”），通过行动牵引，推动产出一批推广价值高、技术可行性强的人工智能应用场景，攻关一批蕴含工业和信息化领域技术机理的行业模型、专用模型和特色智能体，构建一批行业通识和行业专识高质量数据集，培育一批攻关联合体，优化人才、标准等产业配套生态。到2026年底，基本形成“数据-模型-场景应用”良性互促的循环，推动人工智能高水平赋能新型工业化。二、重点任务（一）构建行业通识",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "人工智能",
+        "成果转化",
+        "人才计划",
+        "惠企资金",
+        "智能制造"
+      ],
+      "publishedAt": "2026-05-15",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/202605/t20260515_5937674.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "湖北省经信厅公开文件",
+      "sourceCount": 1,
+      "score": 88,
+      "screeningReason": "可申报事项；命中重点产业或企业关键词；存在明确资金或奖励信号。",
+      "documentNumber": null,
+      "discoveredAt": "2026-07-20T05:50:02.517Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/202605/t20260515_5937674.shtml",
+          "sourceType": "official_site",
+          "sourceName": "湖北省经信厅公开文件"
+        }
+      ]
+    },
+    {
+      "id": "hubei-jxt-files-c6b82398e9f0",
+      "title": "省经信厅关于印发《湖北省制造业领域财政专项资金“拨改投”改革试点工作项目申报指南》的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": null,
+      "publisherName": "湖北省经济和信息化厅",
+      "summary": "各市、州、直管市、神农架林区经信局：为贯彻落实省委、省政府关于深化投融资体制改革工作部署，依据省财政厅印发的《财政专项资金“拨改投”实施细则（试行）》，现将我厅编制的《湖北省制造业领域财政专项资金“拨改投”改革试点工作项目申报指南》印发你们，请遵照执行。附件：《湖北省制造业领域财政专项资金“拨改投”改革试点工作项目申报指南》湖北省经济和信息化厅2026年5月13日 附件湖北省制造业领域财政专项资金“拨改投”改革试点工作项目申报指南为贯彻落实省委、省政府关于深化投融资体制改革工作部署，做好湖北省制造业领域财政专项资金“拨改投”改革试点工作，依据省财政厅印发的《财政专项资金“拨改投”实施细则（试行）》，制定本申报指南。一、目标任务每年在省级制造业高质量发展专项中安排资金，投资入股符合条件的制造业领域项目，推动财政资金从无偿补助向股权投入转变，形成财政资金“投资-运营-退出-再投资”的良性循环，有效支持我省科技创新和产业创新深度融合。二、支持方向聚焦“51020”先进制造业产业集群：5个万亿级支柱产业集群（光电子信息、汽车制造与服务、现代化工、大健康、现代农产品加工）；10个5000亿级优势",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "人工智能",
+        "成果转化",
+        "人才计划",
+        "惠企资金",
+        "生物医药",
+        "智能制造"
+      ],
+      "publishedAt": "2026-05-15",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/202605/t20260515_5937642.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "湖北省经信厅公开文件",
+      "sourceCount": 1,
+      "score": 88,
+      "screeningReason": "可申报事项；命中重点产业或企业关键词；存在明确资金或奖励信号。",
+      "documentNumber": null,
+      "discoveredAt": "2026-07-20T05:50:02.517Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/202605/t20260515_5937642.shtml",
+          "sourceType": "official_site",
+          "sourceName": "湖北省经信厅公开文件"
+        }
+      ]
+    },
+    {
+      "id": "hubei-jxt-files-9eff9ddd032a",
+      "title": "省经信厅关于印发《湖北省制造业领域财政专项资金“拨改投”改革试点工作实施方案》的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": null,
+      "publisherName": "湖北省经济和信息化厅",
+      "summary": "各市、州、直管市、神农架林区经信局：为贯彻落实省委、省政府关于深化投融资体制改革工作部署，依据省财政厅印发的《财政专项资金“拨改投”实施细则（试行）》，现将我厅编制的《湖北省制造业领域财政专项资金“拨改投”改革试点工作实施方案》印发你们，请参照执行。附件：《湖北省制造业领域财政专项资金“拨改投”改革试点工作实施方案》湖北省经济和信息化厅2026年5月13日附件湖北省制造业领域财政专项资金“拨改投”改革试点工作实施方案按照省委、省政府关于深化投融资体制改革工作部署要求，结合《财政专项资金“拨改投”实施细则（试行）》（以下简称《实施细则》），积极探索全省制造业领域“拨改投”工作路径，制定本实施方案。一、工作目标创新财政支持产业发展方式，将无偿的财政补助转换为股权投入。每年遴选一批符合条件的制造业领域“拨改投”项目进行投资，变“输血”为“造血”，形成财政资金“投资-运营-退出-再投资”的良性循环，有效支持我省科技创新和产业创新深度融合。二、工作程序（一）签署协议。省经信厅与省财政厅选定的受托管理机构签署服务协议，服务期自协议签订时起至省财政厅变更受托管理机构或《实施细则》失效时止。（二）资金",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "成果转化",
+        "人才计划",
+        "惠企资金",
+        "智能制造"
+      ],
+      "publishedAt": "2026-05-15",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/202605/t20260515_5937637.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "湖北省经信厅公开文件",
+      "sourceCount": 1,
+      "score": 88,
+      "screeningReason": "可申报事项；命中重点产业或企业关键词；存在明确资金或奖励信号。",
+      "documentNumber": null,
+      "discoveredAt": "2026-07-20T05:50:02.517Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/202605/t20260515_5937637.shtml",
+          "sourceType": "official_site",
+          "sourceName": "湖北省经信厅公开文件"
+        }
+      ]
+    },
+    {
       "id": "hubei-kjt-notices-7076bf3a309e",
       "title": "关于开展2026年度湖北省自然科学研究系列专业技术高、中级职称水平能力测试工作的通知",
       "itemType": "application",
@@ -507,7 +740,15 @@
       "score": 87,
       "screeningReason": "可申报事项；命中重点产业或企业关键词；30 天内截止。",
       "documentNumber": null,
-      "discoveredAt": "2026-07-17T05:40:53.983Z"
+      "discoveredAt": "2026-07-17T05:40:53.983Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://kjt.hubei.gov.cn/kjdt/tzgg/202607/t20260707_5972505.shtml",
+          "sourceType": "official_site",
+          "sourceName": "湖北省科技厅通知公告"
+        }
+      ]
     },
     {
       "id": "wechat-hubei-15th-five-year-plan",
@@ -566,6 +807,41 @@
           "url": "https://mp.weixin.qq.com/s/4tzSn5DZSVghOIbdFYPYUA",
           "sourceType": "wechat",
           "sourceName": "武汉科技创新"
+        }
+      ]
+    },
+    {
+      "id": "east-lake-notices-cb477b5039f1",
+      "title": "关于转发《省经信厅办公室关于征集2026年人工智能第二批典型应用场景的通知》的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉东湖新技术开发区管理委员会",
+      "summary": "各有关企事业单位：根据《省经信厅办公室关于征集2026年人工智能第二批典型应用场景的通知》相关要求，现征集2026年底第二批人工智能典型应用场景，有关事项通知如下：一、征集范围围绕工业制造、医疗健康、资源环保、公共服务、城市治理、应急管理、教育、交通、文旅、建造、科研等重点领域，已建或在建的人工智能应用场景。二、申报要求1. 申报单位需为依法注册、具备独立法人资格的企事业单位或联合体，且应具备规范的财务管理制度，生产经营和财务状况良好，申报前三年内无违法违规行为，信用记录良好。2.原则上由场景建设方牵头申报，鼓励场景建设方和技术供给方组建联合体申报。3. 应用场景申报材料应确保真实性，不侵犯他人知识产权，描述翔实、表述准确、图文并茂、重点突出，着重挖掘在人工智能应用中产生的实效、创新点和推广价值等（具体要求详见附件1）。三、成果运用1.经专家评审后，入围应用场景发布推介并颁发证书；2.择优推荐参加工信部人工智能揭榜挂帅、优秀应用场景等项目。四、有关要求注意：前期已通过各类武汉市双组长制“AI+”创新应用征集工作提交到市经信局的申报材料，比如人工智能+社会治理、人工智能+生态环境治理、人",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "人工智能",
+        "生物医药"
+      ],
+      "publishedAt": "2026-07-16",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202607/t20260716_2821701.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区通知公告",
+      "sourceCount": 1,
+      "score": 83,
+      "screeningReason": "可申报事项；命中重点产业或企业关键词；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-07-20T05:50:02.517Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202607/t20260716_2821701.shtml",
+          "sourceType": "official_site",
+          "sourceName": "东湖高新区通知公告"
         }
       ]
     },
@@ -635,6 +911,248 @@
       "discoveredAt": "2026-07-17T09:15:00+08:00"
     },
     {
+      "id": "hubei-jxt-files-8769764bd3b0",
+      "title": "省经信厅办公室关于征集2026年人工智能第二批典型应用场景的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": null,
+      "publisherName": "湖北省经济和信息化厅",
+      "summary": "各市、州、直管市、林区经信局，行业协会，有关单位：为深入实施“人工智能+”行动，深化人工智能赋能千行百业，加快拓展人工智能应用，省经信厅拟面向全省征集2026年底第二批人工智能典型应用场景。现将有关事项通知如下：一、征集范围围绕工业制造、医疗健康、资源环保、公共服务、城市治理、应急管理、教育、交通、文旅、建造、科研等重点领域，已建或在建的人工智能应用场景。二、申报要求1. 申报单位需为在湖北省内依法注册、具备独立法人资格的企事业单位或联合体，且应具备规范的财务管理制度，生产经营和财务状况良好，申报前三年内无违法违规行为，信用记录良好。2.原则上由场景建设方牵头申报，鼓励场景建设方和技术供给方组建联合体申报。3. 应用场景申报材料应确保真实性，不侵犯他人知识产权，描述翔实、表述准确、图文并茂、重点突出，着重挖掘在人工智能应用中产生的实效、创新点和推广价值等（具体要求详见附件1）。三、成果运用1.经专家评审后，入围应用场景发布推介并颁发证书；2.择优推荐参加工信部人工智能揭榜挂帅、优秀应用场景等项目。四、注意事项1.请各地经信部门、行业协会组织好企业和单位申报，一家申报主体申报（已建、在建",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "人工智能",
+        "生物医药"
+      ],
+      "publishedAt": "2026-07-13",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/202607/t20260713_5975904.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "湖北省经信厅公开文件",
+      "sourceCount": 1,
+      "score": 78,
+      "screeningReason": "可申报事项；命中重点产业或企业关键词。",
+      "documentNumber": null,
+      "discoveredAt": "2026-07-20T05:50:02.517Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/202607/t20260713_5975904.shtml",
+          "sourceType": "official_site",
+          "sourceName": "湖北省经信厅公开文件"
+        }
+      ]
+    },
+    {
+      "id": "hubei-jxt-files-35935186cb30",
+      "title": "关于组织开展2026年度农业领域机器人典型应用场景申报推荐工作的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": null,
+      "publisherName": "湖北省经济和信息化厅",
+      "summary": "各市、州、直管市、神农架林区经信局、农业农村局：根据《工业和信息化部办公厅 农业农村部办公厅关于开展农业领域机器人典型应用场景遴选工作的通知》（工信厅联通装函〔2026〕269号）要求，为做好我省农业领域机器人典型应用场景申报推荐工作，现就有关事项通知如下：一、征集范围面向种植、养殖、农产品初加工3个重点领域，聚焦育苗繁育、耕整、播栽、田间管理、收获，饲养、繁育、畜禽产品采集、废弃物资源化利用与无害化处理，农产品初制加工、储运等关键环节，结合我省农业产业发展实际，征集遴选一批技术先进、成熟度高、成效明显、应用前景广阔、可复制推广的机器人典型应用场景，并加强推广应用。征集遴选方向见《农业机器人典型应用场景参考》（附件1）。（一）种植。针对作物多样、种植条件复杂、精准作业要求高、全天候管控难、劳动强度大等特点，征集农情监测、精细耕整、育种育苗巡检、授粉嫁接、精密播种移栽、施药除草、果蔬采摘与收获等机器人典型应用场景。（二）养殖。针对畜牧水产养殖环境中动物行为复杂、生产作业环境恶劣、疫病防控难度大等特点，征集养殖巡检、精准饲喂、行为监测、疫苗注射、清污消杀、挤奶、水产捕捞等机器人典型应用场景",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "人工智能"
+      ],
+      "publishedAt": "2026-07-13",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/202607/t20260713_5975671.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "湖北省经信厅公开文件",
+      "sourceCount": 1,
+      "score": 78,
+      "screeningReason": "可申报事项；命中重点产业或企业关键词。",
+      "documentNumber": null,
+      "discoveredAt": "2026-07-20T05:50:02.517Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/202607/t20260713_5975671.shtml",
+          "sourceType": "official_site",
+          "sourceName": "湖北省经信厅公开文件"
+        }
+      ]
+    },
+    {
+      "id": "hubei-jxt-files-9e7c9257b4eb",
+      "title": "省经信厅办公室关于组织开展互联网平台开放需求清单征集推荐工作的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": null,
+      "publisherName": "湖北省经济和信息化厅",
+      "summary": "各市、州、直管市、神农架林区经信局，有关企业：根据《工业和信息化部信息通信管理局关于组织开展互联网平台开放清单征集与编制工作的通知》要求，为落实上级部署，推动平台资源开放共享，助力中小企业数字化转型，省经信厅负责组织开展本地区需求清单征集推荐工作。现就有关事项通知如下：一、征集内容与征集对象（一）征集内容围绕互联网平台七大类可开放资源征集需求，具体包括：1.技术资源：算法API、智能化开发工具、智能体应用、跨平台交易支付接口；基于AI的商家运营自动化工具和创作者辅助工具；安全防护能力、安全运营服务等相关需求。2.数据资源：平台内经营主体自身产生的底层用户数据、经营数据、信用数据、流量数据；高价值数据集、AI数据产品、综合信息分析资源；数据跨平台迁移服务；大模型（含智能体）训练数据集跨平台开放等相关需求。3.算力资源：通用算力、智能算力（含智算中心）、超算算力（含超算中心）、边缘算力、安全算力（如加密计算、隐私计算）、混合算力、AI训练与推理平台、算力网络服务等相关需求。4.设施资源：分布式存储资源及相关管理服务、虚拟仿真环境、网络通信硬件设施、实验室及专用实验设备等相关需求。5.管理资",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "人工智能",
+        "智能制造"
+      ],
+      "publishedAt": "2026-06-17",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/202606/t20260617_5959884.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "湖北省经信厅公开文件",
+      "sourceCount": 1,
+      "score": 78,
+      "screeningReason": "可申报事项；命中重点产业或企业关键词。",
+      "documentNumber": null,
+      "discoveredAt": "2026-07-20T05:50:02.517Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/202606/t20260617_5959884.shtml",
+          "sourceType": "official_site",
+          "sourceName": "湖北省经信厅公开文件"
+        }
+      ]
+    },
+    {
+      "id": "hubei-jxt-files-6e5699ece5db",
+      "title": "省经信厅办公室关于开展2026年专精特新 “小巨人”企业推荐和复核工作的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": null,
+      "publisherName": "湖北省经济和信息化厅",
+      "summary": "各市（州）、直管市、神农架林区经信局：根据工业和信息化部办公厅《关于开展2026年度专精特新 “小巨人” 企业认定和复核工作的通知》（工信厅企业函〔2026〕117号，以下简称 “工信部《通知》”）及《优质中小企业梯度培育管理办法》（工信部企业〔2026〕2号）要求，现组织开展2026年专精特新“小巨人”企业认定和复核工作。有关事项通知如下：一、申报与复核范围（一）认定申报范围湖北省有效期内的省级专精特新中小企业，可自愿申请第八批专精特新“小巨人”企业，且需符合工信部《通知》及《优质中小企业梯度培育管理办法》中明确的认定标准。（二）复核申请范围2023年工业和信息化部认定的第五批和复核通过的第二批专精特新“小巨人”企业，需按要求参加本次复核。二、核心申报与复核要求（一）基本条件1.企业需依法合规经营，近3年未发生重大安全（含网络安全、数据安全）、质量、环境污染等事故，无严重失信、偷漏税等违法违规行为，不存在数据造假情形；2.财务数据真实有效，企业有关财务数据依据会计师事务所出具的审计报告，2025年审计报告须包含主营业务收入、主营业务成本两项指标，并提供财政部注册会计师行业统一监管平台",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "科技企业",
+        "智能制造"
+      ],
+      "publishedAt": "2026-04-10",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/202604/t20260410_5911749.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "湖北省经信厅公开文件",
+      "sourceCount": 1,
+      "score": 78,
+      "screeningReason": "可申报事项；命中重点产业或企业关键词。",
+      "documentNumber": null,
+      "discoveredAt": "2026-07-20T05:50:02.517Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/202604/t20260410_5911749.shtml",
+          "sourceType": "official_site",
+          "sourceName": "湖北省经信厅公开文件"
+        }
+      ]
+    },
+    {
+      "id": "east-lake-notices-a8f48ed17d76",
+      "title": "关于东湖高新区拟入库概念验证资金（基金）组建单位名单的公示",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉东湖新技术开发区管理委员会",
+      "summary": "根据《关于打造新时代创新创业高地若干措施》（武新管科创〔2025〕2号）文件精神，科创局开展了东湖高新区概念验证资金（基金）组建单位的常态化征集工作。经申报、核查，拟将国家信息光电子创新中心等4家单位纳入本批次概念验证资金（基金）组建单位信息库，现予以公示。公示时间为2026年7月15日至2026年7月21日。如有异议，请在公示时间内提出书面意见，并提供必要的证据材料。为便于核实查证，确保客观公正处理异议，提出异议者须提供本人真实姓名、工作单位、联系电话等有效联系方式，并对所提异议的真实性和可靠性负责。我单位按有关规定对异议提出者的相关信息予以保护。凡匿名、冒名或超出期限的异议不予受理。科创局联系电话：65529529电子邮箱：471995147@qq.com通讯地址：湖北省武汉市高新大道777号2号楼邮政编码：430075附件：概念验证资金（基金）组建单位拟入库公示名单.pdf科技创新和新经济发展局2026年7月15日",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "惠企资金"
+      ],
+      "publishedAt": "2026-07-14",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202607/t20260714_2820927.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区通知公告",
+      "sourceCount": 1,
+      "score": 77,
+      "screeningReason": "可申报事项；存在明确资金或奖励信号；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-07-20T05:50:02.517Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202607/t20260714_2820927.shtml",
+          "sourceType": "official_site",
+          "sourceName": "东湖高新区通知公告"
+        }
+      ]
+    },
+    {
+      "id": "hubei-jxt-files-eaa7df2e576d",
+      "title": "关于组织开展2026年首台（套）重大技术装备保险补偿项目申报的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": null,
+      "publisherName": "湖北省经济和信息化厅",
+      "summary": "各市、州、直管市、神农架林区经信局，财政局，各金融监管分局：根据《工业和信息化部办公厅财政部办公厅金融监管总局办公厅关于组织实施2026年首台（套）重大技术装备保险补偿政策的通知》（工信厅联重装函〔2026〕285号），我省拟组织开展2026年首台（套）重大技术装备保险补偿项目申报工作。现将有关事项通知如下。一、支持范围2026年首台（套）重大技术装备保险补偿政策支持范围为《首台（套）重大技术装备推广应用指导目录（2024版）》（以下简称《目录》）全部领域。整机装备原则上按照台（套）数方式支持；核心系统、关键零部件、重大技术装备关键配套及基础件原则上按照批次数方式支持。其中高端工业母机、电子专用装备、新型农业机械装备、精密仪器仪表等单台（套）装备价值不高的整机装备可按批次数方式支持；航空发动机、船舶发动机等单件价值较高的核心系统、关键零部件等可按台（套）数方式支持。二、申报程序（一）资格审定企业申报。生产《目录》内重大技术装备的地方制造企业，按要求向所在市州经信局提交申报材料。（央企所属企业向中央企业集团提交申报材料。）资格审核。各市州经信局按要求对地方企业开展资格审核，重点审核申报材",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "惠企资金"
+      ],
+      "publishedAt": "2026-07-02",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/202607/t20260702_5969647.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "湖北省经信厅公开文件",
+      "sourceCount": 1,
+      "score": 72,
+      "screeningReason": "可申报事项；存在明确资金或奖励信号。",
+      "documentNumber": null,
+      "discoveredAt": "2026-07-20T05:50:02.517Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/202607/t20260702_5969647.shtml",
+          "sourceType": "official_site",
+          "sourceName": "湖北省经信厅公开文件"
+        }
+      ]
+    },
+    {
+      "id": "hubei-jxt-files-8932f79a8f25",
+      "title": "省经信厅办公室关于开展2026年度第一批省级制造业高质量发展专项“拨改投” 项目征集工作的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": null,
+      "publisherName": "湖北省经济和信息化厅",
+      "summary": "各市、州、直管市、神农架林区经信局：为贯彻落实省委、省政府关于深入投融资体制改革工作部署，积极探索制造业领域“拨改投”工作路径，依据省财政厅印发的《财政专项资金“拨改投”实施细则》和我厅印发的《湖北省制造业领域财政专项资金“拨改投”改革试点工作实施方案》《湖北省制造业领域专项资金“拨改投”改革试点工作项目申报指南》（详见省经信厅网站，以下简称《申报指南》），我厅拟聚焦“51020”先进制造业集群创新发展需要，重点围绕产品升级、技术创新、设备购置、流程改造、延伸链条而实施的制造业领域项目，开展2026年度第一批省级制造业高质量发展专项“拨改投”项目征集入库工作（具体申报要求详见《申报指南》）。各地申报指标数为：武汉市不超过15个，襄阳、宜昌不超过3个，其他市州不超过1个。2025年已入库且未提交过《湖北省制造业领域“拨改投”项目申报书》（见《申报指南》附件，以下简称《申报书》）的项目，符合申报要求的，此次也可提交《申报书》。请你局组织属地符合条件的企业自愿参与申报，认真填写《申报书》，对申报项目做好资格审查和推荐工作，并于6月15日前将纸质版一式两份、电子版一份报送我厅。邮寄地址：武汉市",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "惠企资金",
+        "智能制造"
+      ],
+      "publishedAt": "2026-06-01",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/202606/t20260601_5949312.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "湖北省经信厅公开文件",
+      "sourceCount": 1,
+      "score": 72,
+      "screeningReason": "可申报事项；存在明确资金或奖励信号。",
+      "documentNumber": null,
+      "discoveredAt": "2026-07-20T05:50:02.517Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/202606/t20260601_5949312.shtml",
+          "sourceType": "official_site",
+          "sourceName": "湖北省经信厅公开文件"
+        }
+      ]
+    },
+    {
       "id": "wechat-wuhan-innovation-5c022126f3ad",
       "title": "直通车 | 关于转发《关于组织申报国家网络空间安全国家科技重大专项第三批项目的通知（公开类）》的通知",
       "itemType": "application",
@@ -665,6 +1183,207 @@
           "sourceName": "武汉科技创新"
         }
       ]
+    },
+    {
+      "id": "hubei-kjt-notices-d218c6101e5f",
+      "title": "湖北省科技创新政策法规工具包（2026年6月）",
+      "itemType": "policy",
+      "regionName": "湖北省",
+      "cityName": null,
+      "publisherName": "湖北省科学技术厅",
+      "summary": "5967857 湖北省科技创新政策法规工具包（2026年6月） 20 湖北省科学技术厅 2026-06-30 3824 通知公告 湖北政府网 |科技部网| 邮箱 |计划管理 |工作后台 |自科基金验收入口 |奖励评审 |登录 |注册 湖北省科学技术厅 搜 索 首页 政府信息公开 互动交流 办事服务 科技动态 科技一网通 当前位置：首页>科技动态>通知公告 湖北省科技创新政策法规工具包（2026年6月） 2026-06-30 09:14 | 湖北省科学技术厅 附件: 湖北省科技创新政策法规工具包.pdf 欢迎关注湖北科技公众号 已阅 0 打印 关闭 相关文档 关联链接 政府网站 中央政府门户网站 外交部 国防部 发展改革委 教育部 科技部 工业和信息化部 国家民委 公安部 监察部 民政部 司法部 财政部 人力资源和社会保障部 环境保护部 住房和城乡建设部 交通运输部 水利部 农业部 商务部 文旅部 卫生和计划生育委员会 人民银行 审计署 国资委 海关总署 税务总局 市场监督管理总局 广电总局 新闻出版总署(版权局) 体育总局 统计局 林业局 国家知识产权局 参事室 国管局 侨办 港澳办 ",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "惠企资金"
+      ],
+      "publishedAt": "2026-06-30",
+      "deadlineAt": null,
+      "lifecycleStatus": "evergreen",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/202607/t20260701_5967857.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "湖北省科技厅通知公告",
+      "sourceCount": 1,
+      "score": 68,
+      "screeningReason": "命中重点产业或企业关键词；存在明确资金或奖励信号。",
+      "documentNumber": null,
+      "discoveredAt": "2026-07-20T05:50:02.517Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://kjt.hubei.gov.cn/kjdt/tzgg/202607/t20260701_5967857.shtml",
+          "sourceType": "official_site",
+          "sourceName": "湖北省科技厅通知公告"
+        }
+      ]
+    },
+    {
+      "id": "hubei-kjt-notices-aea4a1d88dcd",
+      "title": "省科技厅关于医“耀”荆楚·2026湖北省医工交叉创新发展大赛初评结果的公示",
+      "itemType": "event",
+      "regionName": "湖北省",
+      "cityName": null,
+      "publisherName": "湖北省科学技术厅",
+      "summary": "医“耀”荆楚·2026湖北省医工交叉创新发展大赛初评已顺利完成。经专家评审，“生成式AI超低剂量DSA成像系统”等35个项目入围大赛复赛，现将名单予以公示。公示期内，任何单位或个人对公示内容有异议，可在公示之日起5个工作日内提出书面意见，异议材料应注明真实姓名、工作单位和联系方式，提出异议的单位与个人应对所提异议的真实性负责。对匿名或无具体事实根据的异议，不予受理。联系电话：社发处，027－87135833附件：医“耀”荆楚·2026湖北省医工交叉创新发展大赛复赛入围名单省科技厅 2026年7月17日",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "人工智能",
+        "科创赛事"
+      ],
+      "publishedAt": "2026-07-17",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/202607/t20260717_5979397.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "湖北省科技厅通知公告",
+      "sourceCount": 1,
+      "score": 67,
+      "screeningReason": "科创赛事；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-07-20T05:50:02.517Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://kjt.hubei.gov.cn/kjdt/tzgg/202607/t20260717_5979397.shtml",
+          "sourceType": "official_site",
+          "sourceName": "湖北省科技厅通知公告"
+        }
+      ]
+    },
+    {
+      "id": "east-lake-notices-33253dcdf454",
+      "title": "东湖高新区关于组织参加2026中国特色旅游商品大赛的通知",
+      "itemType": "event",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉东湖新技术开发区管理委员会",
+      "summary": "2026年8月30日—9月7日，中国旅游协会将在内蒙古自治区鄂尔多斯市举办“2026中国特色旅游商品大赛”。为进一步展示我市旅游商品特色，提升武汉文旅品牌影响力，现发动辖区相关单位积极申报参赛。请有意向参加的企业在2026年8月8日17:30前，将符合文件要求的申报资料发至指定接收邮箱dhgxqwh2022@163.com。联系人：邱明敏联系方式：65527652",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "科创赛事"
+      ],
+      "publishedAt": "2026-07-13",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202607/t20260713_2820121.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区通知公告",
+      "sourceCount": 1,
+      "score": 62,
+      "screeningReason": "科创赛事。",
+      "documentNumber": null,
+      "discoveredAt": "2026-07-20T05:50:02.517Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202607/t20260713_2820121.shtml",
+          "sourceType": "official_site",
+          "sourceName": "东湖高新区通知公告"
+        }
+      ]
+    },
+    {
+      "id": "hubei-jxt-files-6285b33b0801",
+      "title": "省经信厅办公室关于开展第二批制造业数字化转型促进中心建设工作的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": null,
+      "publisherName": "湖北省经济和信息化厅",
+      "summary": "各市、州、直管市、神农架林区经信局，有关单位：根据工信部办公厅《关于开展第二批制造业数字化转型促进中心建设工作的通知》（附件1）要求，结合我省实际，现将第二批制造业数字化转型促进中心申报有关事项通知如下：请各市（州）经信局按照工信部通知要求，结合我省“51020”先进制造业集群工作部署，动员符合申报条件的本地龙头企业、科研机构、高校和行业组织积极申报。请各申报主体参考《制造业数字化转型促进中心创建指引》（附件2），编制《制造业数字化转型促进中心建设方案》（登录制造业数字化转型综合信息服务平台https://szgx.miit.gov.cn/zzyszh填报），于6月20日前，在平台上完成线上申报。请申报主体主动对接市（州）经信局，将申报材料（和线上申报材料一致）同步报至市（州）经信局。各市（州）经信局做好材料审核和指导把关，于6月22日前，将加盖公章的推荐意见（附件3）、推荐对象申报材料扫描件报送至省经信厅信息化推进处，省经信厅将择优推荐至工信部。联系人：徐丽萍 027-87236506 xxhwrmfw@163.com 附件：1.工业和信息化部办公厅关于开展第二批制造业数字化转型促进",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "智能制造"
+      ],
+      "publishedAt": "2026-06-04",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/202606/t20260604_5952117.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "湖北省经信厅公开文件",
+      "sourceCount": 1,
+      "score": 62,
+      "screeningReason": "可申报事项。",
+      "documentNumber": null,
+      "discoveredAt": "2026-07-20T05:50:02.517Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/202606/t20260604_5952117.shtml",
+          "sourceType": "official_site",
+          "sourceName": "湖北省经信厅公开文件"
+        }
+      ]
+    },
+    {
+      "id": "hubei-jxt-files-af8e30aec8b5",
+      "title": "省经信厅办公室关于公布2026年湖北省中小企业技术中心名单的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": null,
+      "publisherName": "湖北省经济和信息化厅",
+      "summary": "各市、州、直管市、神农架林区经信局：根据《省经信厅办公室关于组织开展2026年湖北省中小企业技术中心认定工作的通知》，经企业申报、市州推荐、专家评审和社会公示等环节，确定吉奥时空信息技术股份有限公司等231家企业为2026年湖北省中小企业技术中心名单，现予以公布。省级中小企业技术中心有效期3年，2026年湖北省中小企业技术中心有效期为2026年5月1日至2029年4月30日。有效期内发现虚假申报或存在违法违规行为的，一经查实，将予以撤销湖北省中小企业技术中心称号，且三年内不得申报。附件：2026年湖北省中小企业技术中心认定名单湖北省经济和信息化厅办公室2026年4月28日",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [],
+      "publishedAt": "2026-04-29",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/202604/t20260429_5925542.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "湖北省经信厅公开文件",
+      "sourceCount": 1,
+      "score": 62,
+      "screeningReason": "可申报事项。",
+      "documentNumber": null,
+      "discoveredAt": "2026-07-20T05:50:02.517Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/202604/t20260429_5925542.shtml",
+          "sourceType": "official_site",
+          "sourceName": "湖北省经信厅公开文件"
+        }
+      ]
+    },
+    {
+      "id": "hubei-jxt-files-c80bd37845d9",
+      "title": "省经信厅办公室关于组织开展2026年度国家中小企业特色产业集群推荐及2023年度集群复核工作的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": null,
+      "publisherName": "湖北省经济和信息化厅",
+      "summary": "各市（州）、直管市、神农架林区经信局：根据工业和信息化部办公厅《关于组织开展2026年度中小企业特色产业集群推荐和2023年度中小企业特色产业集群复核工作的通知》（工信厅企业函〔2026〕150号）及《促进中小企业特色产业集群发展暂行办法》（工信部企业〔2022〕119号）要求，为做好我省国家级中小企业特色产业集群遴选推荐及2023年度集群复核工作，现就有关事项通知如下：一、申报推荐工作（一）申报主体。由集群所在地县级行政区划中小企业主管部门作为申报主体，坚持自愿申报，如实填写《中小企业特色产业集群申报表》，完整提供佐证材料。（二）初审与推荐。各市（州）经信部门负责受理、初审，并组织实地抽查，严格对照国家认定标准择优推荐，每个市（州）、直管市推荐数量不超过1个。（三）报送要求。请各地于2026年5月15日前，将相关申报材料加盖公章后报送至省经信厅中小企业发展处。主要包括：推荐正式文件；《中小企业特色产业集群申报表》及佐证材料一式3份；《2026年度中小企业特色产业集群推荐汇总表》一式3份；全套材料电子版光盘1份。二、复核工作（一）复核对象。2023年度工信部认定的中小企业特色产业集群，",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [],
+      "publishedAt": "2026-04-14",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/202604/t20260414_5914178.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "湖北省经信厅公开文件",
+      "sourceCount": 1,
+      "score": 62,
+      "screeningReason": "可申报事项。",
+      "documentNumber": null,
+      "discoveredAt": "2026-07-20T05:50:02.517Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/202604/t20260414_5914178.shtml",
+          "sourceType": "official_site",
+          "sourceName": "湖北省经信厅公开文件"
+        }
+      ]
     }
   ],
   "sources": [
@@ -688,9 +1407,14 @@
       "entryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-07-17T05:40:34.601Z",
-      "lastSuccessAt": "2026-07-17T05:40:34.601Z",
-      "priority": 100
+      "lastCheckedAt": "2026-07-20T05:49:48.412Z",
+      "lastSuccessAt": "2026-07-20T05:49:48.412Z",
+      "priority": 100,
+      "lastInsertedCount": 2,
+      "loginExpiresAt": null,
+      "lastErrorAt": null,
+      "lastErrorMessage": null,
+      "consecutiveFailures": 0
     },
     {
       "id": "wuhan-kj-notices",
@@ -698,11 +1422,16 @@
       "sourceType": "official_site",
       "publisherName": "武汉市科技创新局",
       "entryUrl": "https://kjj.wuhan.gov.cn/wmfw/tzgg/",
-      "healthStatus": "configured",
+      "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": null,
-      "lastSuccessAt": null,
-      "priority": 95
+      "lastCheckedAt": "2026-07-20T05:49:48.987Z",
+      "lastSuccessAt": "2026-07-20T05:49:48.987Z",
+      "priority": 95,
+      "lastInsertedCount": 0,
+      "loginExpiresAt": null,
+      "lastErrorAt": null,
+      "lastErrorMessage": null,
+      "consecutiveFailures": 0
     },
     {
       "id": "east-lake-notices",
@@ -710,11 +1439,16 @@
       "sourceType": "official_site",
       "publisherName": "武汉东湖新技术开发区管理委员会",
       "entryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/",
-      "healthStatus": "configured",
+      "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": null,
-      "lastSuccessAt": null,
-      "priority": 94
+      "lastCheckedAt": "2026-07-20T05:49:51.494Z",
+      "lastSuccessAt": "2026-07-20T05:49:51.494Z",
+      "priority": 94,
+      "lastInsertedCount": 6,
+      "loginExpiresAt": null,
+      "lastErrorAt": null,
+      "lastErrorMessage": null,
+      "consecutiveFailures": 0
     },
     {
       "id": "hubei-jxt-files",
@@ -722,11 +1456,16 @@
       "sourceType": "official_site",
       "publisherName": "湖北省经济和信息化厅",
       "entryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/",
-      "healthStatus": "configured",
+      "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": null,
-      "lastSuccessAt": null,
-      "priority": 93
+      "lastCheckedAt": "2026-07-20T05:50:01.237Z",
+      "lastSuccessAt": "2026-07-20T05:50:01.237Z",
+      "priority": 93,
+      "lastInsertedCount": 12,
+      "loginExpiresAt": null,
+      "lastErrorAt": null,
+      "lastErrorMessage": null,
+      "consecutiveFailures": 0
     },
     {
       "id": "hubei-rst-files",
@@ -734,11 +1473,16 @@
       "sourceType": "official_site",
       "publisherName": "湖北省人力资源和社会保障厅",
       "entryUrl": "https://rst.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/",
-      "healthStatus": "configured",
+      "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": null,
-      "lastSuccessAt": null,
-      "priority": 92
+      "lastCheckedAt": "2026-07-20T05:50:02.356Z",
+      "lastSuccessAt": "2026-07-20T05:50:02.356Z",
+      "priority": 92,
+      "lastInsertedCount": 0,
+      "loginExpiresAt": null,
+      "lastErrorAt": null,
+      "lastErrorMessage": null,
+      "consecutiveFailures": 0
     },
     {
       "id": "wechat-hubei-publish",
