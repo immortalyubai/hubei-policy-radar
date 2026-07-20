@@ -1,11 +1,12 @@
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { createRoot } from "react-dom/client";
 import "../app/globals.css";
 import "./pages.css";
-import data from "./data/policy-data.json";
+import initialData from "./data/policy-data.json";
 
 const typeLabels = { policy: "政策", application: "申报", event: "赛事" };
-const snapshotTimestamp = new Date(data.meta.generatedAt).getTime();
+const PAGE_REFRESH_INTERVAL_MS = 120_000;
+const FEED_BATCH_SIZE = 8;
 const verificationLabels = {
   official_verified: "官网已核验",
   pending_official: "公众号首发 · 待核验",
@@ -53,31 +54,151 @@ function formatCompactDateTime(value) {
   }).format(date);
 }
 
-function sourceStatus(source) {
+function sourceStatus(source, nowTimestamp) {
   const loginExpired = source.sourceType === "wechat"
     && source.loginExpiresAt
-    && new Date(source.loginExpiresAt).getTime() <= snapshotTimestamp;
+    && new Date(source.loginExpiresAt).getTime() <= nowTimestamp;
   if (loginExpired) return { label: "登录已到期", tone: "failing" };
   if (source.lastErrorMessage || Number(source.consecutiveFailures || 0) > 0 || source.healthStatus === "failing") {
-    return { label: "扫描异常", tone: "failing" };
+    return { label: "上次扫描异常", tone: "failing" };
   }
-  if (source.healthStatus === "degraded") return { label: "扫描延迟", tone: "degraded" };
-  if (source.healthStatus === "healthy") return { label: "运行正常", tone: "healthy" };
+  if (source.healthStatus === "degraded") return { label: "上次扫描延迟", tone: "degraded" };
+  if (source.healthStatus === "healthy") return { label: "上次扫描正常", tone: "healthy" };
   if (source.healthStatus === "configured") return { label: "已配置", tone: "configured" };
   return { label: "待启用", tone: "paused" };
 }
 
-function daysUntil(value) {
+function daysUntil(value, nowTimestamp) {
   if (!value) return null;
   const end = new Date(`${String(value).slice(0, 10)}T23:59:59+08:00`).getTime();
-  return Math.ceil((end - snapshotTimestamp) / 86_400_000);
+  return Math.ceil((end - nowTimestamp) / 86_400_000);
 }
 
-function deadlineCopy(value, lifecycleStatus) {
+function safeTimestamp(value) {
+  const timestamp = new Date(value || 0).getTime();
+  return Number.isFinite(timestamp) ? timestamp : 0;
+}
+
+function publishedTimestamp(item) {
+  return safeTimestamp(item?.publishedAt) || safeTimestamp(item?.discoveredAt);
+}
+
+function isValidSiteData(value) {
+  return Boolean(
+    value
+    && typeof value === "object"
+    && value.meta
+    && Array.isArray(value.items)
+    && Array.isArray(value.sources),
+  );
+}
+
+function useSiteData() {
+  const [siteData, setSiteData] = useState(initialData);
+  const [refreshState, setRefreshState] = useState({
+    status: "ready",
+    checkedAt: null,
+    error: null,
+    newItemCount: 0,
+  });
+  const mountedRef = useRef(true);
+  const abortControllerRef = useRef(null);
+  const requestSequenceRef = useRef(0);
+  const knownIdsRef = useRef(new Set(initialData.items.map((item) => item.id)));
+
+  const refreshData = useCallback(async () => {
+    if (document.visibilityState === "hidden") return;
+    abortControllerRef.current?.abort();
+    const controller = new AbortController();
+    const requestSequence = requestSequenceRef.current + 1;
+    requestSequenceRef.current = requestSequence;
+    abortControllerRef.current = controller;
+    setRefreshState((current) => ({ ...current, status: "checking", error: null }));
+    try {
+      const dataUrl = new URL("data/policy-data.json", document.baseURI);
+      dataUrl.searchParams.set("checked", String(Date.now()));
+      const response = await fetch(dataUrl, {
+        cache: "no-store",
+        headers: { accept: "application/json" },
+        signal: controller.signal,
+      });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      const payload = await response.json();
+      if (!isValidSiteData(payload)) throw new Error("数据格式不完整");
+      if (!mountedRef.current || requestSequence !== requestSequenceRef.current) return;
+
+      const newItemCount = payload.items.reduce((count, item) => (
+        item?.id && !knownIdsRef.current.has(item.id) ? count + 1 : count
+      ), 0);
+      payload.items.forEach((item) => {
+        if (item?.id) knownIdsRef.current.add(item.id);
+      });
+
+      setSiteData(payload);
+      setRefreshState((current) => ({
+        status: "ready",
+        checkedAt: new Date().toISOString(),
+        error: null,
+        newItemCount: current.newItemCount + newItemCount,
+      }));
+    } catch (error) {
+      if (error instanceof DOMException && error.name === "AbortError") return;
+      if (!mountedRef.current || requestSequence !== requestSequenceRef.current) return;
+      setRefreshState((current) => ({
+        ...current,
+        status: "error",
+        checkedAt: new Date().toISOString(),
+        error: error instanceof Error ? error.message : "检查失败",
+      }));
+    } finally {
+      if (requestSequence === requestSequenceRef.current) abortControllerRef.current = null;
+    }
+  }, []);
+
+  useEffect(() => {
+    mountedRef.current = true;
+    let intervalId = null;
+
+    const stopPolling = () => {
+      if (intervalId !== null) window.clearInterval(intervalId);
+      intervalId = null;
+    };
+    const startPolling = () => {
+      stopPolling();
+      if (document.visibilityState === "hidden") return;
+      void refreshData();
+      intervalId = window.setInterval(() => void refreshData(), PAGE_REFRESH_INTERVAL_MS);
+    };
+    const onVisibilityChange = () => {
+      if (document.visibilityState === "hidden") {
+        stopPolling();
+        abortControllerRef.current?.abort();
+      }
+      else startPolling();
+    };
+
+    startPolling();
+    document.addEventListener("visibilitychange", onVisibilityChange);
+    return () => {
+      mountedRef.current = false;
+      stopPolling();
+      abortControllerRef.current?.abort();
+      document.removeEventListener("visibilitychange", onVisibilityChange);
+    };
+  }, [refreshData]);
+
+  const dismissNewItems = useCallback(() => {
+    setRefreshState((current) => ({ ...current, newItemCount: 0 }));
+  }, []);
+
+  return { siteData, refreshState, refreshData, dismissNewItems };
+}
+
+function deadlineCopy(value, lifecycleStatus, nowTimestamp) {
   if (!value && lifecycleStatus === "pending_deadline") {
     return { label: "截止时间待核验", tone: "muted" };
   }
-  const days = daysUntil(value);
+  const days = daysUntil(value, nowTimestamp);
   if (days === null) return { label: "长期有效", tone: "calm" };
   if (days < 0) return { label: "已截止", tone: "muted" };
   if (days === 0) return { label: "今天截止", tone: "urgent" };
@@ -108,9 +229,9 @@ function Brand() {
   );
 }
 
-function Header({ route }) {
+function Header({ route, siteData }) {
   const isSources = route === "/sources";
-  const wechatAccountCount = data.sources.filter((source) => source.sourceType === "wechat").length;
+  const wechatAccountCount = siteData.sources.filter((source) => source.sourceType === "wechat").length;
   return (
     <header className="topbar">
       <div className="wrap nav-inner">
@@ -136,47 +257,51 @@ function Footer() {
   );
 }
 
-function PolicyCard({ item }) {
-  const deadline = deadlineCopy(item.deadlineAt, item.lifecycleStatus);
+function PolicyCard({ item, isLatest, nowTimestamp }) {
+  const deadline = deadlineCopy(item.deadlineAt, item.lifecycleStatus, nowTimestamp);
   return (
-    <article className="policy-card">
-      <div className="policy-card-body">
-        <div className="badge-row">
-          <span className={`type-badge ${item.itemType}`}>{typeLabels[item.itemType]}</span>
-          <span className="region-badge">{item.cityName || item.regionName}</span>
-          <span className={`verify-badge ${item.verificationStatus}`}>
-            {item.verificationStatus === "official_verified" ? "✓ " : ""}
-            {verificationLabels[item.verificationStatus]}
-          </span>
-        </div>
-        <a href={`#/items/${encodeURIComponent(item.id)}`} className="policy-title">{item.title}</a>
-        <p className="policy-summary">{item.summary}</p>
-        {item.topics?.length > 0 && (
-          <div className="topic-row">
-            {item.topics.slice(0, 4).map((topic) => <span key={topic}>{topic}</span>)}
+    <article className="policy-card stream-card">
+      <a className="stream-card-link" href={`#/items/${encodeURIComponent(item.id)}`} aria-label={`查看 ${item.title}`}>
+        <div className="policy-card-body">
+          <div className="stream-card-topline">
+            <span className={isLatest ? "latest-time" : ""}>{isLatest && <i />} {formatDate(item.publishedAt)} 发布</span>
+            <span>{item.publisherName}</span>
           </div>
-        )}
-        <div className="policy-meta">
-          <span>{item.publisherName}</span><i />
-          <span>{formatDate(item.publishedAt)} 发布</span><i />
-          <span>{item.sourceCount || 1} 个来源</span>
+          <div className="badge-row">
+            <span className={`type-badge ${item.itemType}`}>{typeLabels[item.itemType]}</span>
+            <span className="region-badge">{item.cityName || item.regionName}</span>
+            <span className={`verify-badge ${item.verificationStatus}`}>
+              {item.verificationStatus === "official_verified" ? "✓ " : ""}
+              {verificationLabels[item.verificationStatus]}
+            </span>
+          </div>
+          <h3 className="policy-title">{item.title}</h3>
+          <p className="policy-summary">{item.summary}</p>
+          {item.topics?.length > 0 && (
+            <div className="topic-row">
+              {item.topics.slice(0, 4).map((topic) => <span key={topic}>{topic}</span>)}
+            </div>
+          )}
         </div>
-      </div>
-      <div className="policy-card-side">
-        <span className={`deadline ${deadline.tone}`}>{deadline.label}</span>
-        <span className="score"><b>{item.score}</b> 匹配度</span>
-        <a className="card-arrow" href={`#/items/${encodeURIComponent(item.id)}`} aria-label={`查看 ${item.title}`}>→</a>
-      </div>
+        <div className="policy-card-side stream-card-side">
+          <span className={`deadline ${deadline.tone}`}>{deadline.label}</span>
+          <span className="score"><b>{item.score}</b> 匹配度</span>
+          <span className="card-read-more">查看详情 →</span>
+        </div>
+      </a>
     </article>
   );
 }
 
-function HomePage() {
-  const items = data.items;
-  const sources = data.sources;
+function HomePage({ siteData, refreshState, refreshData, dismissNewItems }) {
+  const items = siteData.items;
+  const sources = siteData.sources;
   const [type, setType] = useState("all");
   const [verification, setVerification] = useState("all");
   const [query, setQuery] = useState("");
+  const [visibleCount, setVisibleCount] = useState(FEED_BATCH_SIZE);
+  const [viewTimestamp] = useState(() => Date.now());
+  const loadMoreRef = useRef(null);
 
   const visibleItems = useMemo(() => {
     const needle = query.trim().toLowerCase();
@@ -188,17 +313,34 @@ function HomePage() {
         return [item.title, item.publisherName, item.summary, item.applicationTargets, ...(item.topics || [])]
           .filter(Boolean).join(" ").toLowerCase().includes(needle);
       })
-      .sort((left, right) => {
-        const leftClosed = daysUntil(left.deadlineAt) < 0;
-        const rightClosed = daysUntil(right.deadlineAt) < 0;
-        return Number(leftClosed) - Number(rightClosed) || right.score - left.score;
-      });
+      .sort((left, right) => (
+        publishedTimestamp(right) - publishedTimestamp(left)
+        || safeTimestamp(right.discoveredAt) - safeTimestamp(left.discoveredAt)
+        || Number(right.score || 0) - Number(left.score || 0)
+        || String(left.id).localeCompare(String(right.id))
+      ));
   }, [items, query, type, verification]);
+
+  const loadMore = useCallback(() => {
+    setVisibleCount((current) => Math.min(current + FEED_BATCH_SIZE, visibleItems.length));
+  }, [visibleItems.length]);
+  const displayedItems = visibleItems.slice(0, visibleCount);
+  const hasMore = displayedItems.length < visibleItems.length;
+
+  useEffect(() => {
+    const target = loadMoreRef.current;
+    if (!target || !hasMore || typeof IntersectionObserver === "undefined") return undefined;
+    const observer = new IntersectionObserver((entries) => {
+      if (entries.some((entry) => entry.isIntersecting)) loadMore();
+    }, { rootMargin: "320px 0px" });
+    observer.observe(target);
+    return () => observer.disconnect();
+  }, [hasMore, loadMore]);
 
   const verifiedCount = items.filter((item) => item.verificationStatus === "official_verified").length;
   const pendingCount = items.filter((item) => item.verificationStatus === "pending_official").length;
   const urgentCount = items.filter((item) => {
-    const days = daysUntil(item.deadlineAt);
+    const days = daysUntil(item.deadlineAt, viewTimestamp);
     return days !== null && days >= 0 && days <= 14;
   }).length;
   const wechatSources = sources.filter((source) => source.sourceType === "wechat");
@@ -214,97 +356,140 @@ function HomePage() {
     (total, source) => total + Number(source.lastInsertedCount || 0),
     0,
   );
-  const loginExpiry = wechatSources
-    .map((source) => source.loginExpiresAt)
-    .filter(Boolean)
-    .sort()[0] || null;
-  const accountStatuses = wechatSources.map(sourceStatus);
+  const accountStatuses = wechatSources.map((source) => sourceStatus(source, viewTimestamp));
   const monitorStatus = accountStatuses.some((status) => status.tone === "failing")
-    ? { label: "部分异常", tone: "failing" }
+    ? { label: "上次扫描部分异常", tone: "failing" }
     : accountStatuses.some((status) => status.tone === "degraded")
-      ? { label: "扫描延迟", tone: "degraded" }
-      : { label: "运行正常", tone: "healthy" };
-  const reset = () => { setType("all"); setVerification("all"); setQuery(""); };
+      ? { label: "上次扫描延迟", tone: "degraded" }
+      : { label: "上次扫描正常", tone: "healthy" };
+  const updateQuery = (event) => {
+    setQuery(event.target.value);
+    setVisibleCount(FEED_BATCH_SIZE);
+  };
+  const selectType = (value) => {
+    setType(value);
+    setVisibleCount(FEED_BATCH_SIZE);
+  };
+  const selectVerification = (value) => {
+    setVerification(value);
+    setVisibleCount(FEED_BATCH_SIZE);
+  };
+  const reset = () => {
+    setType("all");
+    setVerification("all");
+    setQuery("");
+    setVisibleCount(FEED_BATCH_SIZE);
+  };
+  const showNewestItems = () => {
+    reset();
+    dismissNewItems();
+    window.requestAnimationFrame(() => {
+      const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      document.querySelector("#policy-list .policy-card")?.scrollIntoView({
+        behavior: reduceMotion ? "auto" : "smooth",
+        block: "start",
+      });
+    });
+  };
 
   return (
     <>
-      <section className="hero wrap">
-        <div className="hero-copy">
-          <div className="eyebrow"><span /> 湖北优先 · 计划每 2 小时扫描</div>
-          <h1>每天，只看值得<br />跟进的政策</h1>
-          <p>公众号负责优先发现，政府官网负责权威核验。政策、申报和科创赛事统一筛选、去重，再送到你面前。</p>
-          <div className="hero-actions">
-            <a href="#policy-list" className="primary-action">查看政策清单 <span>→</span></a>
-            <a href="#/sources" className="secondary-action">查看监控源</a>
+      <section className="feed-intro wrap">
+        <div className="feed-intro-copy">
+          <div className="eyebrow"><span /> 湖北优先 · 筛选后的政策信息流</div>
+          <h1>最新政策，打开就能看</h1>
+          <p>按发布时间从新到旧排列。页面每 2 分钟检查新数据，不代表采集器已产生新内容；信息采集器计划每 2 小时扫描一次来源。</p>
+          <div className="feed-summary-chips" aria-label="政策概览">
+            <span><b>{items.length}</b> 条收录</span>
+            <span><b>{verifiedCount}</b> 条官网核验</span>
+            <span><b>{pendingCount}</b> 条公众号首发</span>
+            <span><b>{urgentCount}</b> 条 14 天内截止</span>
           </div>
         </div>
-        <aside className="radar-card" aria-label="公众号扫描状态快照">
-          <div className="radar-card-top">
-            <div><span className="panel-kicker">公众号监测 · 状态快照</span><strong>{wechatSources.length} 个账号运行中</strong></div>
-            <span className={`live-dot monitor-${monitorStatus.tone}`}>{monitorStatus.label}</span>
+        <aside className={`refresh-panel refresh-${refreshState.status}`} aria-live="polite">
+          <div className="refresh-panel-head">
+            <span className={`monitor-dot monitor-${monitorStatus.tone}`} />
+            <div>
+              <small>公众号监测 · 状态快照</small>
+              <strong>{wechatSources.length} 个账号 · {monitorStatus.label}</strong>
+            </div>
+            <button type="button" disabled={refreshState.status === "checking"} onClick={() => void refreshData()}>
+              {refreshState.status === "checking" ? "检查中…" : "立即检查"}
+            </button>
           </div>
-          <div className="radar-visual" aria-hidden="true">
-            <span className="radar-ring ring-one" /><span className="radar-ring ring-two" /><span className="radar-ring ring-three" />
-            <span className="radar-sweep" /><span className="radar-point point-one" /><span className="radar-point point-two" /><span className="radar-point point-three" />
-            <span className="radar-core">鄂</span>
+          <div className="refresh-panel-grid">
+            <span>数据发布 <b>{formatCompactDateTime(siteData.meta.generatedAt)}</b></span>
+            <span>最近完整扫描 <b>{formatCompactDateTime(latestCompleteScan)}</b></span>
+            <span>本轮新增 <b>{insertedCount} 条</b></span>
+            <span>页面检查 <b>{refreshState.checkedAt ? formatClock(refreshState.checkedAt) : "待首次检查"}</b></span>
           </div>
-          <div className="radar-legend monitor-legend">
-            <span>最近完整扫描 <b>{formatClock(latestCompleteScan)}</b></span>
-            <span>本轮命中 / 新增 <b>{insertedCount} / {insertedCount}</b></span>
-            <span>登录有效期 <b>{formatCompactDateTime(loginExpiry)}</b></span>
-          </div>
+          {refreshState.status === "error" && (
+            <p className="refresh-error">页面本轮检查失败，正在继续显示上次成功数据。</p>
+          )}
         </aside>
       </section>
 
-      <section className="metrics wrap" aria-label="政策概览">
-        <article><span>当前收录</span><strong>{items.length}</strong><small>条湖北重点信息</small></article>
-        <article><span>官网已核验</span><strong>{verifiedCount}</strong><small>✓ 可直接查看原文</small></article>
-        <article><span>待官网核验</span><strong>{pendingCount}</strong><small>公众号优先发现</small></article>
-        <article><span>14 天内截止</span><strong>{urgentCount}</strong><small>建议优先处理</small></article>
-      </section>
+      {refreshState.newItemCount > 0 && (
+        <div className="new-items-notice" role="region" aria-label="新政策提示">
+          <button type="button" className="new-items-main" onClick={showNewestItems}>
+            发现 {refreshState.newItemCount} 条新信息，点击查看
+          </button>
+          <button type="button" className="new-items-dismiss" onClick={dismissNewItems} aria-label="关闭新信息提示">×</button>
+        </div>
+      )}
+      <div className="persistent-status" role="status" aria-live="polite" aria-atomic="true">
+        {refreshState.newItemCount > 0
+          ? `发现 ${refreshState.newItemCount} 条新信息`
+          : refreshState.status === "error"
+            ? "页面本轮检查失败，继续显示上次成功数据"
+            : refreshState.status === "checking" ? "正在检查新数据" : ""}
+      </div>
 
-      <section className="content-shell wrap" id="policy-list">
-        <aside className="filter-panel">
-          <div className="filter-heading"><span>筛选政策</span><button type="button" onClick={reset}>重置</button></div>
-          <label className="search-box"><span aria-hidden="true">⌕</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="搜索标题、单位或关键词" /></label>
-          <div className="filter-group">
-            <span className="filter-label">信息类型</span>
-            <div className="filter-options">
-              {["all", "policy", "application", "event"].map((value) => (
-                <button className={type === value ? "active" : ""} key={value} type="button" onClick={() => setType(value)}>
-                  {value === "all" ? "全部" : typeLabels[value]}
-                  <em>{value === "all" ? items.length : items.filter((item) => item.itemType === value).length}</em>
-                </button>
-              ))}
+      <section className="content-shell live-feed-shell wrap" id="policy-list">
+        <main className="feed live-feed">
+          <div className="feed-head">
+            <div><span className="section-kicker">最新政策流</span><h2>与你相关的当下信息</h2></div>
+            <span className="result-count">共 {visibleItems.length} 条 · 已显示 {displayedItems.length} 条</span>
+          </div>
+          <div className="feed-controls" aria-label="政策信息筛选">
+            <label className="search-box feed-search"><span aria-hidden="true">⌕</span><input aria-label="搜索政策" value={query} onChange={updateQuery} placeholder="搜索政策、单位或关键词" /></label>
+            <div className="filter-cluster type-filter">
+              <span className="control-label">类型</span>
+              <div className="control-tabs" aria-label="信息类型" role="group">
+                {["all", "policy", "application", "event"].map((value) => (
+                  <button aria-pressed={type === value} className={type === value ? "active" : ""} key={value} type="button" onClick={() => selectType(value)}>{value === "all" ? "全部" : typeLabels[value]}</button>
+                ))}
+              </div>
             </div>
-          </div>
-          <div className="filter-group">
-            <span className="filter-label">核验状态</span>
-            <div className="filter-options">
-              <button className={verification === "all" ? "active" : ""} type="button" onClick={() => setVerification("all")}>全部来源</button>
-              <button className={verification === "official_verified" ? "active" : ""} type="button" onClick={() => setVerification("official_verified")}>官网已核验</button>
-              <button className={verification === "pending_official" ? "active" : ""} type="button" onClick={() => setVerification("pending_official")}>公众号首发</button>
+            <div className="filter-cluster verification-filter">
+              <span className="control-label">核验</span>
+              <div className="control-tabs" aria-label="核验状态" role="group">
+                <button aria-pressed={verification === "all"} className={verification === "all" ? "active" : ""} type="button" onClick={() => selectVerification("all")}>全部</button>
+                <button aria-pressed={verification === "official_verified"} className={verification === "official_verified" ? "active" : ""} type="button" onClick={() => selectVerification("official_verified")}>官网核验</button>
+                <button aria-pressed={verification === "pending_official"} className={verification === "pending_official" ? "active" : ""} type="button" onClick={() => selectVerification("pending_official")}>公众号首发</button>
+              </div>
             </div>
+            <label className="mobile-verification-select">
+              <span>核验</span>
+              <select aria-label="核验状态" value={verification} onChange={(event) => selectVerification(event.target.value)}>
+                <option value="all">全部</option>
+                <option value="official_verified">官网核验</option>
+                <option value="pending_official">公众号首发</option>
+              </select>
+            </label>
+            <button className="filter-reset" type="button" onClick={reset}>重置</button>
           </div>
-          <div className="scope-note"><span>当前监控范围</span><strong>湖北省 · 武汉市优先</strong><p>下一阶段扩展河南、湖南、安徽、江西。</p></div>
-        </aside>
-
-        <main className="feed">
-          <div className="feed-head"><div><span className="section-kicker">政策流</span><h2>与你相关的重点信息</h2></div><span className="result-count">找到 {visibleItems.length} 条</span></div>
-          <div className="mobile-search">
-            <label className="search-box"><span aria-hidden="true">⌕</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="搜索政策、单位或关键词" /></label>
-            <div className="mobile-verify-tabs">
-              <button className={verification === "all" ? "active" : ""} onClick={() => setVerification("all")}>全部</button>
-              <button className={verification === "official_verified" ? "active" : ""} onClick={() => setVerification("official_verified")}>官网核验</button>
-              <button className={verification === "pending_official" ? "active" : ""} onClick={() => setVerification("pending_official")}>公众号首发</button>
-            </div>
-          </div>
-          <div className="mobile-type-tabs" aria-label="信息类型筛选">
-            {["all", "policy", "application", "event"].map((value) => (
-              <button className={type === value ? "active" : ""} key={value} type="button" onClick={() => setType(value)}>{value === "all" ? "全部" : typeLabels[value]}</button>
-            ))}
-          </div>
-          {visibleItems.length > 0 ? <div className="policy-list">{visibleItems.map((item) => <PolicyCard item={item} key={item.id} />)}</div> : <div className="empty-state"><span>暂无匹配结果</span><p>换一个关键词，或者重置筛选条件。</p></div>}
+          {visibleItems.length > 0 ? (
+            <>
+              <div className="policy-list">{displayedItems.map((item, index) => <PolicyCard item={item} isLatest={index === 0 && type === "all" && verification === "all" && !query} key={item.id} nowTimestamp={viewTimestamp} />)}</div>
+              {hasMore && (
+                <div className="load-more-shell" ref={loadMoreRef}>
+                  <button type="button" onClick={loadMore}>继续加载下一批</button>
+                  <span>向下滑动会自动加载</span>
+                </div>
+              )}
+            </>
+          ) : <div className="empty-state"><span>暂无匹配结果</span><p>换一个关键词，或者重置筛选条件。</p></div>}
         </main>
       </section>
 
@@ -317,8 +502,9 @@ function HomePage() {
   );
 }
 
-function SourcesPage() {
-  const wechatSources = data.sources.filter((source) => source.sourceType === "wechat");
+function SourcesPage({ siteData }) {
+  const wechatSources = siteData.sources.filter((source) => source.sourceType === "wechat");
+  const [snapshotTimestamp] = useState(() => Date.now());
   const insertedCount = wechatSources.reduce(
     (total, source) => total + Number(source.lastInsertedCount || 0),
     0,
@@ -328,12 +514,12 @@ function SourcesPage() {
       <a href="#/" className="back-link">← 返回政策库</a>
       <div className="page-heading">
         <div><span className="section-kicker">Source Monitor</span><h1>监控源状态</h1></div>
-        <p>以下为 {formatDate(data.meta.generatedAt, true)} 生成的公开状态快照，展示真实扫描时间、文章数和登录有效期。</p>
+        <p>以下为 {formatDate(siteData.meta.generatedAt, true)} 发布的公开状态。页面每 2 分钟检查新数据，不代表采集器已产生新内容；采集器计划每 2 小时扫描来源。</p>
       </div>
       <section className="sources-table" aria-label="政策监控源列表">
         <div className="source-row head"><span>来源</span><span>类型</span><span>最近扫描</span><span>本轮新增</span><span>登录有效期</span><span>状态</span></div>
-        {data.sources.map((source) => {
-          const status = sourceStatus(source);
+        {siteData.sources.map((source) => {
+          const status = sourceStatus(source, snapshotTimestamp);
           const isWechat = source.sourceType === "wechat";
           const loginExpired = isWechat
             && source.loginExpiresAt
@@ -355,14 +541,14 @@ function SourcesPage() {
       </section>
       <aside className="source-boundary-note">
         <strong>公众号状态快照</strong>
-        <p>首次扫描已接入 {wechatSources.length} 个已核验账号，本轮共新增 {insertedCount} 篇文章。账号扫描依赖当前电脑和已登录会话；电脑休眠、扫描程序停止或登录到期时会暂停。本页是生成时的状态快照，不会在页面打开期间自动变化。</p>
+        <p>已接入 {wechatSources.length} 个已核验账号，本轮共新增 {insertedCount} 篇文章。账号扫描依赖当前电脑和已登录会话；电脑休眠、扫描程序停止或登录到期时会暂停。页面会自动检查新的公开快照，但不代表采集器正在实时扫描。</p>
       </aside>
     </main>
   );
 }
 
-function DetailPage({ id }) {
-  const item = data.items.find((candidate) => candidate.id === id);
+function DetailPage({ id, siteData }) {
+  const item = siteData.items.find((candidate) => candidate.id === id);
   if (!item) {
     return <main className="inner-page wrap"><a href="#/" className="back-link">← 返回政策库</a><div className="empty-state"><span>未找到这条政策</span></div></main>;
   }
@@ -423,13 +609,25 @@ function DetailPage({ id }) {
 function App() {
   const route = useHashRoute();
   const detailMatch = route.match(/^\/items\/([^/]+)$/);
+  const { siteData, refreshState, refreshData, dismissNewItems } = useSiteData();
   useEffect(() => {
-    document.title = route === "/sources" ? "监控源｜华中政策雷达" : "华中政策雷达｜湖北政策、申报与科创赛事";
+    document.title = route === "/sources" ? "监控源｜华中政策雷达" : "华中政策雷达｜最新政策、项目申报与科创赛事";
   }, [route]);
   return (
     <div className="site-shell static-pages">
-      <Header route={route} />
-      {route === "/sources" ? <SourcesPage /> : detailMatch ? <DetailPage id={decodeURIComponent(detailMatch[1])} /> : <HomePage />}
+      <Header route={route} siteData={siteData} />
+      {route === "/sources" ? (
+        <SourcesPage siteData={siteData} />
+      ) : detailMatch ? (
+        <DetailPage id={decodeURIComponent(detailMatch[1])} siteData={siteData} />
+      ) : (
+        <HomePage
+          siteData={siteData}
+          refreshState={refreshState}
+          refreshData={refreshData}
+          dismissNewItems={dismissNewItems}
+        />
+      )}
       <Footer />
     </div>
   );

@@ -234,15 +234,26 @@ const legacySeedItems: PolicyItem[] = [
   },
 ];
 
+function policyTimestamp(value: string): number {
+  const timestamp = Date.parse(value);
+  return Number.isFinite(timestamp) ? timestamp : 0;
+}
+
+function sortPolicyItemsByLatest(left: PolicyItem, right: PolicyItem): number {
+  return (
+    policyTimestamp(right.publishedAt) - policyTimestamp(left.publishedAt) ||
+    policyTimestamp(right.discoveredAt) - policyTimestamp(left.discoveredAt) ||
+    right.score - left.score
+  );
+}
+
 export const verifiedSeedItems: PolicyItem[] = (() => {
   const merged = new Map<string, PolicyItem>();
   for (const item of legacySeedItems) merged.set(item.primaryUrl, item);
   for (const item of staticPolicyData.items as unknown as PolicyItem[]) {
     merged.set(item.primaryUrl, item);
   }
-  return [...merged.values()].sort(
-    (left, right) => right.score - left.score || right.publishedAt.localeCompare(left.publishedAt)
-  );
+  return [...merged.values()].sort(sortPolicyItemsByLatest);
 })();
 
 const legacySeedSources: PolicySource[] = [
@@ -429,7 +440,7 @@ export async function getPolicyItems(): Promise<PolicyItem[]> {
           screening_reason, document_number, discovered_at
         FROM items
         WHERE verification_status <> 'source_only'
-        ORDER BY score DESC, published_at DESC
+        ORDER BY unixepoch(published_at) DESC, unixepoch(discovered_at) DESC, score DESC
         LIMIT 100`
       )
       .all<Record<string, unknown>>();
@@ -438,9 +449,7 @@ export async function getPolicyItems(): Promise<PolicyItem[]> {
     const merged = new Map<string, PolicyItem>();
     for (const item of verifiedSeedItems) merged.set(item.primaryUrl, item);
     for (const item of rows) merged.set(item.primaryUrl, item);
-    return [...merged.values()].sort(
-      (left, right) => right.score - left.score || right.publishedAt.localeCompare(left.publishedAt)
-    );
+    return [...merged.values()].sort(sortPolicyItemsByLatest);
   } catch {
     return verifiedSeedItems;
   }

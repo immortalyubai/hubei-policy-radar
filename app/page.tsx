@@ -27,7 +27,7 @@ export default async function Home() {
           <nav aria-label="主导航">
             <a className="active" href="#policy-list">政策库</a>
             <a href="/sources">监控源</a>
-            <span className="nav-status"><i /> 查看监控状态</span>
+            <span className="nav-status"><i /> 页面自动检查更新</span>
           </nav>
         </div>
       </header>

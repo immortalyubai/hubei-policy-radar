@@ -36,16 +36,24 @@ test("bundles real Hubei policies and mobile filters", async () => {
   assert.match(bundle, /武汉市支持人工智能OPC创新发展若干措施/);
   assert.match(bundle, /打开公众号原文/);
   assert.match(bundle, /打开政府公报PDF/);
-  assert.match(bundle, /mobile-verify-tabs/);
+  assert.match(bundle, /最新政策，打开就能看/);
+  assert.match(bundle, /页面每 2 分钟检查新数据/);
+  assert.match(bundle, /继续加载下一批/);
+  assert.match(bundle, /data\/policy-data\.json/);
+  assert.match(bundle, /IntersectionObserver/);
+  assert.match(bundle, /AbortController/);
+  assert.match(bundle, /mobile-verification-select/);
   assert.match(bundle, /湖北发布/);
   assert.match(bundle, /湖北科技/);
   assert.match(bundle, /武汉科技创新/);
-  assert.match(bundle, /个账号运行中/);
   assert.match(bundle, /公众号监测 · 状态快照/);
+  assert.doesNotMatch(bundle, /每天，只看值得/);
 });
 
 test("publishes only sanitized policy data", async () => {
   const source = await readFile(new URL("static-site/data/policy-data.json", root), "utf8");
+  const publishedSource = await readFile(new URL("pages-dist/data/policy-data.json", root), "utf8");
+  assert.deepEqual(JSON.parse(publishedSource), JSON.parse(source));
   const payload = JSON.parse(source);
   assert.ok(payload.items.length >= 18);
   assert.ok(payload.sources.length >= 7);

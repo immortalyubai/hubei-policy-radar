@@ -1,5 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
+import { load } from "cheerio";
 
 async function fetchPath(path, init = {}) {
   const workerUrl = new URL("../dist/server/index.js", import.meta.url);
@@ -20,18 +21,24 @@ test("renders the policy radar with verified Hubei records", async () => {
   assert.match(response.headers.get("content-type") ?? "", /^text\/html\b/i);
 
   const html = await response.text();
+  const $ = load(html);
   assert.match(html, /<title>华中政策雷达/);
-  assert.match(html, /每天，只看值得/);
-  assert.match(html, /2026年“数据要素×”大赛湖北分赛/);
-  assert.match(html, /湖北省科技创新券申领和兑付/);
-  assert.match(html, /湖北省支持人工智能OPC发展若干措施/);
-  assert.match(html, /武汉市支持人工智能OPC创新发展若干措施/);
-  assert.match(html, /湖北省国民经济和社会发展第十五个五年规划纲要/);
-  assert.match(html, /关于发布煤炭重大专项2027年度公开项目申报指南的通知/);
-  assert.match(html, /国家网络空间安全国家科技重大专项第三批项目/);
-  assert.match(html, /公众号首发 · 待核验/);
-  assert.match(html, /公众号监测 · 最近快照/);
-  assert.match(html, /账号最近正常/);
+  assert.match(html, /最新政策，打开就能看/);
+  assert.match(html, /LATEST POLICY FEED/);
+  assert.match(html, /页面每 2 分钟检查新数据/);
+  assert.match(html, /页面自动检查更新/);
+  assert.equal($(".feed-controls-shell").length, 1);
+  assert.equal($(".stream-card").length, 8);
+  const titles = $(".stream-card .policy-title")
+    .map((_, node) => $(node).text().trim())
+    .get();
+  assert.deepEqual(titles.slice(0, 3), [
+    "关于发布煤炭重大专项2027年度公开项目申报指南的通知",
+    "直通车 | 关于转发《关于组织申报国家网络空间安全国家科技重大专项第三批项目的通知（公开类）》的通知",
+    "关于开展2026年湖北省实验动物从业人员动物实验操作技能竞赛的通知",
+  ]);
+  assert.match(html, /公众号首发/);
+  assert.doesNotMatch(html, /radar-card|公众号监测 · 最近快照/);
   assert.doesNotMatch(html, /公众号实时监测|账号在线|每 2 小时更新/);
   assert.match(html, /官网已核验/);
   assert.doesNotMatch(html, /Your site is taking shape|Building your site/);
@@ -79,6 +86,7 @@ test("renders official and WeChat source status", async () => {
 test("exposes exactly three healthy two-hour WeChat monitors", async () => {
   const response = await fetchPath("/api/sources");
   assert.equal(response.status, 200);
+  assert.match(response.headers.get("cache-control") ?? "", /no-store/);
   const payload = await response.json();
   const wechatSources = payload.sources.filter((source) => source.sourceType === "wechat");
   assert.equal(wechatSources.length, 3);
@@ -94,9 +102,23 @@ test("exposes exactly three healthy two-hour WeChat monitors", async () => {
 test("exposes a read-only JSON feed", async () => {
   const response = await fetchPath("/api/items?type=event&limit=10");
   assert.equal(response.status, 200);
+  assert.match(response.headers.get("cache-control") ?? "", /no-store/);
   const payload = await response.json();
   assert.equal(payload.count, 3);
   assert.ok(payload.items.every((item) => item.itemType === "event"));
+  assert.deepEqual(
+    payload.items.map((item) => item.id),
+    ["hubei-lab-animal-skills-2026", "hubei-overseas-innovation-contest-2026", "hubei-data-factor-contest-2026"],
+  );
+});
+
+test("returns the newest policy records first", async () => {
+  const response = await fetchPath("/api/items?limit=100");
+  assert.equal(response.status, 200);
+  const payload = await response.json();
+  assert.equal(payload.items[0].id, "wechat-wuhan-innovation-1b2c11ff74a1");
+  const timestamps = payload.items.map((item) => Date.parse(item.publishedAt));
+  assert.ok(timestamps.every((value, index) => index === 0 || timestamps[index - 1] >= value));
 });
 
 test("keeps a real WeChat-first policy pending official verification", async () => {
