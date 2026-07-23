@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generatedAt": "2026-07-22T23:16:11.111Z",
+    "generatedAt": "2026-07-23T03:45:05.294Z",
     "scope": "湖北省与武汉市优先",
     "updateIntervalMinutes": 120,
-    "lastCollectionCount": 18,
+    "lastCollectionCount": 20,
     "successfulSources": 5,
     "failedSources": 0
   },
@@ -435,6 +435,42 @@
           "url": "https://www.wehdz.gov.cn/2022/zfxxgk/zc_68632/qtzdgk/qzfwj/202503/t20250318_2553634.shtml",
           "sourceType": "official_site",
           "sourceName": "东湖高新区管委会"
+        }
+      ]
+    },
+    {
+      "id": "east-lake-notices-26e1a82664ff",
+      "title": "关于启动东湖高新区3551文旅体类行业人才举荐申报的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉东湖新技术开发区管理委员会",
+      "summary": "一、面向对象文化产业、文化艺术、旅游产业、体育产业类人才二、申报材料包括但不限于：1.3551人才举荐专向通道行业人才举荐表（盖章件电子版及纸质版）；2.学历学位证书扫描件；3.工作证明（劳动合同、社保缴纳证明等）；4.代表性成果证明（获奖证书、项目合同、专利证书等）；5.业绩材料（经济效益证明、社会效益说明等）；三、申报途径各单位对候选人进行全面审核评议后，确定推荐人选并盖章提交至所在园区。（通知发布后10个工作日内）四、政策待遇享受与3551高层次人才同等的服务权益，经管委会审批后，给予每人5万元资金支持。五、注意事项1.申报材料需真实有效，严禁弄虚作假;2.对伪造材料、虚报实绩的个人和单位，一经查实，取消举荐资格，并予以全区通报批评，3年内不得参与各类人才举荐评选;3.严格遵守组织人事工作纪律，不事先内定人选，不替人说情、打招呼、拉选票。六、联系方式咨询部门：东湖高新区党工委宣传部（文旅体局）联系人：马世昌 027-65563367 东湖高新区八大园区：1.光谷生物城：高新大道666号B11栋205联系人：李鸣霄 027-872050272.未来科技城：高新大道999号龙山创新园",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "人才计划",
+        "惠企资金",
+        "智能制造"
+      ],
+      "publishedAt": "2026-07-23",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202607/t20260723_2824380.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区通知公告",
+      "sourceCount": 1,
+      "score": 93,
+      "screeningReason": "可申报事项；命中重点产业或企业关键词；存在明确资金或奖励信号；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-07-23T03:45:05.294Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202607/t20260723_2824380.shtml",
+          "sourceType": "official_site",
+          "sourceName": "东湖高新区通知公告"
         }
       ]
     },
@@ -1084,6 +1120,41 @@
       ]
     },
     {
+      "id": "hubei-kjt-notices-b7e9d29241df",
+      "title": "省科技厅关于举办2026年乡村振兴实用技术大赛的通知",
+      "itemType": "event",
+      "regionName": "湖北省",
+      "cityName": null,
+      "publisherName": "湖北省科学技术厅",
+      "summary": "各有关单位：为充分发挥科技创新在乡村振兴中的支撑引领作用，根据《湖北省科创项目遴选工作指引（试行）》，省科技厅拟在全省组织开展2026年乡村振兴实用技术大赛，有关事项通知如下：一、大赛主题科技农业筑梦振兴二、组织机构主办单位：湖北省科学技术厅承办单位：湖北省科技信息研究院三、参赛条件参赛单位须为注册满一年、无不良信用记录、具备独立法人资格的科技型企业或农民专业合作社。参赛项目须拥有自主知识产权，且无产权争议。往届乡村振兴实用技术大赛一、二、三等奖获奖项目，不得报名参加本届赛事。四、赛事安排（一）报名时间：2026年8月20日截止采取网上报名的方式，参赛单位登录“湖北省科技计划项目管理平台”（https://kjt.hubei.gov.cn/jhgl），进入办事大厅，点击“2026年乡村振兴实用技术大赛”在线办理按钮进行申报，提交成功将获得受理编号，不接受纸质材料申报。（二）初赛时间：2026年9月15日前采用“省市联动、自主办赛”模式，各市（州）科技管理部门自主组织本辖区赛事。根据比赛结果，择优推荐参加复赛的项目。（三）复赛时间：2026年9月至10月由省科技厅统一组织，按照区域分为4",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "科技企业",
+        "科创赛事"
+      ],
+      "publishedAt": "2026-07-23",
+      "deadlineAt": "2026-08-20",
+      "lifecycleStatus": "open",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/202607/t20260723_5982049.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "湖北省科技厅通知公告",
+      "sourceCount": 1,
+      "score": 76,
+      "screeningReason": "科创赛事；30 天内截止；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-07-23T03:45:05.294Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://kjt.hubei.gov.cn/kjdt/tzgg/202607/t20260723_5982049.shtml",
+          "sourceType": "official_site",
+          "sourceName": "湖北省科技厅通知公告"
+        }
+      ]
+    },
+    {
       "id": "hubei-jxt-files-eaa7df2e576d",
       "title": "关于组织开展2026年首台（套）重大技术装备保险补偿项目申报的通知",
       "itemType": "application",
@@ -1407,10 +1478,10 @@
       "entryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-07-22T23:15:58.027Z",
-      "lastSuccessAt": "2026-07-22T23:15:58.027Z",
+      "lastCheckedAt": "2026-07-23T03:44:53.143Z",
+      "lastSuccessAt": "2026-07-23T03:44:53.143Z",
       "priority": 100,
-      "lastInsertedCount": 0,
+      "lastInsertedCount": 1,
       "loginExpiresAt": null,
       "lastErrorAt": null,
       "lastErrorMessage": null,
@@ -1424,8 +1495,8 @@
       "entryUrl": "https://kjj.wuhan.gov.cn/wmfw/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-07-22T23:15:58.634Z",
-      "lastSuccessAt": "2026-07-22T23:15:58.634Z",
+      "lastCheckedAt": "2026-07-23T03:44:54.093Z",
+      "lastSuccessAt": "2026-07-23T03:44:54.093Z",
       "priority": 95,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -1441,10 +1512,10 @@
       "entryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-07-22T23:16:00.827Z",
-      "lastSuccessAt": "2026-07-22T23:16:00.827Z",
+      "lastCheckedAt": "2026-07-23T03:44:56.671Z",
+      "lastSuccessAt": "2026-07-23T03:44:56.671Z",
       "priority": 94,
-      "lastInsertedCount": 0,
+      "lastInsertedCount": 1,
       "loginExpiresAt": null,
       "lastErrorAt": null,
       "lastErrorMessage": null,
@@ -1458,8 +1529,8 @@
       "entryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-07-22T23:16:09.788Z",
-      "lastSuccessAt": "2026-07-22T23:16:09.788Z",
+      "lastCheckedAt": "2026-07-23T03:45:03.738Z",
+      "lastSuccessAt": "2026-07-23T03:45:03.738Z",
       "priority": 93,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -1475,8 +1546,8 @@
       "entryUrl": "https://rst.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-07-22T23:16:10.987Z",
-      "lastSuccessAt": "2026-07-22T23:16:10.987Z",
+      "lastCheckedAt": "2026-07-23T03:45:05.176Z",
+      "lastSuccessAt": "2026-07-23T03:45:05.176Z",
       "priority": 92,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
