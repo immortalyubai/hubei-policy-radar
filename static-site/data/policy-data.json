@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-08-04T06:41:20.474Z",
+    "generatedAt": "2026-08-04T10:50:41.756Z",
     "scope": "湖北省与武汉市优先",
     "updateIntervalMinutes": 120,
     "lastCollectionCount": 21,
@@ -1294,6 +1294,40 @@
       ]
     },
     {
+      "id": "east-lake-notices-92de03b0170e",
+      "title": "关于转发《工业和信息化部办公厅关于请报送工业领域技术改造和设备更新再贷款项目（第六批）的通知》的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉东湖新技术开发区管理委员会",
+      "summary": "区内相关企业：根据《工业和信息化部办公厅关于请报送工业领域技术改造和设备更新再贷款项目（第六批）的通知》和市经信局要求，现组织工业领域技术改造和设备更新再贷款（以下简称再贷款）第六批项目报送工作，有关事项通知如下：一、支持方向按照《推动工业领域设备更新实施方案》重点任务，支持重点行业先进设备更新、数字化转型、绿色装备推广、本质安全水平提升等行动相关的技术改造和设备更新项目。具体行业和详细内容可参考《工业重点行业领域设备更新和技术改造指南》（以下简称《指南》）。二、申报条件和要求（一）申报企业要求1.申报企业生产经营正常、信誉良好、无违法经营行为。2.申报企业不得存在已无实际经营、破产清算中或已破产、已注销等情形。3.申报企业不得存在列入严重失信主体名单或安全生产严重失信主体名单、诉讼、担保逾期等情形。4.申报企业需积极配合银行开展融资对接工作。（二）项目基础条件要求1.项目须符合国家布局等产业政策规定（具体参考附件1）。2.项目总投资在200万元以上。3.项目为已开工在建项目，应完成必备的审批备案手续，处于规划等早期阶段（包括未可研、未立项、未开工等）的项目不可申报，已完工项目不可申报",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "惠企资金"
+      ],
+      "publishedAt": "2026-08-04",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202608/t20260804_2829657.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区通知公告",
+      "sourceCount": 1,
+      "score": 77,
+      "screeningReason": "可申报事项；存在明确资金或奖励信号；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-08-04T10:50:41.756Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202608/t20260804_2829657.shtml",
+          "sourceType": "official_site",
+          "sourceName": "东湖高新区通知公告"
+        }
+      ]
+    },
+    {
       "id": "hubei-jxt-files-c9dff18a906e",
       "title": "省经信厅办公室关于开展2026年工业软件券申领工作的通知",
       "itemType": "application",
@@ -1357,6 +1391,38 @@
         {
           "label": "打开官网原文",
           "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202607/t20260714_2820927.shtml",
+          "sourceType": "official_site",
+          "sourceName": "东湖高新区通知公告"
+        }
+      ]
+    },
+    {
+      "id": "east-lake-notices-7edc82b20e79",
+      "title": "武汉东湖新技术开发区社会事务局关于开展2026年度区级社会组织评估工作的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉东湖新技术开发区管理委员会",
+      "summary": "各业务主管单位，区级社会组织：为进一步推进社会组织规范化建设，促进社会组织健康有序发展，根据《社会组织评估管理办法》（民政部令第82号）等相关规定，现就开展2026年度社会组织等级评估工作有关事项通知如下：一、评估对象（一）申请参加评估的社会组织应当符合下列条件之一：1.取得登记证书满2年，未参加过社会组织等级评估；2.获得的评估等级满5年有效期；3.在评估等级有效期内距有效期满不足1年；4.在评估等级有效期的前4年内申请重新评估。社会组织申请重新评估的，应当按照年度评估工作有关要求提出。重新评估只能申请1次。（二）社会组织有下列情形之一的，不予评估:1.未按照规定参加2025年度检查或者履行年度工作报告义务；2.2024年至今受到有关政府部门罚款以上行政处罚;3.其它不符合评估条件的。（三）参评社会组织在评估期间产生不良社会影响以及存在违法违规行为，或者在评估中提供虚假情况和资料的，将取消参评资格。二、申报时间申报时间为2026年8月3日至8月21日17：00，逾期申报，不予受理。三、评估内容等级评估实施分类评估，分为社会团体、社会服务机构（民办非企业单位）、基金会三大类。评估内容包",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [],
+      "publishedAt": "2026-08-03",
+      "deadlineAt": "2026-08-21",
+      "lifecycleStatus": "open",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202608/t20260804_2829572.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区通知公告",
+      "sourceCount": 1,
+      "score": 76,
+      "screeningReason": "可申报事项；30 天内截止；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-08-04T10:50:41.756Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202608/t20260804_2829572.shtml",
           "sourceType": "official_site",
           "sourceName": "东湖高新区通知公告"
         }
@@ -1851,8 +1917,8 @@
       "entryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-04T06:41:03.405Z",
-      "lastSuccessAt": "2026-08-04T06:41:03.405Z",
+      "lastCheckedAt": "2026-08-04T10:50:24.718Z",
+      "lastSuccessAt": "2026-08-04T10:50:24.718Z",
       "priority": 100,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -1868,8 +1934,8 @@
       "entryUrl": "https://kjj.wuhan.gov.cn/wmfw/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-04T06:41:04.132Z",
-      "lastSuccessAt": "2026-08-04T06:41:04.132Z",
+      "lastCheckedAt": "2026-08-04T10:50:25.555Z",
+      "lastSuccessAt": "2026-08-04T10:50:25.555Z",
       "priority": 95,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -1885,10 +1951,10 @@
       "entryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-04T06:41:07.692Z",
-      "lastSuccessAt": "2026-08-04T06:41:07.692Z",
+      "lastCheckedAt": "2026-08-04T10:50:28.621Z",
+      "lastSuccessAt": "2026-08-04T10:50:28.621Z",
       "priority": 94,
-      "lastInsertedCount": 0,
+      "lastInsertedCount": 2,
       "loginExpiresAt": null,
       "lastErrorAt": null,
       "lastErrorMessage": null,
@@ -1902,8 +1968,8 @@
       "entryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-04T06:41:19.473Z",
-      "lastSuccessAt": "2026-08-04T06:41:19.473Z",
+      "lastCheckedAt": "2026-08-04T10:50:39.346Z",
+      "lastSuccessAt": "2026-08-04T10:50:39.346Z",
       "priority": 93,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -1919,8 +1985,8 @@
       "entryUrl": "https://rst.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-04T06:41:20.357Z",
-      "lastSuccessAt": "2026-08-04T06:41:20.357Z",
+      "lastCheckedAt": "2026-08-04T10:50:41.640Z",
+      "lastSuccessAt": "2026-08-04T10:50:41.640Z",
       "priority": 92,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
