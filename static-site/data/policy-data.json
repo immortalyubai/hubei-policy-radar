@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-08-05T06:42:24.163Z",
+    "generatedAt": "2026-08-05T10:47:22.003Z",
     "scope": "湖北省与武汉市优先",
     "updateIntervalMinutes": 120,
-    "lastCollectionCount": 21,
-    "successfulSources": 5,
-    "failedSources": 0
+    "lastCollectionCount": 22,
+    "successfulSources": 4,
+    "failedSources": 1
   },
   "items": [
     {
@@ -609,6 +609,41 @@
       "screeningReason": "覆盖企业面广，且各地推荐节点可能更早，需要持续追踪市区通知。",
       "documentNumber": null,
       "discoveredAt": "2026-07-17T09:30:00+08:00"
+    },
+    {
+      "id": "east-lake-notices-078a022df323",
+      "title": "关于转发《市经信局关于组织申报2026年度卓越级、领航级智能工厂的通知》的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉东湖新技术开发区管理委员会",
+      "summary": "各有关单位：市经信局正在组织开展2026年度卓越级、领航级智能工厂申报工作，请区内各企业对照申报要求积极开展申报工作。相关要求如下：一、申报要求拟申报卓越级的企业已完成智能工厂建设并获评先进级智能工厂，智能制造能力成熟度评估水平在三级以上，应用人工智能技术场景比例不低于30%（中央企业从集团申报）。拟申报领航级智能工厂的单位已获评卓越级智能工厂，智能制造能力成熟度评估水平达到四级及以上，其中应用人工智能技术场景比例不低于60%。申报主体参考《智能制造典型场景参考指引（2025年版）》，按照《智能工厂梯度培育要素条件（2026年版）》《申报材料清单》编制申报书，于2026年8月15日前完成线上申请（工信部公共服务平合，https://www.miit-imps.com），逾期无法受理（详情见附件1）。二、材料要求（一）截止时间：2026年8月10日（周一）12:00前，逾期将不受理。（二）提交地点：东湖高新区管委会7号楼7016房间（三）材料要求请企业首先扫描下方二维码，进行信息汇总预填报工作（根据信息安全要求已加密非本人填报信息，请依次有序填报），根据在线共享文档填写时间顺序，获取相对",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "人工智能",
+        "智能制造"
+      ],
+      "publishedAt": "2026-08-05",
+      "deadlineAt": "2026-08-10",
+      "lifecycleStatus": "open",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202608/t20260805_2830040.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区通知公告",
+      "sourceCount": 1,
+      "score": 92,
+      "screeningReason": "可申报事项；命中重点产业或企业关键词；30 天内截止；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-08-05T10:47:22.003Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202608/t20260805_2830040.shtml",
+          "sourceType": "official_site",
+          "sourceName": "东湖高新区通知公告"
+        }
+      ]
     },
     {
       "id": "east-lake-notices-a820cb27283f",
@@ -1917,8 +1952,8 @@
       "entryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-05T06:42:06.562Z",
-      "lastSuccessAt": "2026-08-05T06:42:06.562Z",
+      "lastCheckedAt": "2026-08-05T10:46:39.232Z",
+      "lastSuccessAt": "2026-08-05T10:46:39.232Z",
       "priority": 100,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -1932,16 +1967,16 @@
       "sourceType": "official_site",
       "publisherName": "武汉市科技创新局",
       "entryUrl": "https://kjj.wuhan.gov.cn/wmfw/tzgg/",
-      "healthStatus": "healthy",
+      "healthStatus": "degraded",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-05T06:42:07.097Z",
+      "lastCheckedAt": "2026-08-05T10:46:39.743Z",
       "lastSuccessAt": "2026-08-05T06:42:07.097Z",
       "priority": 95,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
-      "lastErrorAt": null,
-      "lastErrorMessage": null,
-      "consecutiveFailures": 0
+      "lastErrorAt": "2026-08-05T10:46:39.743Z",
+      "lastErrorMessage": "fetch failed",
+      "consecutiveFailures": 1
     },
     {
       "id": "east-lake-notices",
@@ -1951,10 +1986,10 @@
       "entryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-05T06:42:09.658Z",
-      "lastSuccessAt": "2026-08-05T06:42:09.658Z",
+      "lastCheckedAt": "2026-08-05T10:47:08.106Z",
+      "lastSuccessAt": "2026-08-05T10:47:08.106Z",
       "priority": 94,
-      "lastInsertedCount": 0,
+      "lastInsertedCount": 1,
       "loginExpiresAt": null,
       "lastErrorAt": null,
       "lastErrorMessage": null,
@@ -1968,8 +2003,8 @@
       "entryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-05T06:42:19.263Z",
-      "lastSuccessAt": "2026-08-05T06:42:19.263Z",
+      "lastCheckedAt": "2026-08-05T10:47:20.039Z",
+      "lastSuccessAt": "2026-08-05T10:47:20.039Z",
       "priority": 93,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -1985,8 +2020,8 @@
       "entryUrl": "https://rst.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-05T06:42:24.043Z",
-      "lastSuccessAt": "2026-08-05T06:42:24.043Z",
+      "lastCheckedAt": "2026-08-05T10:47:21.881Z",
+      "lastSuccessAt": "2026-08-05T10:47:21.881Z",
       "priority": 92,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
