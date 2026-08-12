@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-08-12T09:32:18.151Z",
+    "generatedAt": "2026-08-12T11:11:57.314Z",
     "scope": "湖北省与武汉市优先",
     "updateIntervalMinutes": 120,
-    "lastCollectionCount": 14,
-    "successfulSources": 3,
-    "failedSources": 2
+    "lastCollectionCount": 22,
+    "successfulSources": 5,
+    "failedSources": 0
   },
   "items": [
     {
@@ -1844,6 +1844,38 @@
       ]
     },
     {
+      "id": "east-lake-notices-8a12930da9cf",
+      "title": "关于更新东湖高新区科技保险试点险种库促进科技保险高质量发展的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉东湖新技术开发区管理委员会",
+      "summary": "各相关单位：为加快推进东湖科技保险创新示范区建设，更好发挥科技保险对区域科技创新重点领域和关键环节的保障支撑作用，不断提升金融服务实体经济质效，根据《关于在东湖高新区开展科技保险试点险种遴选工作方案》有关规定，结合2026年度区域科技创新重点方向、企业实际发展需求及前期试点工作实践经验，现就更新东湖高新区科技保险试点险种库有关事项通知如下：一、征集时间征集时间为2026年8月12日-31日，逾期未提交申报材料的，视为放弃申报资格。二、申报主体在东湖高新区注册纳税、具备合法保险经营资质的各类保险机构。三、险种范围聚焦科技创新全链条、企业全生命周期风险保障需求，重点征集科技活动风险保险业务、科技活动主体保险业务相关险种，详见国家金融监管总局《科技保险业务统计制度》（附件2）。四、申报资料（一）申报资料包括申报表（见附件1）、监管备案回执等。所有申报资料均需提交纸质版（一式三份）和电子版，纸质版加盖申报机构公章，电子版发送至邮箱3343502887@qq.com。若需补充其他资料，我局将另行对接申报单位。（二）申报表内容应真实、完整、规范。申报险种或项目使用的保险条款，应依法在监管部门完成备",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [],
+      "publishedAt": "2026-08-12",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202608/t20260812_2833023.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区通知公告",
+      "sourceCount": 1,
+      "score": 67,
+      "screeningReason": "可申报事项；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-08-12T11:11:57.314Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202608/t20260812_2833023.shtml",
+          "sourceType": "official_site",
+          "sourceName": "东湖高新区通知公告"
+        }
+      ]
+    },
+    {
       "id": "hubei-jxt-files-bf3705d3bb91",
       "title": "湖北省经济和信息化厅关于组织申报2026年工业和信息化领域创新任务揭榜挂帅任务的通知",
       "itemType": "application",
@@ -2160,8 +2192,8 @@
       "entryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-12T09:32:00.828Z",
-      "lastSuccessAt": "2026-08-12T09:32:00.828Z",
+      "lastCheckedAt": "2026-08-12T11:10:53.970Z",
+      "lastSuccessAt": "2026-08-12T11:10:53.970Z",
       "priority": 100,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -2175,16 +2207,16 @@
       "sourceType": "official_site",
       "publisherName": "武汉市科技创新局",
       "entryUrl": "https://kjj.wuhan.gov.cn/wmfw/tzgg/",
-      "healthStatus": "degraded",
+      "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-12T09:32:01.420Z",
-      "lastSuccessAt": "2026-08-12T07:52:27.479Z",
+      "lastCheckedAt": "2026-08-12T11:10:55.434Z",
+      "lastSuccessAt": "2026-08-12T11:10:55.434Z",
       "priority": 95,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
-      "lastErrorAt": "2026-08-12T09:32:01.420Z",
-      "lastErrorMessage": "fetch failed",
-      "consecutiveFailures": 1
+      "lastErrorAt": null,
+      "lastErrorMessage": null,
+      "consecutiveFailures": 0
     },
     {
       "id": "east-lake-notices",
@@ -2192,16 +2224,16 @@
       "sourceType": "official_site",
       "publisherName": "武汉东湖新技术开发区管理委员会",
       "entryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/",
-      "healthStatus": "degraded",
+      "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-12T09:32:02.737Z",
-      "lastSuccessAt": "2026-08-12T07:52:34.453Z",
+      "lastCheckedAt": "2026-08-12T11:11:44.707Z",
+      "lastSuccessAt": "2026-08-12T11:11:44.707Z",
       "priority": 94,
-      "lastInsertedCount": 0,
+      "lastInsertedCount": 1,
       "loginExpiresAt": null,
-      "lastErrorAt": "2026-08-12T09:32:02.737Z",
-      "lastErrorMessage": "fetch failed",
-      "consecutiveFailures": 1
+      "lastErrorAt": null,
+      "lastErrorMessage": null,
+      "consecutiveFailures": 0
     },
     {
       "id": "hubei-jxt-files",
@@ -2211,8 +2243,8 @@
       "entryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-12T09:32:15.829Z",
-      "lastSuccessAt": "2026-08-12T09:32:15.829Z",
+      "lastCheckedAt": "2026-08-12T11:11:55.709Z",
+      "lastSuccessAt": "2026-08-12T11:11:55.709Z",
       "priority": 93,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -2228,8 +2260,8 @@
       "entryUrl": "https://rst.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-12T09:32:18.031Z",
-      "lastSuccessAt": "2026-08-12T09:32:18.031Z",
+      "lastCheckedAt": "2026-08-12T11:11:57.222Z",
+      "lastSuccessAt": "2026-08-12T11:11:57.222Z",
       "priority": 92,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
