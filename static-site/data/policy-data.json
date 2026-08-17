@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generatedAt": "2026-08-17T03:13:28.339Z",
+    "generatedAt": "2026-08-17T04:58:19.140Z",
     "scope": "湖北省与武汉市优先",
     "updateIntervalMinutes": 120,
-    "lastCollectionCount": 20,
+    "lastCollectionCount": 21,
     "successfulSources": 5,
     "failedSources": 0
   },
@@ -1018,6 +1018,74 @@
           "url": "https://mp.weixin.qq.com/s/4tzSn5DZSVghOIbdFYPYUA",
           "sourceType": "wechat",
           "sourceName": "武汉科技创新"
+        }
+      ]
+    },
+    {
+      "id": "east-lake-notices-6e70980e91d1",
+      "title": "关于转发市科创局组织开展2026年度第二批人工智能OPC生态社区认定工作的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉东湖新技术开发区管理委员会",
+      "summary": "各有关单位：根据《武汉市支持人工智能OPC创新发展若干措施》（武政规〔2026〕4号）和《市科技创新局关于组织开展人工智能OPC生态社区申报的通知》（以下简称《通知》），市科创局将组织开展2026年度第二批OPC社区认定工作。现将有关事项通知如下：一、各申报单位须对申报材料的真实性、完整性负责，并按照《通知》规定的申报步骤，在2026年8月24日17:30前完成线上申报，逾期将不纳入本次认定对象。二、认定工作采取线上申报模式，无需提交纸质材料，具体步骤如下：1.登录系统。登录武汉市科技创新局门户网站（http://kjj.wuhan.gov.cn），点击“项目申报与管理——在线申报”，以个人账户（身份证号）进入“网上办事大厅”。2.在线填写。点击“项目申报”板块，选择“2026年度项目—创新生态专项—OPC生态社区—OPC生态社区认定”，在线填写信息。3.上传材料。将相关材料按要求上传，注意是否需要盖章，然后点击“提交”。4.单位审核：项目申报单位用单位账户登录，点击“推荐”，申报完成（项目已办页面显示项目已提交至各区科技管理部门）。三、各区科技部门负责本辖区申报单位的初审推荐，审核的",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "人工智能"
+      ],
+      "publishedAt": "2026-08-17",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202608/t20260817_2834794.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区通知公告",
+      "sourceCount": 1,
+      "score": 83,
+      "screeningReason": "可申报事项；命中重点产业或企业关键词；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-08-17T04:58:19.140Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202608/t20260817_2834794.shtml",
+          "sourceType": "official_site",
+          "sourceName": "东湖高新区通知公告"
+        }
+      ]
+    },
+    {
+      "id": "east-lake-notices-a6d4da2398a8",
+      "title": "关于转发市经信局开展武汉市人工智能OPC企业认定培育工作的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉东湖新技术开发区管理委员会",
+      "summary": "各有关企业：为加快我市人工智能OPC企业培育发展，催生智能原生新业态，市人工智能产业专班拟开展人工智能OPC企业建库培育工作。经前期遴选，确定武汉市数字经济发展研究院为第三方服务机构，负责企业申报与认定支撑工作。现将有关事项通知如下：一、工作目标精准发掘一批具备自主AI研发能力、市场增长潜力的OPC创业实体，建立规范高效、动态管理的市级人工智能OPC企业培育库，力争每年新增入库培育企业不少于300家。引导入库企业聚焦智能原生技术攻关、轻量化产品创新、专业化服务升级，每年培育30家具有核心竞争力的人工智能服务商，打造一批“小快轻准”人工智能产品和垂直行业解决方案，深度参与中小企业数智化转型，营造OPC企业创新发展的良好生态。二、申报标准申报主体需符合《武汉市人工智能OPC企业认定办法（试行）》（附件1）的相关要求。三、申报与认定流程（一）自愿申报。申报主体登录武汉市江城模境平台，进入“OPC企业认定”模块在线申报，平台网址及具体填报要求详见申报指南（附件2）。（二）审核认定。市人工智能产业专班、市工业信息化中心联合武汉市数字经济发展研究院对申报材料进行审核。审核通过并经公示无异议的，认定",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "人工智能"
+      ],
+      "publishedAt": "2026-08-17",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202608/t20260817_2834775.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区通知公告",
+      "sourceCount": 1,
+      "score": 83,
+      "screeningReason": "可申报事项；命中重点产业或企业关键词；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-08-17T04:58:19.140Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202608/t20260817_2834775.shtml",
+          "sourceType": "official_site",
+          "sourceName": "东湖高新区通知公告"
         }
       ]
     },
@@ -2228,8 +2296,8 @@
       "entryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-17T03:13:14.332Z",
-      "lastSuccessAt": "2026-08-17T03:13:14.332Z",
+      "lastCheckedAt": "2026-08-17T04:57:59.534Z",
+      "lastSuccessAt": "2026-08-17T04:57:59.534Z",
       "priority": 100,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -2245,8 +2313,8 @@
       "entryUrl": "https://kjj.wuhan.gov.cn/wmfw/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-17T03:13:14.941Z",
-      "lastSuccessAt": "2026-08-17T03:13:14.941Z",
+      "lastCheckedAt": "2026-08-17T04:58:00.609Z",
+      "lastSuccessAt": "2026-08-17T04:58:00.609Z",
       "priority": 95,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -2262,10 +2330,10 @@
       "entryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-17T03:13:17.517Z",
-      "lastSuccessAt": "2026-08-17T03:13:17.517Z",
+      "lastCheckedAt": "2026-08-17T04:58:04.275Z",
+      "lastSuccessAt": "2026-08-17T04:58:04.275Z",
       "priority": 94,
-      "lastInsertedCount": 0,
+      "lastInsertedCount": 2,
       "loginExpiresAt": null,
       "lastErrorAt": null,
       "lastErrorMessage": null,
@@ -2279,8 +2347,8 @@
       "entryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-17T03:13:27.283Z",
-      "lastSuccessAt": "2026-08-17T03:13:27.283Z",
+      "lastCheckedAt": "2026-08-17T04:58:17.183Z",
+      "lastSuccessAt": "2026-08-17T04:58:17.183Z",
       "priority": 93,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -2296,8 +2364,8 @@
       "entryUrl": "https://rst.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-17T03:13:28.229Z",
-      "lastSuccessAt": "2026-08-17T03:13:28.229Z",
+      "lastCheckedAt": "2026-08-17T04:58:19.032Z",
+      "lastSuccessAt": "2026-08-17T04:58:19.032Z",
       "priority": 92,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
