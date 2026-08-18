@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-08-18T08:54:23.910Z",
+    "generatedAt": "2026-08-18T10:46:57.532Z",
     "scope": "湖北省与武汉市优先",
     "updateIntervalMinutes": 120,
-    "lastCollectionCount": 14,
-    "successfulSources": 4,
-    "failedSources": 1
+    "lastCollectionCount": 21,
+    "successfulSources": 5,
+    "failedSources": 0
   },
   "items": [
     {
@@ -1984,6 +1984,38 @@
       ]
     },
     {
+      "id": "east-lake-notices-88d10ce35f15",
+      "title": "关于开展东湖高新区2026年（下半年）工程专业技术职称水平能力测试的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉东湖新技术开发区管理委员会",
+      "summary": "各有关单位：根据东湖高新区职称工作安排，现将东湖高新区2026年（下半年）工程专业技术职称水平能力测试有关事项通知如下：一、测试方式此次水平能力测试采用线上机考或面试答辩方式进行。二、测试时间及地点时间：2026年8月30日（周日）地点：光谷大道117号武汉软件工程职业学院，具体时间和详细考场地址见准考证。三、测试对象已报名参加2026年下半年东湖高新区工程专业技术职称水平能力测试，且资格审核通过的人员。四、准考证下载打印时间及方式打印时间：2026年8月24日12:00至8月30日上午8:30打印方式：登录光谷人网https://www.ovc-talent.com/（“职称评定”栏目），个人登录后，在“水平能力测试”业务板块中下载准考证（A4纸张黑白打印），准考证打印截止日期8月30日（周日）上午8:30，逾期未打印的考生视为自动放弃测试资格，不另作测试安排。五、测试结果和成绩效用考试结束5个工作日后，考生可访问光谷人网（网址：https://www.ovc-talent.com/）“职称评定”栏目登录后，进入“水平能力测试”业务板块，选择 “成绩查询” 并输入相关信息，即可查询本",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [],
+      "publishedAt": "2026-08-18",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202608/t20260818_2835512.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区通知公告",
+      "sourceCount": 1,
+      "score": 67,
+      "screeningReason": "可申报事项；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-08-18T10:46:57.532Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202608/t20260818_2835512.shtml",
+          "sourceType": "official_site",
+          "sourceName": "东湖高新区通知公告"
+        }
+      ]
+    },
+    {
       "id": "east-lake-notices-8a12930da9cf",
       "title": "关于更新东湖高新区科技保险试点险种库促进科技保险高质量发展的通知",
       "itemType": "application",
@@ -2332,8 +2364,8 @@
       "entryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-18T08:53:58.804Z",
-      "lastSuccessAt": "2026-08-18T08:53:58.804Z",
+      "lastCheckedAt": "2026-08-18T10:46:26.511Z",
+      "lastSuccessAt": "2026-08-18T10:46:26.511Z",
       "priority": 100,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -2349,8 +2381,8 @@
       "entryUrl": "https://kjj.wuhan.gov.cn/wmfw/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-18T08:54:04.868Z",
-      "lastSuccessAt": "2026-08-18T08:54:04.868Z",
+      "lastCheckedAt": "2026-08-18T10:46:27.632Z",
+      "lastSuccessAt": "2026-08-18T10:46:27.632Z",
       "priority": 95,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -2364,16 +2396,16 @@
       "sourceType": "official_site",
       "publisherName": "武汉东湖新技术开发区管理委员会",
       "entryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/",
-      "healthStatus": "degraded",
+      "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-18T08:54:05.641Z",
-      "lastSuccessAt": "2026-08-18T07:04:27.403Z",
+      "lastCheckedAt": "2026-08-18T10:46:46.451Z",
+      "lastSuccessAt": "2026-08-18T10:46:46.451Z",
       "priority": 94,
-      "lastInsertedCount": 0,
+      "lastInsertedCount": 1,
       "loginExpiresAt": null,
-      "lastErrorAt": "2026-08-18T08:54:05.641Z",
-      "lastErrorMessage": "fetch failed",
-      "consecutiveFailures": 1
+      "lastErrorAt": null,
+      "lastErrorMessage": null,
+      "consecutiveFailures": 0
     },
     {
       "id": "hubei-jxt-files",
@@ -2383,8 +2415,8 @@
       "entryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-18T08:54:19.594Z",
-      "lastSuccessAt": "2026-08-18T08:54:19.594Z",
+      "lastCheckedAt": "2026-08-18T10:46:56.362Z",
+      "lastSuccessAt": "2026-08-18T10:46:56.362Z",
       "priority": 93,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -2400,8 +2432,8 @@
       "entryUrl": "https://rst.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-18T08:54:23.796Z",
-      "lastSuccessAt": "2026-08-18T08:54:23.796Z",
+      "lastCheckedAt": "2026-08-18T10:46:57.412Z",
+      "lastSuccessAt": "2026-08-18T10:46:57.412Z",
       "priority": 92,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
