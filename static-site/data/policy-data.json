@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-08-20T08:57:09.840Z",
+    "generatedAt": "2026-08-20T10:47:28.094Z",
     "scope": "湖北省与武汉市优先",
     "updateIntervalMinutes": 120,
-    "lastCollectionCount": 20,
-    "successfulSources": 5,
-    "failedSources": 0
+    "lastCollectionCount": 15,
+    "successfulSources": 4,
+    "failedSources": 1
   },
   "items": [
     {
@@ -1984,6 +1984,40 @@
       ]
     },
     {
+      "id": "hubei-kjt-notices-da3344bf106f",
+      "title": "湖北省科技厅关于第十五届中国创新创业大赛湖北赛区复赛结果的公示",
+      "itemType": "event",
+      "regionName": "湖北省",
+      "cityName": null,
+      "publisherName": "湖北省科学技术厅",
+      "summary": "根据《工信部火炬中心关于举办第十五届中国创新创业大赛的通知》（火炬〔2026〕19号）和《关于举办第十五届中国创新创业大赛湖北赛区暨“科耀楚天”湖北省科技创新创业大赛的通知》（鄂科技通〔2026〕59号）相关要求，省科技厅于8月7日－8日组织了湖北赛区复赛。经现场路演和专家评审，53家企业晋级大赛决赛，97家企业获评优胜奖，现将相关名单予以公示，公示时间为5个工作日。公示期内，如有异议，请以书面形式向省科技厅反映。凡以单位名义反映情况的材料要加盖单位公章，以个人名义反映情况的材料要具实名并附联系方式。对匿名或无具体事实根据的举报，不予受理。联系电话：027－87133831（省高新中心） 027－87135797（机关纪委）邮箱：yangql＠hbsti.ac.cn地址：湖北省武汉市武昌区南苑村52号（邮编：430071）附件：1．晋级省决赛企业名单 2．第十五届中国创新创业大赛湖北赛区优胜奖企业名单湖北省科技厅 2026年8月20日",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "科创赛事"
+      ],
+      "publishedAt": "2026-08-20",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/202608/t20260820_5998337.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "湖北省科技厅通知公告",
+      "sourceCount": 1,
+      "score": 67,
+      "screeningReason": "科创赛事；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-08-20T10:47:28.094Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://kjt.hubei.gov.cn/kjdt/tzgg/202608/t20260820_5998337.shtml",
+          "sourceType": "official_site",
+          "sourceName": "湖北省科技厅通知公告"
+        }
+      ]
+    },
+    {
       "id": "east-lake-notices-88d10ce35f15",
       "title": "关于开展东湖高新区2026年（下半年）工程专业技术职称水平能力测试的通知",
       "itemType": "application",
@@ -2364,10 +2398,10 @@
       "entryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-20T08:56:46.594Z",
-      "lastSuccessAt": "2026-08-20T08:56:46.594Z",
+      "lastCheckedAt": "2026-08-20T10:47:14.750Z",
+      "lastSuccessAt": "2026-08-20T10:47:14.750Z",
       "priority": 100,
-      "lastInsertedCount": 0,
+      "lastInsertedCount": 1,
       "loginExpiresAt": null,
       "lastErrorAt": null,
       "lastErrorMessage": null,
@@ -2381,8 +2415,8 @@
       "entryUrl": "https://kjj.wuhan.gov.cn/wmfw/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-20T08:56:48.662Z",
-      "lastSuccessAt": "2026-08-20T08:56:48.662Z",
+      "lastCheckedAt": "2026-08-20T10:47:15.861Z",
+      "lastSuccessAt": "2026-08-20T10:47:15.861Z",
       "priority": 95,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -2396,16 +2430,16 @@
       "sourceType": "official_site",
       "publisherName": "武汉东湖新技术开发区管理委员会",
       "entryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/",
-      "healthStatus": "healthy",
+      "healthStatus": "degraded",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-20T08:56:55.302Z",
+      "lastCheckedAt": "2026-08-20T10:47:16.595Z",
       "lastSuccessAt": "2026-08-20T08:56:55.302Z",
       "priority": 94,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
-      "lastErrorAt": null,
-      "lastErrorMessage": null,
-      "consecutiveFailures": 0
+      "lastErrorAt": "2026-08-20T10:47:16.595Z",
+      "lastErrorMessage": "fetch failed",
+      "consecutiveFailures": 1
     },
     {
       "id": "hubei-jxt-files",
@@ -2415,8 +2449,8 @@
       "entryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-20T08:57:07.969Z",
-      "lastSuccessAt": "2026-08-20T08:57:07.969Z",
+      "lastCheckedAt": "2026-08-20T10:47:26.578Z",
+      "lastSuccessAt": "2026-08-20T10:47:26.578Z",
       "priority": 93,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -2432,8 +2466,8 @@
       "entryUrl": "https://rst.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-20T08:57:09.747Z",
-      "lastSuccessAt": "2026-08-20T08:57:09.747Z",
+      "lastCheckedAt": "2026-08-20T10:47:28.003Z",
+      "lastSuccessAt": "2026-08-20T10:47:28.003Z",
       "priority": 92,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
