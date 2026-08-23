@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-08-23T08:48:49.197Z",
+    "generatedAt": "2026-08-23T10:40:08.417Z",
     "scope": "湖北省与武汉市优先",
     "updateIntervalMinutes": 120,
-    "lastCollectionCount": 15,
-    "successfulSources": 4,
-    "failedSources": 1
+    "lastCollectionCount": 0,
+    "successfulSources": 0,
+    "failedSources": 5
   },
   "items": [
     {
@@ -2396,16 +2396,16 @@
       "sourceType": "official_site",
       "publisherName": "湖北省科学技术厅",
       "entryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/",
-      "healthStatus": "healthy",
+      "healthStatus": "degraded",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-23T08:48:34.451Z",
+      "lastCheckedAt": "2026-08-23T10:40:05.860Z",
       "lastSuccessAt": "2026-08-23T08:48:34.451Z",
       "priority": 100,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
-      "lastErrorAt": null,
-      "lastErrorMessage": null,
-      "consecutiveFailures": 0
+      "lastErrorAt": "2026-08-23T10:40:05.860Z",
+      "lastErrorMessage": "fetch failed",
+      "consecutiveFailures": 1
     },
     {
       "id": "wuhan-kj-notices",
@@ -2413,16 +2413,16 @@
       "sourceType": "official_site",
       "publisherName": "武汉市科技创新局",
       "entryUrl": "https://kjj.wuhan.gov.cn/wmfw/tzgg/",
-      "healthStatus": "healthy",
+      "healthStatus": "degraded",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-23T08:48:37.046Z",
+      "lastCheckedAt": "2026-08-23T10:40:06.151Z",
       "lastSuccessAt": "2026-08-23T08:48:37.046Z",
       "priority": 95,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
-      "lastErrorAt": null,
-      "lastErrorMessage": null,
-      "consecutiveFailures": 0
+      "lastErrorAt": "2026-08-23T10:40:06.151Z",
+      "lastErrorMessage": "fetch failed",
+      "consecutiveFailures": 1
     },
     {
       "id": "east-lake-notices",
@@ -2432,14 +2432,14 @@
       "entryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/",
       "healthStatus": "degraded",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-23T08:48:37.563Z",
+      "lastCheckedAt": "2026-08-23T10:40:06.705Z",
       "lastSuccessAt": "2026-08-23T07:00:59.258Z",
       "priority": 94,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
-      "lastErrorAt": "2026-08-23T08:48:37.563Z",
+      "lastErrorAt": "2026-08-23T10:40:06.705Z",
       "lastErrorMessage": "fetch failed",
-      "consecutiveFailures": 1
+      "consecutiveFailures": 2
     },
     {
       "id": "hubei-jxt-files",
@@ -2447,16 +2447,16 @@
       "sourceType": "official_site",
       "publisherName": "湖北省经济和信息化厅",
       "entryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/",
-      "healthStatus": "healthy",
+      "healthStatus": "degraded",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-23T08:48:46.949Z",
+      "lastCheckedAt": "2026-08-23T10:40:07.615Z",
       "lastSuccessAt": "2026-08-23T08:48:46.949Z",
       "priority": 93,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
-      "lastErrorAt": null,
-      "lastErrorMessage": null,
-      "consecutiveFailures": 0
+      "lastErrorAt": "2026-08-23T10:40:07.615Z",
+      "lastErrorMessage": "fetch failed",
+      "consecutiveFailures": 1
     },
     {
       "id": "hubei-rst-files",
@@ -2464,16 +2464,16 @@
       "sourceType": "official_site",
       "publisherName": "湖北省人力资源和社会保障厅",
       "entryUrl": "https://rst.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/",
-      "healthStatus": "healthy",
+      "healthStatus": "degraded",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-23T08:48:49.113Z",
+      "lastCheckedAt": "2026-08-23T10:40:08.215Z",
       "lastSuccessAt": "2026-08-23T08:48:49.113Z",
       "priority": 92,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
-      "lastErrorAt": null,
-      "lastErrorMessage": null,
-      "consecutiveFailures": 0
+      "lastErrorAt": "2026-08-23T10:40:08.215Z",
+      "lastErrorMessage": "fetch failed",
+      "consecutiveFailures": 1
     },
     {
       "id": "wechat-hubei-publish",
