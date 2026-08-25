@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generatedAt": "2026-08-25T04:54:13.031Z",
+    "generatedAt": "2026-08-25T07:08:39.667Z",
     "scope": "湖北省与武汉市优先",
     "updateIntervalMinutes": 120,
-    "lastCollectionCount": 23,
+    "lastCollectionCount": 26,
     "successfulSources": 5,
     "failedSources": 0
   },
@@ -435,6 +435,83 @@
           "url": "https://www.wehdz.gov.cn/2022/zfxxgk/zc_68632/qtzdgk/qzfwj/202503/t20250318_2553634.shtml",
           "sourceType": "official_site",
           "sourceName": "东湖高新区管委会"
+        }
+      ]
+    },
+    {
+      "id": "hubei-kjt-notices-58f536c23150",
+      "title": "省科技厅关于开展2026年度湖北省财政科技专项资金“先补后股”项目申报工作的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": null,
+      "publisherName": "湖北省科学技术厅",
+      "summary": "各市、州、直管市、神农架林区科技局，各有关单位：为创新财政资金支持科技创新和成果转化模式，聚焦“投早、投小、投硬科技”，加快培育新质生产力，根据《湖北省财政科技专项资金“先补后股”实施办法》（以下简称《实施办法》）有关要求，现组织开展2026年度湖北省财政科技专项资金“先补后股”项目申报工作，有关事项通知如下。一、释义本通知所称“先补后股”是指财政专项资金以无偿补助方式给予项目支持，达到约定条件后按程序转为股权，转股后可协商通过市场化方式退出，资金回流专项资金池循环使用的财政科技投入模式。二、申报要求（一）申报条件本办法支持湖北省内开展自主研发科技成果转化应用的初创期、成长期科技项目。项目申报须满足下列条件：1．项目主体为湖北省内经营的科技型企业，或拥有自主核心技术的创新创业团队；团队申报的须承诺立项后注册成立企业法人；2．拥有自主知识产权的核心技术成果，技术路线清晰可行，具备开展研发与成果转化的基础条件；3．拥有稳定的核心研发团队，人员配置与项目研发需求相匹配，主要负责人具备相关领域研发或产业化经验；4．项目处于成果转化阶段，符合“先补后股”前置扶持、培育孵化的政策定位，原则上要求企",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "人工智能",
+        "科技企业",
+        "成果转化",
+        "人才计划",
+        "惠企资金",
+        "生物医药"
+      ],
+      "publishedAt": "2026-08-25",
+      "deadlineAt": "2026-09-30",
+      "lifecycleStatus": "open",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/202608/t20260825_6000635.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "湖北省科技厅通知公告",
+      "sourceCount": 1,
+      "score": 93,
+      "screeningReason": "可申报事项；命中重点产业或企业关键词；存在明确资金或奖励信号；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-08-25T07:08:39.667Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://kjt.hubei.gov.cn/kjdt/tzgg/202608/t20260825_6000635.shtml",
+          "sourceType": "official_site",
+          "sourceName": "湖北省科技厅通知公告"
+        }
+      ]
+    },
+    {
+      "id": "hubei-kjt-notices-5f834f136dc3",
+      "title": "省财政厅 省科技厅关于印发《湖北省财政科技专项资金“先补后股”实施办法》的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": null,
+      "publisherName": "湖北省科学技术厅",
+      "summary": "各市（州）、直管市、神农架林区财政局、科技局：为深入贯彻落实省领导关于推进财政科技资金“先补后股”改革的批示要求，我们制定了《湖北省财政科技专项资金“先补后股”实施办法》，现印发给你们，请认真贯彻执行。附件：湖北省财政科技专项资金“先补后股”实施办法湖北省财政厅 湖北省科学技术厅 2026年8月14日 附件湖北省财政科技专项资金“先补后股”实施办法第一章 总 则第一条 为深化财政投融资体制改革，加快推进科技强省建设，着力破解早期科技成果转化融资难的突出问题，规范财政科技专项资金“先补后股”管理，根据《湖北省科技创新专项资金管理办法》等有关规定，结合我省实际，制定本办法。第二条 本办法所称“先补后股”，是指财政专项资金以无偿补助方式给予项目支持，达到约定条件后按程序转为股权，转股后可协商通过市场化方式退出，资金回流专项资金池循环使用的财政科技投入模式。第三条 省科技厅负责项目筛选、投资方案确定等工作，并依托国家技术转移中部中心（汉交所）负责开展项目库建设、项目征集、项目评选等具体工作；省财政厅负责资金预算安排、拨付及资金使用监管等工作；省投资引导基金有限公司履行受托管理机构职责，具体负责",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "科技企业",
+        "成果转化",
+        "人才计划",
+        "惠企资金",
+        "科创赛事"
+      ],
+      "publishedAt": "2026-08-25",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/202608/t20260825_6000622.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "湖北省科技厅通知公告",
+      "sourceCount": 1,
+      "score": 93,
+      "screeningReason": "可申报事项；命中重点产业或企业关键词；存在明确资金或奖励信号；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-08-25T07:08:39.667Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://kjt.hubei.gov.cn/kjdt/tzgg/202608/t20260825_6000622.shtml",
+          "sourceType": "official_site",
+          "sourceName": "湖北省科技厅通知公告"
         }
       ]
     },
@@ -1157,6 +1234,41 @@
         {
           "label": "打开官网原文",
           "url": "https://kjt.hubei.gov.cn/kjdt/tzgg/202608/t20260825_6000217.shtml",
+          "sourceType": "official_site",
+          "sourceName": "湖北省科技厅通知公告"
+        }
+      ]
+    },
+    {
+      "id": "hubei-kjt-notices-4bb39c184ef9",
+      "title": "2026年工信部科技型企业孵化器申报推荐公示",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": null,
+      "publisherName": "湖北省科学技术厅",
+      "summary": "根据《关于开展2026年科技型企业孵化器申报工作的通知》（工信厅科函〔2026〕347号）和《工业和信息化部科技型企业孵化器管理办法》（工信部科〔2025〕131号）等文件要求，省科技厅组织开展了2026年工信部科技型企业孵化器的申报推荐工作，现将拟推荐清单予以公示。公示期为2026年8月25日至2026年8月31日。公示期间，如有异议，请以书面形式向省科技厅反映。凡以单位名义反映情况的材料要加盖单位公章，以个人名义反映情况的材料要具实名并附联系方式。对匿名或无具体事实根据的举报，不予受理。业务咨询电话：027－87135775（成果转化处）异议受理电话：027－87135559（安全与监督处） 027－87135797（机关纪委）地址：湖北省武汉市武昌区南苑村52号（邮编：430071）附件：2026年湖北省工信部科技型企业孵化器拟推荐清单湖北省科技厅 2026年8月25日",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "科技企业",
+        "成果转化"
+      ],
+      "publishedAt": "2026-08-25",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/202608/t20260825_6000608.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "湖北省科技厅通知公告",
+      "sourceCount": 1,
+      "score": 83,
+      "screeningReason": "可申报事项；命中重点产业或企业关键词；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-08-25T07:08:39.667Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://kjt.hubei.gov.cn/kjdt/tzgg/202608/t20260825_6000608.shtml",
           "sourceType": "official_site",
           "sourceName": "湖北省科技厅通知公告"
         }
@@ -2540,10 +2652,10 @@
       "entryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-25T04:53:57.157Z",
-      "lastSuccessAt": "2026-08-25T04:53:57.157Z",
+      "lastCheckedAt": "2026-08-25T07:08:23.926Z",
+      "lastSuccessAt": "2026-08-25T07:08:23.926Z",
       "priority": 100,
-      "lastInsertedCount": 1,
+      "lastInsertedCount": 3,
       "loginExpiresAt": null,
       "lastErrorAt": null,
       "lastErrorMessage": null,
@@ -2557,8 +2669,8 @@
       "entryUrl": "https://kjj.wuhan.gov.cn/wmfw/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-25T04:53:58.048Z",
-      "lastSuccessAt": "2026-08-25T04:53:58.048Z",
+      "lastCheckedAt": "2026-08-25T07:08:24.736Z",
+      "lastSuccessAt": "2026-08-25T07:08:24.736Z",
       "priority": 95,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -2574,10 +2686,10 @@
       "entryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-25T04:54:00.600Z",
-      "lastSuccessAt": "2026-08-25T04:54:00.600Z",
+      "lastCheckedAt": "2026-08-25T07:08:27.757Z",
+      "lastSuccessAt": "2026-08-25T07:08:27.757Z",
       "priority": 94,
-      "lastInsertedCount": 1,
+      "lastInsertedCount": 0,
       "loginExpiresAt": null,
       "lastErrorAt": null,
       "lastErrorMessage": null,
@@ -2591,8 +2703,8 @@
       "entryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-25T04:54:12.062Z",
-      "lastSuccessAt": "2026-08-25T04:54:12.062Z",
+      "lastCheckedAt": "2026-08-25T07:08:34.816Z",
+      "lastSuccessAt": "2026-08-25T07:08:34.816Z",
       "priority": 93,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -2608,8 +2720,8 @@
       "entryUrl": "https://rst.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-25T04:54:12.942Z",
-      "lastSuccessAt": "2026-08-25T04:54:12.942Z",
+      "lastCheckedAt": "2026-08-25T07:08:39.553Z",
+      "lastSuccessAt": "2026-08-25T07:08:39.553Z",
       "priority": 92,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
