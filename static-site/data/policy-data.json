@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-08-31T05:35:00.169Z",
+    "generatedAt": "2026-08-31T13:50:04.634Z",
     "scope": "湖北省与武汉市优先",
     "updateIntervalMinutes": 120,
-    "lastCollectionCount": 25,
-    "successfulSources": 5,
-    "failedSources": 0
+    "lastCollectionCount": 19,
+    "successfulSources": 3,
+    "failedSources": 2
   },
   "items": [
     {
@@ -2752,8 +2752,8 @@
       "entryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-31T05:34:45.371Z",
-      "lastSuccessAt": "2026-08-31T05:34:45.371Z",
+      "lastCheckedAt": "2026-08-31T13:49:48.111Z",
+      "lastSuccessAt": "2026-08-31T13:49:48.111Z",
       "priority": 100,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -2767,16 +2767,16 @@
       "sourceType": "official_site",
       "publisherName": "武汉市科技创新局",
       "entryUrl": "https://kjj.wuhan.gov.cn/wmfw/tzgg/",
-      "healthStatus": "healthy",
+      "healthStatus": "degraded",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-31T05:34:46.168Z",
+      "lastCheckedAt": "2026-08-31T13:49:48.609Z",
       "lastSuccessAt": "2026-08-31T05:34:46.168Z",
       "priority": 95,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
-      "lastErrorAt": null,
-      "lastErrorMessage": null,
-      "consecutiveFailures": 0
+      "lastErrorAt": "2026-08-31T13:49:48.609Z",
+      "lastErrorMessage": "fetch failed",
+      "consecutiveFailures": 1
     },
     {
       "id": "east-lake-notices",
@@ -2784,16 +2784,16 @@
       "sourceType": "official_site",
       "publisherName": "武汉东湖新技术开发区管理委员会",
       "entryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/",
-      "healthStatus": "healthy",
+      "healthStatus": "degraded",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-31T05:34:49.010Z",
+      "lastCheckedAt": "2026-08-31T13:49:49.410Z",
       "lastSuccessAt": "2026-08-31T05:34:49.010Z",
       "priority": 94,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
-      "lastErrorAt": null,
-      "lastErrorMessage": null,
-      "consecutiveFailures": 0
+      "lastErrorAt": "2026-08-31T13:49:49.410Z",
+      "lastErrorMessage": "fetch failed",
+      "consecutiveFailures": 1
     },
     {
       "id": "hubei-jxt-files",
@@ -2803,8 +2803,8 @@
       "entryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-31T05:34:58.735Z",
-      "lastSuccessAt": "2026-08-31T05:34:58.735Z",
+      "lastCheckedAt": "2026-08-31T13:50:03.273Z",
+      "lastSuccessAt": "2026-08-31T13:50:03.273Z",
       "priority": 93,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -2820,8 +2820,8 @@
       "entryUrl": "https://rst.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-31T05:35:00.049Z",
-      "lastSuccessAt": "2026-08-31T05:35:00.049Z",
+      "lastCheckedAt": "2026-08-31T13:50:04.516Z",
+      "lastSuccessAt": "2026-08-31T13:50:04.516Z",
       "priority": 92,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
