@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-08-31T13:50:04.634Z",
+    "generatedAt": "2026-08-31T20:05:12.728Z",
     "scope": "湖北省与武汉市优先",
     "updateIntervalMinutes": 120,
-    "lastCollectionCount": 19,
-    "successfulSources": 3,
-    "failedSources": 2
+    "lastCollectionCount": 25,
+    "successfulSources": 5,
+    "failedSources": 0
   },
   "items": [
     {
@@ -162,6 +162,45 @@
           "url": "https://mp.weixin.qq.com/s/PEfDpR8uJlQd4DobmtaXUQ",
           "sourceType": "wechat",
           "sourceName": "AI+OPC生态构建的使者AI飞"
+        }
+      ]
+    },
+    {
+      "id": "hubei-kjt-notices-58f536c23150",
+      "title": "省科技厅关于开展2026年度湖北省财政科技专项资金“先补后股”项目申报工作的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": null,
+      "publisherName": "湖北省科学技术厅",
+      "summary": "各市、州、直管市、神农架林区科技局，各有关单位：为创新财政资金支持科技创新和成果转化模式，聚焦“投早、投小、投硬科技”，加快培育新质生产力，根据《湖北省财政科技专项资金“先补后股”实施办法》（以下简称《实施办法》）有关要求，现组织开展2026年度湖北省财政科技专项资金“先补后股”项目申报工作，有关事项通知如下。一、释义本通知所称“先补后股”是指财政专项资金以无偿补助方式给予项目支持，达到约定条件后按程序转为股权，转股后可协商通过市场化方式退出，资金回流专项资金池循环使用的财政科技投入模式。二、申报要求（一）申报条件本办法支持湖北省内开展自主研发科技成果转化应用的初创期、成长期科技项目。项目申报须满足下列条件：1．项目主体为湖北省内经营的科技型企业，或拥有自主核心技术的创新创业团队；团队申报的须承诺立项后注册成立企业法人；2．拥有自主知识产权的核心技术成果，技术路线清晰可行，具备开展研发与成果转化的基础条件；3．拥有稳定的核心研发团队，人员配置与项目研发需求相匹配，主要负责人具备相关领域研发或产业化经验；4．项目处于成果转化阶段，符合“先补后股”前置扶持、培育孵化的政策定位，原则上要求企",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "人工智能",
+        "科技企业",
+        "成果转化",
+        "人才计划",
+        "惠企资金",
+        "生物医药"
+      ],
+      "publishedAt": "2026-08-25",
+      "deadlineAt": "2026-09-30",
+      "lifecycleStatus": "open",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/202608/t20260825_6000635.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "湖北省科技厅通知公告",
+      "sourceCount": 1,
+      "score": 97,
+      "screeningReason": "可申报事项；命中重点产业或企业关键词；存在明确资金或奖励信号；30 天内截止。",
+      "documentNumber": null,
+      "discoveredAt": "2026-08-25T07:08:39.667Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://kjt.hubei.gov.cn/kjdt/tzgg/202608/t20260825_6000635.shtml",
+          "sourceType": "official_site",
+          "sourceName": "湖北省科技厅通知公告"
         }
       ]
     },
@@ -439,45 +478,6 @@
       ]
     },
     {
-      "id": "hubei-kjt-notices-58f536c23150",
-      "title": "省科技厅关于开展2026年度湖北省财政科技专项资金“先补后股”项目申报工作的通知",
-      "itemType": "application",
-      "regionName": "湖北省",
-      "cityName": null,
-      "publisherName": "湖北省科学技术厅",
-      "summary": "各市、州、直管市、神农架林区科技局，各有关单位：为创新财政资金支持科技创新和成果转化模式，聚焦“投早、投小、投硬科技”，加快培育新质生产力，根据《湖北省财政科技专项资金“先补后股”实施办法》（以下简称《实施办法》）有关要求，现组织开展2026年度湖北省财政科技专项资金“先补后股”项目申报工作，有关事项通知如下。一、释义本通知所称“先补后股”是指财政专项资金以无偿补助方式给予项目支持，达到约定条件后按程序转为股权，转股后可协商通过市场化方式退出，资金回流专项资金池循环使用的财政科技投入模式。二、申报要求（一）申报条件本办法支持湖北省内开展自主研发科技成果转化应用的初创期、成长期科技项目。项目申报须满足下列条件：1．项目主体为湖北省内经营的科技型企业，或拥有自主核心技术的创新创业团队；团队申报的须承诺立项后注册成立企业法人；2．拥有自主知识产权的核心技术成果，技术路线清晰可行，具备开展研发与成果转化的基础条件；3．拥有稳定的核心研发团队，人员配置与项目研发需求相匹配，主要负责人具备相关领域研发或产业化经验；4．项目处于成果转化阶段，符合“先补后股”前置扶持、培育孵化的政策定位，原则上要求企",
-      "applicationTargets": null,
-      "benefits": null,
-      "topics": [
-        "人工智能",
-        "科技企业",
-        "成果转化",
-        "人才计划",
-        "惠企资金",
-        "生物医药"
-      ],
-      "publishedAt": "2026-08-25",
-      "deadlineAt": "2026-09-30",
-      "lifecycleStatus": "open",
-      "verificationStatus": "official_verified",
-      "primaryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/202608/t20260825_6000635.shtml",
-      "primarySourceType": "official_site",
-      "primarySourceName": "湖北省科技厅通知公告",
-      "sourceCount": 1,
-      "score": 93,
-      "screeningReason": "可申报事项；命中重点产业或企业关键词；存在明确资金或奖励信号；近 7 天发布。",
-      "documentNumber": null,
-      "discoveredAt": "2026-08-25T07:08:39.667Z",
-      "sourceLinks": [
-        {
-          "label": "打开官网原文",
-          "url": "https://kjt.hubei.gov.cn/kjdt/tzgg/202608/t20260825_6000635.shtml",
-          "sourceType": "official_site",
-          "sourceName": "湖北省科技厅通知公告"
-        }
-      ]
-    },
-    {
       "id": "hubei-kjt-notices-5f834f136dc3",
       "title": "省财政厅 省科技厅关于印发《湖北省财政科技专项资金“先补后股”实施办法》的通知",
       "itemType": "application",
@@ -503,7 +503,7 @@
       "primarySourceName": "湖北省科技厅通知公告",
       "sourceCount": 1,
       "score": 93,
-      "screeningReason": "可申报事项；命中重点产业或企业关键词；存在明确资金或奖励信号；近 7 天发布。",
+      "screeningReason": "可申报事项；命中重点产业或企业关键词；存在明确资金或奖励信号。",
       "documentNumber": null,
       "discoveredAt": "2026-08-25T07:08:39.667Z",
       "sourceLinks": [
@@ -1261,7 +1261,7 @@
       "primarySourceName": "湖北省科技厅通知公告",
       "sourceCount": 1,
       "score": 83,
-      "screeningReason": "科创赛事；命中重点产业或企业关键词；近 7 天发布。",
+      "screeningReason": "科创赛事；命中重点产业或企业关键词。",
       "documentNumber": null,
       "discoveredAt": "2026-08-25T04:54:13.031Z",
       "sourceLinks": [
@@ -1296,7 +1296,7 @@
       "primarySourceName": "湖北省科技厅通知公告",
       "sourceCount": 1,
       "score": 83,
-      "screeningReason": "可申报事项；命中重点产业或企业关键词；近 7 天发布。",
+      "screeningReason": "可申报事项；命中重点产业或企业关键词。",
       "documentNumber": null,
       "discoveredAt": "2026-08-25T07:08:39.667Z",
       "sourceLinks": [
@@ -2567,6 +2567,40 @@
       ]
     },
     {
+      "id": "east-lake-notices-8751d261c3d6",
+      "title": "关于武汉东湖新技术开发区3551文旅体类 行业人才的评选公示",
+      "itemType": "policy",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉东湖新技术开发区管理委员会",
+      "summary": "根据《东湖高新区3551人才举荐制实施办法》、《3551文旅体类行业人才举荐工作方案》相关规定，现将参加2026年武汉东湖新技术开发区3551文旅体类行业人才评选名单进行公示（名单附后）。公示时间为2026年8月31日—2026年9月4日。公示期间，如对公示结果存有异议，请及时向东湖高新区党工委宣传部反映。反映情况要坚持实事求是的原则，提供详实的佐证材料，以便调查核实。 电子邮箱：1320248918@qq.com 附件：1.武汉东湖新技术开发区3551文旅体类行业人才公示名单 2. 3551文旅体类行业人才举荐方案 东湖高新区党工委宣传部 2026年8月31日",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "人才计划"
+      ],
+      "publishedAt": "2026-08-31",
+      "deadlineAt": null,
+      "lifecycleStatus": "evergreen",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202608/t20260831_2841103.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区通知公告",
+      "sourceCount": 1,
+      "score": 63,
+      "screeningReason": "命中重点产业或企业关键词；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-08-31T20:05:12.728Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202608/t20260831_2841103.shtml",
+          "sourceType": "official_site",
+          "sourceName": "东湖高新区通知公告"
+        }
+      ]
+    },
+    {
       "id": "hubei-jxt-files-748ae626a558",
       "title": "省经信厅办公室关于做好2026年度省级工业设计中心申报工作的通知",
       "itemType": "application",
@@ -2752,8 +2786,8 @@
       "entryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-31T13:49:48.111Z",
-      "lastSuccessAt": "2026-08-31T13:49:48.111Z",
+      "lastCheckedAt": "2026-08-31T20:04:54.959Z",
+      "lastSuccessAt": "2026-08-31T20:04:54.959Z",
       "priority": 100,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -2767,16 +2801,16 @@
       "sourceType": "official_site",
       "publisherName": "武汉市科技创新局",
       "entryUrl": "https://kjj.wuhan.gov.cn/wmfw/tzgg/",
-      "healthStatus": "degraded",
+      "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-31T13:49:48.609Z",
-      "lastSuccessAt": "2026-08-31T05:34:46.168Z",
+      "lastCheckedAt": "2026-08-31T20:04:55.723Z",
+      "lastSuccessAt": "2026-08-31T20:04:55.723Z",
       "priority": 95,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
-      "lastErrorAt": "2026-08-31T13:49:48.609Z",
-      "lastErrorMessage": "fetch failed",
-      "consecutiveFailures": 1
+      "lastErrorAt": null,
+      "lastErrorMessage": null,
+      "consecutiveFailures": 0
     },
     {
       "id": "east-lake-notices",
@@ -2784,16 +2818,16 @@
       "sourceType": "official_site",
       "publisherName": "武汉东湖新技术开发区管理委员会",
       "entryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/",
-      "healthStatus": "degraded",
+      "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-31T13:49:49.410Z",
-      "lastSuccessAt": "2026-08-31T05:34:49.010Z",
+      "lastCheckedAt": "2026-08-31T20:04:59.012Z",
+      "lastSuccessAt": "2026-08-31T20:04:59.012Z",
       "priority": 94,
-      "lastInsertedCount": 0,
+      "lastInsertedCount": 1,
       "loginExpiresAt": null,
-      "lastErrorAt": "2026-08-31T13:49:49.410Z",
-      "lastErrorMessage": "fetch failed",
-      "consecutiveFailures": 1
+      "lastErrorAt": null,
+      "lastErrorMessage": null,
+      "consecutiveFailures": 0
     },
     {
       "id": "hubei-jxt-files",
@@ -2803,8 +2837,8 @@
       "entryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-31T13:50:03.273Z",
-      "lastSuccessAt": "2026-08-31T13:50:03.273Z",
+      "lastCheckedAt": "2026-08-31T20:05:11.189Z",
+      "lastSuccessAt": "2026-08-31T20:05:11.189Z",
       "priority": 93,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -2820,8 +2854,8 @@
       "entryUrl": "https://rst.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-08-31T13:50:04.516Z",
-      "lastSuccessAt": "2026-08-31T13:50:04.516Z",
+      "lastCheckedAt": "2026-08-31T20:05:12.617Z",
+      "lastSuccessAt": "2026-08-31T20:05:12.617Z",
       "priority": 92,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
