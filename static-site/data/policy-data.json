@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-09-13T22:24:52.895Z",
+    "generatedAt": "2026-09-14T04:56:28.690Z",
     "scope": "湖北省与武汉市优先",
     "updateIntervalMinutes": 120,
     "lastCollectionCount": 30,
@@ -1381,6 +1381,41 @@
       ]
     },
     {
+      "id": "hubei-kjt-notices-326b4cba3250",
+      "title": "2026年度湖北省科技型企业孵化器认定公示",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": null,
+      "publisherName": "湖北省科学技术厅",
+      "summary": "根据《关于开展2026年度湖北省科技型企业孵化器认定工作的通知》（鄂科技通〔2026〕38 号）和《湖北省科技型企业孵化器管理办法》（鄂科技规〔2025〕7号）等文件要求，省科技厅组织开展了2026年度湖北省科技型企业孵化器的申报评审工作，现将拟认定清单予以公示。公示期为2026年9月14日至2026年9月18日。公示期间，如有异议，请以书面形式向省科技厅反映。凡以单位名义反映情况的材料要加盖单位公章，以个人名义反映情况的材料要具实名并附联系方式。对匿名或无具体事实根据的举报，不予受理。业务咨询电话：027－87135775（成果转化处）异议受理电话：027－87135559（安全与监督处） 027－87135797（机关纪委）地址：湖北省武汉市武昌区南苑村52号（邮编：430071）附件：2026年度湖北省科技型企业孵化器拟认定清单湖北省科技厅 2026年9月14日",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "科技企业",
+        "成果转化"
+      ],
+      "publishedAt": "2026-09-14",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/202609/t20260914_6012516.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "湖北省科技厅通知公告",
+      "sourceCount": 1,
+      "score": 83,
+      "screeningReason": "可申报事项；命中重点产业或企业关键词；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-09-14T04:56:28.690Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://kjt.hubei.gov.cn/kjdt/tzgg/202609/t20260914_6012516.shtml",
+          "sourceType": "official_site",
+          "sourceName": "湖北省科技厅通知公告"
+        }
+      ]
+    },
+    {
       "id": "hubei-kjt-notices-c60e9b0fd6b2",
       "title": "省科技厅关于征集并组织参加第二十八届中国国际高新技术成果交易会的通知",
       "itemType": "application",
@@ -2108,6 +2143,40 @@
           "url": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/202604/t20260410_5911749.shtml",
           "sourceType": "official_site",
           "sourceName": "湖北省经信厅公开文件"
+        }
+      ]
+    },
+    {
+      "id": "east-lake-notices-41ac01fabe6a",
+      "title": "关于开展2026年度技术标准资助项目申报工作的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉东湖新技术开发区管理委员会",
+      "summary": "根据《东湖高新区关于促进质量提升推动品牌升级的若干措施》（武新管市监〔2026〕1号）规定，拟对2025年主导和参与制定发布国际、国家、行业标准的单位给予资助。现将相关事项通知如下（详见附件）。",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "惠企资金"
+      ],
+      "publishedAt": "2026-09-11",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202609/t20260914_2847143.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区通知公告",
+      "sourceCount": 1,
+      "score": 77,
+      "screeningReason": "可申报事项；存在明确资金或奖励信号；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-09-14T04:56:28.690Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202609/t20260914_2847143.shtml",
+          "sourceType": "official_site",
+          "sourceName": "东湖高新区通知公告"
         }
       ]
     },
@@ -3270,10 +3339,10 @@
       "entryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-09-13T22:24:35.087Z",
-      "lastSuccessAt": "2026-09-13T22:24:35.087Z",
+      "lastCheckedAt": "2026-09-14T04:56:16.037Z",
+      "lastSuccessAt": "2026-09-14T04:56:16.037Z",
       "priority": 100,
-      "lastInsertedCount": 0,
+      "lastInsertedCount": 1,
       "loginExpiresAt": null,
       "lastErrorAt": null,
       "lastErrorMessage": null,
@@ -3287,8 +3356,8 @@
       "entryUrl": "https://kjj.wuhan.gov.cn/wmfw/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-09-13T22:24:36.095Z",
-      "lastSuccessAt": "2026-09-13T22:24:36.095Z",
+      "lastCheckedAt": "2026-09-14T04:56:16.581Z",
+      "lastSuccessAt": "2026-09-14T04:56:16.581Z",
       "priority": 95,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -3304,10 +3373,10 @@
       "entryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-09-13T22:24:39.650Z",
-      "lastSuccessAt": "2026-09-13T22:24:39.650Z",
+      "lastCheckedAt": "2026-09-14T04:56:18.839Z",
+      "lastSuccessAt": "2026-09-14T04:56:18.839Z",
       "priority": 94,
-      "lastInsertedCount": 0,
+      "lastInsertedCount": 1,
       "loginExpiresAt": null,
       "lastErrorAt": null,
       "lastErrorMessage": null,
@@ -3321,8 +3390,8 @@
       "entryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-09-13T22:24:51.034Z",
-      "lastSuccessAt": "2026-09-13T22:24:51.034Z",
+      "lastCheckedAt": "2026-09-14T04:56:27.332Z",
+      "lastSuccessAt": "2026-09-14T04:56:27.332Z",
       "priority": 93,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -3338,8 +3407,8 @@
       "entryUrl": "https://rst.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-09-13T22:24:52.783Z",
-      "lastSuccessAt": "2026-09-13T22:24:52.783Z",
+      "lastCheckedAt": "2026-09-14T04:56:28.593Z",
+      "lastSuccessAt": "2026-09-14T04:56:28.593Z",
       "priority": 92,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
