@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-09-14T23:08:18.446Z",
+    "generatedAt": "2026-09-15T04:54:29.427Z",
     "scope": "湖北省与武汉市优先",
     "updateIntervalMinutes": 120,
     "lastCollectionCount": 31,
@@ -8,6 +8,43 @@
     "failedSources": 0
   },
   "items": [
+    {
+      "id": "east-lake-notices-c0835320bec7",
+      "title": "东湖高新区关于组织开展2026年智能激光装备重大项目专项（第一批）申报工作 的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉东湖新技术开发区管理委员会",
+      "summary": "各有关单位：为深入实施创新驱动发展战略，进一步巩固东湖高新区激光产业优势，根据《东湖高新区先进制造业“揭榜挂帅”重大项目专项实施办法(试行)》等文件精神，现就2026年度第一批智能激光装备重大项目专项申报工作有关事项通知如下： 一、申报方向及任务名称申报方向：智能激光装备任务名称：复合结构背接触(BC)电池激光微刻蚀技术研发及产业化示范平台任务具体任务详见附件1。二、支持标准对项目建设期内研发投入的15%予以支持，最高不超过5000万元。三、申报要求（一）申报主体本任务可由单个企业或由企业联合产业链内行业上下游企业、高等学校、科研院所或其他组织机构等多个独立法人单位组建联合体进行申报，本任务原则上只支持1个项目。对于组建联合体申报的情形，牵头单位应与各成员单位签订合作协议，明确各方合作方式、任务分工、经费投入及分配比例、收益分配、知识产权权属等事项。（二）申报条件1.申报单位（含联合体所有成员单位）应是依法注册的独立法人，具有在区内承担申报任务的条件和能力。2.申报的项目符合支持方向及技术要求。3.申报单位（含联合体所有成员单位）近三年未发生重大安全、环保、质量事故，申报期未被列入信用",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "成果转化",
+        "人才计划",
+        "惠企资金",
+        "智能制造"
+      ],
+      "publishedAt": "2026-09-15",
+      "deadlineAt": "2026-09-21",
+      "lifecycleStatus": "open",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202609/t20260915_2847668.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区通知公告",
+      "sourceCount": 1,
+      "score": 100,
+      "screeningReason": "可申报事项；命中重点产业或企业关键词；存在明确资金或奖励信号；30 天内截止；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-09-15T04:54:29.427Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202609/t20260915_2847668.shtml",
+          "sourceType": "official_site",
+          "sourceName": "东湖高新区通知公告"
+        }
+      ]
+    },
     {
       "id": "east-lake-notices-24b91b42cc44",
       "title": "关于东湖高新区2025年人工智能产业集聚区政策的申报通知",
@@ -1249,6 +1286,40 @@
           "url": "https://kjt.hubei.gov.cn/kjdt/tzgg/202607/t20260707_5972505.shtml",
           "sourceType": "official_site",
           "sourceName": "湖北省科技厅通知公告"
+        }
+      ]
+    },
+    {
+      "id": "east-lake-notices-a07e23f1a710",
+      "title": "关于申报2026年度武汉东湖新技术开发区知识产权专项资助的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉东湖新技术开发区管理委员会",
+      "summary": "各有关单位：为进一步提高东湖高新区知识产权创造、运用、保护、管理和服务水平，根据《关于促进知识产权保护与运用的若干措施》（武新管市监〔2025〕1号）的有关规定，现开展2026年度武汉东湖新技术开发区知识产权专项资助申报工作，有关事宜通知如下：一、申报时间2026年9月15日-2026年10月8日截止时间：2026年10月8日17:30二、资助时段2025年12月6日-2026年9月30日三、专项政策及有关要求（一）高价值专利培育资助1.资助内容及标准：对企业围绕战略性新兴产业、重点领域等“卡脖子”关键核心技术开展高价值培育项目的，每项给予最高300万元资助。（1）围绕项目开展国内外专利布局，新申请发明专利达20件以上或通过PCT新申请国外发明专利达10件以上，且培育期内发明专利授权量10件以上，给予15万元资金支持。（2）围绕项目开展国内外专利布局，新申请发明专利达40件以上或通过PCT新申请国外发明专利达20件以上，且培育期内发明专利授权量20件以上，给予30万元资金支持。（3）围绕项目开展国内外专利布局，新申请发明专利达70件以上或通过PCT新申请国外发明专利达35件以上，且培育",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "惠企资金"
+      ],
+      "publishedAt": "2026-09-15",
+      "deadlineAt": "2026-10-08",
+      "lifecycleStatus": "open",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202609/t20260915_2847700.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区通知公告",
+      "sourceCount": 1,
+      "score": 86,
+      "screeningReason": "可申报事项；存在明确资金或奖励信号；30 天内截止；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-09-15T04:54:29.427Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202609/t20260915_2847700.shtml",
+          "sourceType": "official_site",
+          "sourceName": "东湖高新区通知公告"
         }
       ]
     },
@@ -2729,6 +2800,38 @@
       ]
     },
     {
+      "id": "east-lake-notices-c278344b4d15",
+      "title": "关于公布武汉市东湖新技术开发区2026年度取得非营利组织免税资格单位名单 （第一批）的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉东湖新技术开发区管理委员会",
+      "summary": "关于公布武汉市东湖新技术开发区2026年度取得非营利组织免税资格单位名单（第一批）的通知各相关社会组织：根据《财政部 国家税务总局关于非营利组织免税资格认定管理有关问题的通知》（财税﹝2018﹞13号）和《省财政厅 国家税务总局湖北省税务局关于发布〈湖北省省级非营利组织免税资格认定工作指引〉的公告》（2025年第1号）的规定，经武汉东湖新技术开发区财政和国资监管局、国家税务总局武汉东湖新技术开发区税务局联合审核，现认定武汉东湖新技术开发区易制毒化学品管理协会等2家组织取得武汉市东湖新技术开发区2026年度至2030年度非营利组织免税资格。根据《财政部 国家税务总局关于非营利组织企业所得税免税收入问题的通知》（财税﹝2009﹞122号）规定，符合条件的非营利组织企业所得税免税收入范围明确如下：（一）接受其他单位或个人捐赠的收入；（二）除《中华人民共和国企业所得税法》第七条规定的财政拨款以外的其他政府补助收入，但不包括因政府购买服务取得的收入；（三）按照省级以上民政、财政部门规定收取的会费；（四）不征税收入和免税收入孳生的银行存款利息收入；（五）财政部、国家税务总局规定的其他收入。 附件：",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [],
+      "publishedAt": "2026-09-15",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202609/t20260915_2847843.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区通知公告",
+      "sourceCount": 1,
+      "score": 67,
+      "screeningReason": "可申报事项；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-09-15T04:54:29.427Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202609/t20260915_2847843.shtml",
+          "sourceType": "official_site",
+          "sourceName": "东湖高新区通知公告"
+        }
+      ]
+    },
+    {
       "id": "hubei-kjt-notices-98c8c9c93c71",
       "title": "湖北省科技厅关于第十五届中国创新创业大赛湖北赛区暨“科耀楚天”湖北省科技创新创业大赛决赛结果的公示",
       "itemType": "event",
@@ -3373,8 +3476,8 @@
       "entryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-09-14T23:07:59.223Z",
-      "lastSuccessAt": "2026-09-14T23:07:59.223Z",
+      "lastCheckedAt": "2026-09-15T04:54:12.263Z",
+      "lastSuccessAt": "2026-09-15T04:54:12.263Z",
       "priority": 100,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -3390,8 +3493,8 @@
       "entryUrl": "https://kjj.wuhan.gov.cn/wmfw/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-09-14T23:08:00.006Z",
-      "lastSuccessAt": "2026-09-14T23:08:00.006Z",
+      "lastCheckedAt": "2026-09-15T04:54:12.921Z",
+      "lastSuccessAt": "2026-09-15T04:54:12.921Z",
       "priority": 95,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -3407,10 +3510,10 @@
       "entryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-09-14T23:08:03.802Z",
-      "lastSuccessAt": "2026-09-14T23:08:03.802Z",
+      "lastCheckedAt": "2026-09-15T04:54:16.480Z",
+      "lastSuccessAt": "2026-09-15T04:54:16.480Z",
       "priority": 94,
-      "lastInsertedCount": 0,
+      "lastInsertedCount": 3,
       "loginExpiresAt": null,
       "lastErrorAt": null,
       "lastErrorMessage": null,
@@ -3424,8 +3527,8 @@
       "entryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-09-14T23:08:16.104Z",
-      "lastSuccessAt": "2026-09-14T23:08:16.104Z",
+      "lastCheckedAt": "2026-09-15T04:54:27.621Z",
+      "lastSuccessAt": "2026-09-15T04:54:27.621Z",
       "priority": 93,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -3441,8 +3544,8 @@
       "entryUrl": "https://rst.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-09-14T23:08:18.330Z",
-      "lastSuccessAt": "2026-09-14T23:08:18.330Z",
+      "lastCheckedAt": "2026-09-15T04:54:29.316Z",
+      "lastSuccessAt": "2026-09-15T04:54:29.316Z",
       "priority": 92,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
