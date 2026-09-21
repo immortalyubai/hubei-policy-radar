@@ -1,13 +1,48 @@
 {
   "meta": {
-    "generatedAt": "2026-09-21T04:55:40.930Z",
+    "generatedAt": "2026-09-21T12:48:05.942Z",
     "scope": "湖北省与武汉市优先",
     "updateIntervalMinutes": 120,
-    "lastCollectionCount": 19,
+    "lastCollectionCount": 16,
     "successfulSources": 3,
     "failedSources": 2
   },
   "items": [
+    {
+      "id": "east-lake-notices-9357a076dc89",
+      "title": "关于开展第九批创新型中小企业培育和第三批创新型中小企业复核工作的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉东湖新技术开发区管理委员会",
+      "summary": "各有关企业：根据工信部《优质中小企业梯度培育管理办法》（工信部企业〔2026〕2号，以下简称管理办法）以及《湖北省优质中小企业梯度培育管理实施细则》（鄂经信办企业〔2022〕17号，以下简称实施细则），现组织开展东湖高新区第九批创新型中小企业培育和第三批创新型中小企业复核工作。有关事项通知如下：一、认定条件创新型中小企业应符合《湖北省优质中小企业梯度培育管理实施细则》中“湖北省创新型中小企业评价标准”要求（详见附件1）。按标准评价得分达到60分以上（其中创新能力指标得分不低于20分、成长性指标及专业化指标得分均不低于15分），或满足下列条件之一：（一）近三年内获得过国家级、省级科技奖励。（二）获得高新技术企业、国家级技术创新示范企业、知识产权优势企业和知识产权示范企业等荣誉（均为有效期内）。（三）拥有经认定的省部级以上研发机构。（四）近三年新增股权融资总额（合格机构投资者的实缴额）500万元以上。二、认定方法及佐证材料要求第九批新申报企业和第三批复核企业（名单见附件2）登录优质中小企业梯度培育平台（以下简称“培育平台”，网址 https://zjtx.miit.gov.cn）线上开展申",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "科技企业",
+        "惠企资金"
+      ],
+      "publishedAt": "2026-09-21",
+      "deadlineAt": "2026-10-12",
+      "lifecycleStatus": "open",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202609/t20260921_2851939.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区通知公告",
+      "sourceCount": 1,
+      "score": 100,
+      "screeningReason": "可申报事项；命中重点产业或企业关键词；存在明确资金或奖励信号；30 天内截止；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-09-21T12:48:05.942Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202609/t20260921_2851939.shtml",
+          "sourceType": "official_site",
+          "sourceName": "东湖高新区通知公告"
+        }
+      ]
+    },
     {
       "id": "east-lake-notices-c0835320bec7",
       "title": "东湖高新区关于组织开展2026年智能激光装备重大项目专项（第一批）申报工作 的通知",
@@ -3007,6 +3042,72 @@
       ]
     },
     {
+      "id": "east-lake-notices-527321aab34d",
+      "title": "关于转发《市经信局关于征集全市企业设计需求及设计服务机构信息的通知》的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉东湖新技术开发区管理委员会",
+      "summary": "各有关单位：现转发《市经信局关于征集全市企业设计需求及设计服务机构信息的通知》至贵单位，组织开展企业设计需求及设计服务机构信息征集工作。请于2026年9月28日（周一）前，将企业设计需求征集汇总表（附件2）或设计服务机构征集汇总表（附件3）的盖章版PDF扫描件和word可编辑版发送至邮箱qfz@ovi7.cn，邮件主题命名为“企业名称+企业设计需求/设计服务机构专项”。联系人：东湖高新区企服局 67880565 67880073 附件: 1.市经信局关于征集全市企业设计需求及设计服务机构信息的通知 2.企业设计需求征集汇总表 3.设计服务机构征集汇总表 4.联络员信息表 企服局 2026年9月21日",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [],
+      "publishedAt": "2026-09-21",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202609/t20260921_2851885.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区通知公告",
+      "sourceCount": 1,
+      "score": 67,
+      "screeningReason": "可申报事项；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-09-21T12:48:05.942Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202609/t20260921_2851885.shtml",
+          "sourceType": "official_site",
+          "sourceName": "东湖高新区通知公告"
+        }
+      ]
+    },
+    {
+      "id": "east-lake-notices-b28c4a663798",
+      "title": "关于转发《市经信局关于开展2026年度省级制造业创新中心培育工作的通知》的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉东湖新技术开发区管理委员会",
+      "summary": "各有关企业：根据《市经信局关于开展2026年度省级制造业创新中心培育工作的通知》要求，现开展2026年度省级制造业创新中心培育工作。请区内制造业重点产业链及激光装备、化合物半导体、新能源汽车、车路云一体化、脑机接口、未来显示、未来网络等重点领域企业积极申报省级制造业创新中心。符合条件且有意向的企业，请根据《湖北省制造业创新中心建设管理办法（2023年修订）》（见附件）要求，编制省级制造业创新中心培育建设方案（见附件），于2026年10月12日（周一）上午11:00前将纸质版（一式四份，胶装，盖封面章和骑缝章）提交至东湖高新区政务服务中心7号楼7018室，电子版（盖章扫描件1份，可编辑版本1份）提交至邮箱dhtzjg@yeah.net，邮件主题及文件命名：企业名称+制造业创新中心。 联系电话：李科长 65525809叶科长 67886133 附件：市经信局关于开展2026年度省级制造业创新中心培育工作的通知.pdf 武汉东湖新技术开发区 企业服务和重点项目推进局 2026年9月21日",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "智能制造"
+      ],
+      "publishedAt": "2026-09-21",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202609/t20260921_2851409.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区通知公告",
+      "sourceCount": 1,
+      "score": 67,
+      "screeningReason": "可申报事项；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-09-21T12:48:05.942Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202609/t20260921_2851409.shtml",
+          "sourceType": "official_site",
+          "sourceName": "东湖高新区通知公告"
+        }
+      ]
+    },
+    {
       "id": "east-lake-notices-c278344b4d15",
       "title": "关于公布武汉市东湖新技术开发区2026年度取得非营利组织免税资格单位名单 （第一批）的通知",
       "itemType": "application",
@@ -3779,8 +3880,8 @@
       "entryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-09-21T04:55:28.288Z",
-      "lastSuccessAt": "2026-09-21T04:55:28.288Z",
+      "lastCheckedAt": "2026-09-21T12:47:54.633Z",
+      "lastSuccessAt": "2026-09-21T12:47:54.633Z",
       "priority": 100,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -3796,14 +3897,14 @@
       "entryUrl": "https://kjj.wuhan.gov.cn/wmfw/tzgg/",
       "healthStatus": "degraded",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-09-21T04:55:28.687Z",
+      "lastCheckedAt": "2026-09-21T12:47:55.127Z",
       "lastSuccessAt": "2026-09-20T22:26:24.354Z",
       "priority": 95,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
-      "lastErrorAt": "2026-09-21T04:55:28.687Z",
+      "lastErrorAt": "2026-09-21T12:47:55.127Z",
       "lastErrorMessage": "fetch failed",
-      "consecutiveFailures": 1
+      "consecutiveFailures": 2
     },
     {
       "id": "east-lake-notices",
@@ -3811,16 +3912,16 @@
       "sourceType": "official_site",
       "publisherName": "武汉东湖新技术开发区管理委员会",
       "entryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/",
-      "healthStatus": "degraded",
+      "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-09-21T04:55:29.304Z",
-      "lastSuccessAt": "2026-09-20T22:26:28.145Z",
+      "lastCheckedAt": "2026-09-21T12:48:01.264Z",
+      "lastSuccessAt": "2026-09-21T12:48:01.264Z",
       "priority": 94,
-      "lastInsertedCount": 0,
+      "lastInsertedCount": 3,
       "loginExpiresAt": null,
-      "lastErrorAt": "2026-09-21T04:55:29.304Z",
-      "lastErrorMessage": "fetch failed",
-      "consecutiveFailures": 1
+      "lastErrorAt": null,
+      "lastErrorMessage": null,
+      "consecutiveFailures": 0
     },
     {
       "id": "hubei-jxt-files",
@@ -3828,16 +3929,16 @@
       "sourceType": "official_site",
       "publisherName": "湖北省经济和信息化厅",
       "entryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/",
-      "healthStatus": "healthy",
+      "healthStatus": "degraded",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-09-21T04:55:39.436Z",
+      "lastCheckedAt": "2026-09-21T12:48:02.180Z",
       "lastSuccessAt": "2026-09-21T04:55:39.436Z",
       "priority": 93,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
-      "lastErrorAt": null,
-      "lastErrorMessage": null,
-      "consecutiveFailures": 0
+      "lastErrorAt": "2026-09-21T12:48:02.180Z",
+      "lastErrorMessage": "fetch failed",
+      "consecutiveFailures": 1
     },
     {
       "id": "hubei-rst-files",
@@ -3847,8 +3948,8 @@
       "entryUrl": "https://rst.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-09-21T04:55:40.826Z",
-      "lastSuccessAt": "2026-09-21T04:55:40.826Z",
+      "lastCheckedAt": "2026-09-21T12:48:05.842Z",
+      "lastSuccessAt": "2026-09-21T12:48:05.842Z",
       "priority": 92,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
