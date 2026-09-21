@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-09-21T12:48:05.942Z",
+    "generatedAt": "2026-09-21T19:28:00.532Z",
     "scope": "湖北省与武汉市优先",
     "updateIntervalMinutes": 120,
-    "lastCollectionCount": 16,
-    "successfulSources": 3,
-    "failedSources": 2
+    "lastCollectionCount": 28,
+    "successfulSources": 5,
+    "failedSources": 0
   },
   "items": [
     {
@@ -3127,7 +3127,7 @@
       "primarySourceName": "东湖高新区通知公告",
       "sourceCount": 1,
       "score": 67,
-      "screeningReason": "可申报事项；近 7 天发布。",
+      "screeningReason": "可申报事项。",
       "documentNumber": null,
       "discoveredAt": "2026-09-15T04:54:29.427Z",
       "sourceLinks": [
@@ -3159,7 +3159,7 @@
       "primarySourceName": "东湖高新区通知公告",
       "sourceCount": 1,
       "score": 67,
-      "screeningReason": "可申报事项；近 7 天发布。",
+      "screeningReason": "可申报事项。",
       "documentNumber": null,
       "discoveredAt": "2026-09-15T11:44:22.866Z",
       "sourceLinks": [
@@ -3191,7 +3191,7 @@
       "primarySourceName": "东湖高新区通知公告",
       "sourceCount": 1,
       "score": 67,
-      "screeningReason": "可申报事项；近 7 天发布。",
+      "screeningReason": "可申报事项。",
       "documentNumber": null,
       "discoveredAt": "2026-09-15T11:44:22.866Z",
       "sourceLinks": [
@@ -3223,7 +3223,7 @@
       "primarySourceName": "东湖高新区通知公告",
       "sourceCount": 1,
       "score": 67,
-      "screeningReason": "可申报事项；近 7 天发布。",
+      "screeningReason": "可申报事项。",
       "documentNumber": null,
       "discoveredAt": "2026-09-15T11:44:22.866Z",
       "sourceLinks": [
@@ -3880,8 +3880,8 @@
       "entryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-09-21T12:47:54.633Z",
-      "lastSuccessAt": "2026-09-21T12:47:54.633Z",
+      "lastCheckedAt": "2026-09-21T19:27:44.766Z",
+      "lastSuccessAt": "2026-09-21T19:27:44.766Z",
       "priority": 100,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -3895,16 +3895,16 @@
       "sourceType": "official_site",
       "publisherName": "武汉市科技创新局",
       "entryUrl": "https://kjj.wuhan.gov.cn/wmfw/tzgg/",
-      "healthStatus": "degraded",
+      "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-09-21T12:47:55.127Z",
-      "lastSuccessAt": "2026-09-20T22:26:24.354Z",
+      "lastCheckedAt": "2026-09-21T19:27:45.510Z",
+      "lastSuccessAt": "2026-09-21T19:27:45.510Z",
       "priority": 95,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
-      "lastErrorAt": "2026-09-21T12:47:55.127Z",
-      "lastErrorMessage": "fetch failed",
-      "consecutiveFailures": 2
+      "lastErrorAt": null,
+      "lastErrorMessage": null,
+      "consecutiveFailures": 0
     },
     {
       "id": "east-lake-notices",
@@ -3914,10 +3914,10 @@
       "entryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-09-21T12:48:01.264Z",
-      "lastSuccessAt": "2026-09-21T12:48:01.264Z",
+      "lastCheckedAt": "2026-09-21T19:27:48.746Z",
+      "lastSuccessAt": "2026-09-21T19:27:48.746Z",
       "priority": 94,
-      "lastInsertedCount": 3,
+      "lastInsertedCount": 0,
       "loginExpiresAt": null,
       "lastErrorAt": null,
       "lastErrorMessage": null,
@@ -3929,16 +3929,16 @@
       "sourceType": "official_site",
       "publisherName": "湖北省经济和信息化厅",
       "entryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/",
-      "healthStatus": "degraded",
+      "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-09-21T12:48:02.180Z",
-      "lastSuccessAt": "2026-09-21T04:55:39.436Z",
+      "lastCheckedAt": "2026-09-21T19:27:59.027Z",
+      "lastSuccessAt": "2026-09-21T19:27:59.027Z",
       "priority": 93,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
-      "lastErrorAt": "2026-09-21T12:48:02.180Z",
-      "lastErrorMessage": "fetch failed",
-      "consecutiveFailures": 1
+      "lastErrorAt": null,
+      "lastErrorMessage": null,
+      "consecutiveFailures": 0
     },
     {
       "id": "hubei-rst-files",
@@ -3948,8 +3948,8 @@
       "entryUrl": "https://rst.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-09-21T12:48:05.842Z",
-      "lastSuccessAt": "2026-09-21T12:48:05.842Z",
+      "lastCheckedAt": "2026-09-21T19:28:00.419Z",
+      "lastSuccessAt": "2026-09-21T19:28:00.419Z",
       "priority": 92,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
