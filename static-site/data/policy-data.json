@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-09-22T04:55:51.054Z",
+    "generatedAt": "2026-09-22T11:38:31.990Z",
     "scope": "湖北省与武汉市优先",
     "updateIntervalMinutes": 120,
-    "lastCollectionCount": 19,
-    "successfulSources": 3,
-    "failedSources": 2
+    "lastCollectionCount": 29,
+    "successfulSources": 5,
+    "failedSources": 0
   },
   "items": [
     {
@@ -40,6 +40,44 @@
           "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202609/t20260921_2851939.shtml",
           "sourceType": "official_site",
           "sourceName": "东湖高新区通知公告"
+        }
+      ]
+    },
+    {
+      "id": "hubei-jxt-files-e7f6b7312c9f",
+      "title": "关于开展2026年度湖北省专精特新企业工程系列职称评审申报工作的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": null,
+      "publisherName": "湖北省经济和信息化厅",
+      "summary": "各市、州、直管市、神农架林区人社局（职改办）、经信局，各企事业单位：为全面落实《省人力资源和社会保障厅 省经济和信息化厅印发<关于创新湖北省专精特新和制造业单项冠军企业职称评审机制的若干措施（试行）>的通知》（鄂人社发〔2024〕32号）《关于做好2026年度全省职称评审工作的通知》（鄂职改办〔2026〕35号）等文件精神，做好我省专精特新中小企业和制造业单项冠军企业（以下简称“专精特新企业”）职称“举荐制”工作，现就2026年度湖北省专精特新企业工程系列职称评审申报工作有关事项通知如下：一、申报对象（一）申报范围符合省职改办有关文件精神和专精特新企业职称“举荐制”工作要求，在我省专精特新企业专业技术岗位上从事专业技术工作的本专业技术人员可通过本单位举荐申报。具体评审范围包括：全省专精特新企业工程系列正高级职称；全省除武汉、宜昌、襄阳以外地区专精特新企业工程系列副高级职称。武汉市、宜昌市、襄阳市副高级职称申报请关注本地区专精特新企业工程系列职称评审申报通知。以下情形人员不得申报本专业职称评审：1.公务员（含参公管理工作人员）不得申报。2.已退休人员不得申报。3.受到刑事处罚、政务处分、",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "人工智能",
+        "科技企业",
+        "人才计划",
+        "惠企资金",
+        "智能制造"
+      ],
+      "publishedAt": "2026-09-21",
+      "deadlineAt": "2026-10-20",
+      "lifecycleStatus": "open",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/202609/t20260922_6020210.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "湖北省经信厅公开文件",
+      "sourceCount": 1,
+      "score": 100,
+      "screeningReason": "可申报事项；命中重点产业或企业关键词；存在明确资金或奖励信号；30 天内截止；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-09-22T11:38:31.990Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/202609/t20260922_6020210.shtml",
+          "sourceType": "official_site",
+          "sourceName": "湖北省经信厅公开文件"
         }
       ]
     },
@@ -617,6 +655,42 @@
           "url": "https://www.wehdz.gov.cn/2022/zfxxgk/zc_68632/qtzdgk/qzfwj/202503/t20250318_2553634.shtml",
           "sourceType": "official_site",
           "sourceName": "东湖高新区管委会"
+        }
+      ]
+    },
+    {
+      "id": "hubei-jxt-files-46db9917509c",
+      "title": "关于开展2026年度湖北省电子信息工程专业职称评审申报工作的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": null,
+      "publisherName": "湖北省经济和信息化厅",
+      "summary": "各市、州、直管市、神农架林区人社局（职改办）、经信局，各企事业单位：根据省职改办《关于做好2026年度全省职称评审工作的通知》（鄂职改办〔2026〕35号）文件要求，结合我办工作实际，现就做好2026年度电子信息工程专业正高级、高级、中级、初级职称评审申报工作有关事项通知如下：一、申报对象范围电子信息工程专业职称评审申报对象包括在我省各类企事业单位、社会团体、个体经济组织等（以下称“用人单位”）专业技术岗位上从事专业技术工作，与用人单位建立劳动（聘用）关系的专业技术人员；在我省从事本专业技术工作的自由职业者；在我省就业的港澳台本专业技术人员，以及持有外国人来华工作许可证、外国人永居证、湖北省海外高层次人才居住证的外籍本专业技术人员。我办具体评审服务范围为：省直有关单位员级、初级、中级、高级（正、副高）申报人员；武汉市、襄阳市正高级申报人员；其他市州副高级及以上申报人员。以下情形人员不得申报本专业职称评审：（一）公务员（含参公管理工作人员）不得申报。（二）已退休人员不得申报。（三）受到刑事处罚、政务处分、党纪处分、行政处分等，刑期或处分期（含影响期）未满的不得申报。因涉嫌违纪违法，被纪检",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "人工智能",
+        "人才计划",
+        "惠企资金"
+      ],
+      "publishedAt": "2026-09-21",
+      "deadlineAt": "2026-12-31",
+      "lifecycleStatus": "open",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/202609/t20260922_6020215.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "湖北省经信厅公开文件",
+      "sourceCount": 1,
+      "score": 93,
+      "screeningReason": "可申报事项；命中重点产业或企业关键词；存在明确资金或奖励信号；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-09-22T11:38:31.990Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/202609/t20260922_6020215.shtml",
+          "sourceType": "official_site",
+          "sourceName": "湖北省经信厅公开文件"
         }
       ]
     },
@@ -1555,6 +1629,76 @@
           "url": "https://mp.weixin.qq.com/s/4tzSn5DZSVghOIbdFYPYUA",
           "sourceType": "wechat",
           "sourceName": "武汉科技创新"
+        }
+      ]
+    },
+    {
+      "id": "east-lake-notices-4e203658b1b4",
+      "title": "关于征集东湖高新区工程技术高级职称评审委员会专家库专家的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉东湖新技术开发区管理委员会",
+      "summary": "各有关单位、广大专家：为加强东湖高新区工程技术高级职称评审委员会专家库建设，规范职称评审管理，保证评审质量，根据《湖北省职称评审委员会管理暂行办法》（鄂人社规〔2021〕4号）等有关规定，现公开征集正高级、副高级职称评审专家。一、征集对象在企、事业单位从事相关专业技术工作，具有相关专业副高级及以上职称的在岗专业技术人员。二、专业领域专业领域主要包括：电子信息（含集成电路）、计算机、自动化（含人工智能）、电气、机械、医药、医疗器械、生物制药、化工、建筑、路桥、港航、水利水电、质量、计量、标准化、安全、环保、土地、测绘、规划、地质等专业领域。 三、征集条件（一）拥护党的路线方针政策，遵纪守法，具有良好的品德和职业道德；（二）作风正派，愿意以独立身份参加专业技术资格评审工作，能认真履行职责，遵守评审工作纪律，并接受职称管理部门的监督管理；（三）具有比较深厚的专业理论知识和丰富的专业技术水平，掌握了解本专业国内外最新理论和行业动态，在本专业同行中有较高的知名度。在教学、科研、生产第一线取得优良业绩；（四）从事本领域专业技术工作10年以上，并取得副高级职称5年以上，或取得正高级职称1年以上；（五",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "人工智能",
+        "人才计划"
+      ],
+      "publishedAt": "2026-09-22",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202609/t20260921_2851969.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区通知公告",
+      "sourceCount": 1,
+      "score": 83,
+      "screeningReason": "可申报事项；命中重点产业或企业关键词；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-09-22T11:38:31.990Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202609/t20260921_2851969.shtml",
+          "sourceType": "official_site",
+          "sourceName": "东湖高新区通知公告"
+        }
+      ]
+    },
+    {
+      "id": "east-lake-notices-93d6ac7bdaf4",
+      "title": "关于转发《省经信厅办公室关于开展2026年度享受增值税加计抵减政策的先进制造业企业名单制定工作有关事项的通知》的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉东湖新技术开发区管理委员会",
+      "summary": "各相关企业：根据《省经信厅办公室关于开展2026年度享受增值税加计抵减政策的先进制造业企业名单制定工作有关事项的通知》及市经信局相关要求，现将有关事项通知如下：一、申报条件（一）进入2026年度名单的企业，应在2026年内具备高新技术企业资格，且2025年1月1日至12月31日期间，研发支出、研发人员、高新技术产品占比符合国科发火〔2016〕32号文件规定的高新技术企业条件，具体为：1.企业从事研发和相关技术创新活动的科技人员占企业2025年职工总数的比例符合国科发火〔2016〕32号文件规定；2.企业2023—2025年三个会计年度（实际经营期不满三年的按实际经营时间计算）的研究开发费用总额占同期销售收入总额的比例符合国科发火〔2016〕32号文件规定；3.企业2025年高新技术产品（服务）收入占企业同期总收入的比例符合国科发火〔2016〕32号文件规定。（二）企业从事制造业业务相应发生的销售额合计占全部销售额比重50%（不含）以上，全部销售额及制造业产品销售额均不含增值税。制造业行业属性判定请参照《国民经济行业分类》（GB/T 4754—2017）中“制造业”门类（C类）。（三）企",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "科技企业",
+        "智能制造"
+      ],
+      "publishedAt": "2026-09-22",
+      "deadlineAt": "2027-04-10",
+      "lifecycleStatus": "open",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202609/t20260922_2852496.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区通知公告",
+      "sourceCount": 1,
+      "score": 83,
+      "screeningReason": "可申报事项；命中重点产业或企业关键词；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-09-22T11:38:31.990Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202609/t20260922_2852496.shtml",
+          "sourceType": "official_site",
+          "sourceName": "东湖高新区通知公告"
         }
       ]
     },
@@ -3880,8 +4024,8 @@
       "entryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-09-22T04:55:42.675Z",
-      "lastSuccessAt": "2026-09-22T04:55:42.675Z",
+      "lastCheckedAt": "2026-09-22T11:38:13.720Z",
+      "lastSuccessAt": "2026-09-22T11:38:13.720Z",
       "priority": 100,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -3895,16 +4039,16 @@
       "sourceType": "official_site",
       "publisherName": "武汉市科技创新局",
       "entryUrl": "https://kjj.wuhan.gov.cn/wmfw/tzgg/",
-      "healthStatus": "degraded",
+      "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-09-22T04:55:43.209Z",
-      "lastSuccessAt": "2026-09-21T23:16:49.221Z",
+      "lastCheckedAt": "2026-09-22T11:38:14.669Z",
+      "lastSuccessAt": "2026-09-22T11:38:14.669Z",
       "priority": 95,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
-      "lastErrorAt": "2026-09-22T04:55:43.209Z",
-      "lastErrorMessage": "fetch failed",
-      "consecutiveFailures": 1
+      "lastErrorAt": null,
+      "lastErrorMessage": null,
+      "consecutiveFailures": 0
     },
     {
       "id": "east-lake-notices",
@@ -3912,16 +4056,16 @@
       "sourceType": "official_site",
       "publisherName": "武汉东湖新技术开发区管理委员会",
       "entryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/",
-      "healthStatus": "degraded",
+      "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-09-22T04:55:43.748Z",
-      "lastSuccessAt": "2026-09-21T23:16:52.661Z",
+      "lastCheckedAt": "2026-09-22T11:38:19.069Z",
+      "lastSuccessAt": "2026-09-22T11:38:19.069Z",
       "priority": 94,
-      "lastInsertedCount": 0,
+      "lastInsertedCount": 2,
       "loginExpiresAt": null,
-      "lastErrorAt": "2026-09-22T04:55:43.748Z",
-      "lastErrorMessage": "fetch failed",
-      "consecutiveFailures": 1
+      "lastErrorAt": null,
+      "lastErrorMessage": null,
+      "consecutiveFailures": 0
     },
     {
       "id": "hubei-jxt-files",
@@ -3931,10 +4075,10 @@
       "entryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-09-22T04:55:49.910Z",
-      "lastSuccessAt": "2026-09-22T04:55:49.910Z",
+      "lastCheckedAt": "2026-09-22T11:38:30.522Z",
+      "lastSuccessAt": "2026-09-22T11:38:30.522Z",
       "priority": 93,
-      "lastInsertedCount": 0,
+      "lastInsertedCount": 2,
       "loginExpiresAt": null,
       "lastErrorAt": null,
       "lastErrorMessage": null,
@@ -3948,8 +4092,8 @@
       "entryUrl": "https://rst.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-09-22T04:55:50.936Z",
-      "lastSuccessAt": "2026-09-22T04:55:50.936Z",
+      "lastCheckedAt": "2026-09-22T11:38:31.871Z",
+      "lastSuccessAt": "2026-09-22T11:38:31.871Z",
       "priority": 92,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
