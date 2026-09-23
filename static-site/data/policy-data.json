@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-09-23T07:45:53.484Z",
+    "generatedAt": "2026-09-23T13:39:09.639Z",
     "scope": "湖北省与武汉市优先",
     "updateIntervalMinutes": 120,
     "lastCollectionCount": 30,
-    "successfulSources": 4,
-    "failedSources": 1
+    "successfulSources": 5,
+    "failedSources": 0
   },
   "items": [
     {
@@ -3293,6 +3293,40 @@
       ]
     },
     {
+      "id": "hubei-jxt-files-99d2012ac20b",
+      "title": "省经信厅办公室关于开展2026年工业软件券补充申领工作的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": null,
+      "publisherName": "湖北省经济和信息化厅",
+      "summary": "各市、州、直管市、神农架林区经信局：为支持制造业企业深度应用工业软件，加快数字化转型，按照《省经信厅关于印发《湖北省工业软件券实施细则》的通知》（鄂经信软件〔2026〕62号）要求，确保惠企政策应享尽享，应相关企业普遍呼吁，我厅组织开展2026年湖北省工业软件券补充申领工作。现将有关事项通知如下：一、请各市州经信局认真开展工业软件券政策宣贯工作，按照7月29日下发的《省经信厅办公室关于开展2026年工业软件券申领工作的通知》，指导企业按要求填报，对申领材料（附件1）进行完整性、符合性初审，并对申领单位有关情况进行核查，明确申领单位属于依法纳税、诚信经营，近3年无知识产权纠纷，无安全生产事故、工商环保处罚，未纳入失信名单的制造业企业。二、湖北省工业软件公共服务平台“工业软件券申报系统”开放时间为2026年9月23日8：30至10月10日17：30，请申领企业于开放期间登录平台提交材料。工业软件券发放按照企业申领时间排序，先到先得，领完即止。三、请各市州经信局于10月16日17：30下班前将工业软件券申领书和信息汇总表（见附件2）正式函复我厅，其中申领信息汇总表需加盖公章。推荐函和申领材料",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "智能制造"
+      ],
+      "publishedAt": "2026-09-22",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/202609/t20260923_6021319.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "湖北省经信厅公开文件",
+      "sourceCount": 1,
+      "score": 67,
+      "screeningReason": "可申报事项；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-09-23T13:39:09.639Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/202609/t20260923_6021319.shtml",
+          "sourceType": "official_site",
+          "sourceName": "湖北省经信厅公开文件"
+        }
+      ]
+    },
+    {
       "id": "east-lake-notices-527321aab34d",
       "title": "关于转发《市经信局关于征集全市企业设计需求及设计服务机构信息的通知》的通知",
       "itemType": "application",
@@ -4131,8 +4165,8 @@
       "entryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-09-23T07:45:39.683Z",
-      "lastSuccessAt": "2026-09-23T07:45:39.683Z",
+      "lastCheckedAt": "2026-09-23T13:38:50.385Z",
+      "lastSuccessAt": "2026-09-23T13:38:50.385Z",
       "priority": 100,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -4146,16 +4180,16 @@
       "sourceType": "official_site",
       "publisherName": "武汉市科技创新局",
       "entryUrl": "https://kjj.wuhan.gov.cn/wmfw/tzgg/",
-      "healthStatus": "degraded",
+      "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-09-23T07:45:40.150Z",
-      "lastSuccessAt": "2026-09-23T00:33:13.926Z",
+      "lastCheckedAt": "2026-09-23T13:38:51.344Z",
+      "lastSuccessAt": "2026-09-23T13:38:51.344Z",
       "priority": 95,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
-      "lastErrorAt": "2026-09-23T07:45:40.150Z",
-      "lastErrorMessage": "fetch failed",
-      "consecutiveFailures": 1
+      "lastErrorAt": null,
+      "lastErrorMessage": null,
+      "consecutiveFailures": 0
     },
     {
       "id": "east-lake-notices",
@@ -4165,10 +4199,10 @@
       "entryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-09-23T07:45:43.460Z",
-      "lastSuccessAt": "2026-09-23T07:45:43.460Z",
+      "lastCheckedAt": "2026-09-23T13:38:56.210Z",
+      "lastSuccessAt": "2026-09-23T13:38:56.210Z",
       "priority": 94,
-      "lastInsertedCount": 2,
+      "lastInsertedCount": 0,
       "loginExpiresAt": null,
       "lastErrorAt": null,
       "lastErrorMessage": null,
@@ -4182,10 +4216,10 @@
       "entryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-09-23T07:45:51.931Z",
-      "lastSuccessAt": "2026-09-23T07:45:51.931Z",
+      "lastCheckedAt": "2026-09-23T13:39:08.192Z",
+      "lastSuccessAt": "2026-09-23T13:39:08.192Z",
       "priority": 93,
-      "lastInsertedCount": 0,
+      "lastInsertedCount": 1,
       "loginExpiresAt": null,
       "lastErrorAt": null,
       "lastErrorMessage": null,
@@ -4199,8 +4233,8 @@
       "entryUrl": "https://rst.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-09-23T07:45:53.352Z",
-      "lastSuccessAt": "2026-09-23T07:45:53.352Z",
+      "lastCheckedAt": "2026-09-23T13:39:09.524Z",
+      "lastSuccessAt": "2026-09-23T13:39:09.524Z",
       "priority": 92,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
