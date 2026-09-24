@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generatedAt": "2026-09-24T04:50:42.177Z",
+    "generatedAt": "2026-09-24T11:46:12.089Z",
     "scope": "湖北省与武汉市优先",
     "updateIntervalMinutes": 120,
-    "lastCollectionCount": 29,
+    "lastCollectionCount": 30,
     "successfulSources": 5,
     "failedSources": 0
   },
@@ -1670,6 +1670,40 @@
       ]
     },
     {
+      "id": "east-lake-notices-0315703bf25d",
+      "title": "关于东湖高新区2025年人工智能算力服务商的公示",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉东湖新技术开发区管理委员会",
+      "summary": "各有关单位：按照《东湖高新区促进人工智能产业创新发展若干措施》（武新管科创〔2025〕4号）的实施细则要求，经企业申报、形式审查、专家评审等程序，现将东湖高新区2025年人工智能算力服务商的名单予以公示，公示期：9月24日-9月30日。如有异议，请在公示时间内提出书面意见（盖公司/单位公章），并提供必要的证据材料。凡匿名、冒名、无具体事实根据或超出期限的异议不予受理。联系方式：027-67883194通讯地址：光谷公共服务中心2号楼4008 附件：东湖高新区2025年人工智能算力服务商名单.docx 科技创新和新经济发展局2026年9月24日",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "人工智能"
+      ],
+      "publishedAt": "2026-09-24",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202609/t20260924_2853991.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区通知公告",
+      "sourceCount": 1,
+      "score": 83,
+      "screeningReason": "可申报事项；命中重点产业或企业关键词；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-09-24T11:46:12.089Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202609/t20260924_2853991.shtml",
+          "sourceType": "official_site",
+          "sourceName": "东湖高新区通知公告"
+        }
+      ]
+    },
+    {
       "id": "east-lake-notices-6b875f880c4a",
       "title": "关于转发《市科创局关于开展2026年武汉市科技成果转化中试平台建设工作的通知》的通知",
       "itemType": "application",
@@ -3293,6 +3327,40 @@
       ]
     },
     {
+      "id": "east-lake-notices-c466839f6fed",
+      "title": "关于转发《市经信局关于组织申报第六批工业产品质量控制和评价技术实验室的通知》的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉东湖新技术开发区管理委员会",
+      "summary": "各相关企业：按照《市经信局关于组织申报第六批工业产品质量控制和评价技术实验室的通知》要求，为做好我区申报工作，现将有关事宜通知如下，请符合申报条件的企业积极申报：一、征集范围第六批工业产品质量控制和技术评价实验室申报工作重点面向以下领域：（一）材料领域：高端新材料；（二）装备领域：具身智能、高端医疗装备、高端仪器仪表、船舶与海洋工程装备、安全应急装备、气动元件、橡塑密封；（三）消费品领域：生物制造、生物医药、儿童用品（文具、玩具、童鞋、儿童家具）；（四）电子信息领域：新型显示、新能源电池。二、基本条件拟申报的实验室应符合《工业产品质量控制和技术评价实验室管理办法》第十条规定的条件（附件1）。三、具体要求申请机构通过工业产品质量控制和技术评价实验室申报管理系统（网址：https://www.miitqb.cn/）填报申请信息并提交相关证明材料，确认提交后下载《工业产品质量控制和技术评价实验室申报表》（附件2，以下简称《申报表》），并将加盖依托单位公章的《申报表》和能力证明材料复印件等有关材料提交至所在区经信部门。提交的申请材料应完整准确、真实合规，不得涉及国家秘密。中央企业在汉单位通过中",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "生物医药"
+      ],
+      "publishedAt": "2026-09-24",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202609/t20260924_2853814.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区通知公告",
+      "sourceCount": 1,
+      "score": 67,
+      "screeningReason": "可申报事项；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-09-24T11:46:12.089Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202609/t20260924_2853814.shtml",
+          "sourceType": "official_site",
+          "sourceName": "东湖高新区通知公告"
+        }
+      ]
+    },
+    {
       "id": "hubei-jxt-files-99d2012ac20b",
       "title": "省经信厅办公室关于开展2026年工业软件券补充申领工作的通知",
       "itemType": "application",
@@ -4165,8 +4233,8 @@
       "entryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-09-24T04:50:26.929Z",
-      "lastSuccessAt": "2026-09-24T04:50:26.929Z",
+      "lastCheckedAt": "2026-09-24T11:45:56.140Z",
+      "lastSuccessAt": "2026-09-24T11:45:56.140Z",
       "priority": 100,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -4182,8 +4250,8 @@
       "entryUrl": "https://kjj.wuhan.gov.cn/wmfw/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-09-24T04:50:27.637Z",
-      "lastSuccessAt": "2026-09-24T04:50:27.637Z",
+      "lastCheckedAt": "2026-09-24T11:45:57.342Z",
+      "lastSuccessAt": "2026-09-24T11:45:57.342Z",
       "priority": 95,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -4199,10 +4267,10 @@
       "entryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-09-24T04:50:33.032Z",
-      "lastSuccessAt": "2026-09-24T04:50:33.032Z",
+      "lastCheckedAt": "2026-09-24T11:46:00.384Z",
+      "lastSuccessAt": "2026-09-24T11:46:00.384Z",
       "priority": 94,
-      "lastInsertedCount": 0,
+      "lastInsertedCount": 2,
       "loginExpiresAt": null,
       "lastErrorAt": null,
       "lastErrorMessage": null,
@@ -4216,8 +4284,8 @@
       "entryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-09-24T04:50:40.994Z",
-      "lastSuccessAt": "2026-09-24T04:50:40.994Z",
+      "lastCheckedAt": "2026-09-24T11:46:10.055Z",
+      "lastSuccessAt": "2026-09-24T11:46:10.055Z",
       "priority": 93,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -4233,8 +4301,8 @@
       "entryUrl": "https://rst.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-09-24T04:50:42.051Z",
-      "lastSuccessAt": "2026-09-24T04:50:42.051Z",
+      "lastCheckedAt": "2026-09-24T11:46:11.968Z",
+      "lastSuccessAt": "2026-09-24T11:46:11.968Z",
       "priority": 92,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
