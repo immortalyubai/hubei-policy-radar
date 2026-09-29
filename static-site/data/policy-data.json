@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-09-29T08:30:40.576Z",
+    "generatedAt": "2026-09-29T16:31:25.083Z",
     "scope": "湖北省与武汉市优先",
     "updateIntervalMinutes": 120,
-    "lastCollectionCount": 8,
-    "successfulSources": 3,
-    "failedSources": 2
+    "lastCollectionCount": 20,
+    "successfulSources": 4,
+    "failedSources": 1
   },
   "items": [
     {
@@ -33,7 +33,7 @@
       "primarySourceName": "湖北省科技厅通知公告",
       "sourceCount": 1,
       "score": 100,
-      "screeningReason": "可申报事项；命中重点产业或企业关键词；存在明确资金或奖励信号；30 天内截止；近 7 天发布。",
+      "screeningReason": "可申报事项；命中重点产业或企业关键词；存在明确资金或奖励信号；30 天内截止。",
       "documentNumber": null,
       "discoveredAt": "2026-09-23T00:33:31.238Z",
       "sourceLinks": [
@@ -2749,6 +2749,40 @@
       ]
     },
     {
+      "id": "hubei-kjt-notices-a43d335c109e",
+      "title": "省科技厅关于开展2025年度部分省级科技计划项目资金执行情况调查的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": null,
+      "publisherName": "湖北省科学技术厅",
+      "summary": "各有关单位：根据《湖北省科技计划项目管理办法》《湖北省科技创新专项资金管理办法》等有关规定，为加强省级科技计划项目资金管理，切实提高财政科技资金使用效益，拟跟踪了解2025年度立项资金100万元（含）以上省级科技计划项目资金到位和执行情况。请各相关项目负责人登录“湖北省科技计划项目管理平台”（https://kjt.hubei.gov.cn/jhgl），进入“项目管理－过程管理”模块，填写2025年省级科技计划项目资金执行情况，主要包括项目资金到位、执行、制度建设等情况，请于2026年10月20日前完成。各项目推荐单位要切实履行督促指导职责，提醒项目负责人按要求客观、真实报告项目资金执行情况。同时加强对推荐项目的跟踪管理，督促项目承担单位按期实施和完成项目，及时报告项目实施中的有关问题。政策咨询：资源配置处，027－87135857技术咨询：027－87135733湖北省科学技术厅 2026年9月29日",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "惠企资金"
+      ],
+      "publishedAt": "2026-09-29",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/202609/t20260929_6024939.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "湖北省科技厅通知公告",
+      "sourceCount": 1,
+      "score": 77,
+      "screeningReason": "可申报事项；存在明确资金或奖励信号；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-09-29T16:31:25.083Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://kjt.hubei.gov.cn/kjdt/tzgg/202609/t20260929_6024939.shtml",
+          "sourceType": "official_site",
+          "sourceName": "湖北省科技厅通知公告"
+        }
+      ]
+    },
+    {
       "id": "east-lake-notices-41ac01fabe6a",
       "title": "关于开展2026年度技术标准资助项目申报工作的通知",
       "itemType": "application",
@@ -4233,10 +4267,10 @@
       "entryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-09-29T08:30:32.765Z",
-      "lastSuccessAt": "2026-09-29T08:30:32.765Z",
+      "lastCheckedAt": "2026-09-29T16:31:11.330Z",
+      "lastSuccessAt": "2026-09-29T16:31:11.330Z",
       "priority": 100,
-      "lastInsertedCount": 0,
+      "lastInsertedCount": 1,
       "loginExpiresAt": null,
       "lastErrorAt": null,
       "lastErrorMessage": null,
@@ -4250,8 +4284,8 @@
       "entryUrl": "https://kjj.wuhan.gov.cn/wmfw/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-09-29T08:30:34.779Z",
-      "lastSuccessAt": "2026-09-29T08:30:34.779Z",
+      "lastCheckedAt": "2026-09-29T16:31:12.126Z",
+      "lastSuccessAt": "2026-09-29T16:31:12.126Z",
       "priority": 95,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -4267,14 +4301,14 @@
       "entryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/",
       "healthStatus": "degraded",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-09-29T08:30:37.921Z",
+      "lastCheckedAt": "2026-09-29T16:31:12.984Z",
       "lastSuccessAt": "2026-09-29T01:57:26.884Z",
       "priority": 94,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
-      "lastErrorAt": "2026-09-29T08:30:37.921Z",
+      "lastErrorAt": "2026-09-29T16:31:12.984Z",
       "lastErrorMessage": "fetch failed",
-      "consecutiveFailures": 1
+      "consecutiveFailures": 2
     },
     {
       "id": "hubei-jxt-files",
@@ -4282,16 +4316,16 @@
       "sourceType": "official_site",
       "publisherName": "湖北省经济和信息化厅",
       "entryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/",
-      "healthStatus": "degraded",
+      "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-09-29T08:30:38.531Z",
-      "lastSuccessAt": "2026-09-29T01:57:34.708Z",
+      "lastCheckedAt": "2026-09-29T16:31:22.869Z",
+      "lastSuccessAt": "2026-09-29T16:31:22.869Z",
       "priority": 93,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
-      "lastErrorAt": "2026-09-29T08:30:38.531Z",
-      "lastErrorMessage": "fetch failed",
-      "consecutiveFailures": 1
+      "lastErrorAt": null,
+      "lastErrorMessage": null,
+      "consecutiveFailures": 0
     },
     {
       "id": "hubei-rst-files",
@@ -4301,8 +4335,8 @@
       "entryUrl": "https://rst.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-09-29T08:30:40.462Z",
-      "lastSuccessAt": "2026-09-29T08:30:40.462Z",
+      "lastCheckedAt": "2026-09-29T16:31:24.974Z",
+      "lastSuccessAt": "2026-09-29T16:31:24.974Z",
       "priority": 92,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
