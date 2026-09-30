@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-09-30T01:19:32.727Z",
+    "generatedAt": "2026-09-30T08:34:05.967Z",
     "scope": "湖北省与武汉市优先",
     "updateIntervalMinutes": 120,
-    "lastCollectionCount": 29,
-    "successfulSources": 5,
-    "failedSources": 0
+    "lastCollectionCount": 16,
+    "successfulSources": 4,
+    "failedSources": 1
   },
   "items": [
     {
@@ -2749,6 +2749,76 @@
       ]
     },
     {
+      "id": "hubei-kjt-notices-3c86c99895e6",
+      "title": "湖北省科学技术厅关于开展2026年省级“尖刀”技术攻关工程项目 （第三批）申报的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": null,
+      "publisherName": "湖北省科学技术厅",
+      "summary": "省委科技委各成员单位，各市、州、直管市、神农架林区科技（创）局，东湖高新区管委会，各有关单位：根据年度工作安排及《湖北省“尖刀”技术攻关工程项目管理办法》（鄂科技通〔2026〕58号）精神，现启动2026年省级“尖刀”技术攻关工程项目（第三批）申报工作，具体如下：一、申报方向（一）超高分辨多维生物分析质谱仪。（二）船舶智能设计与仿真一体化工业软件平台。（三）先进制程光刻机用光掩模基板。（四）高性能石英纤维预制体成型装备及复合材料。（五）大分子药物及疫苗生产用关键原辅料。（六）基于生物合成的新型绿色农用药物。二、申报流程（一）申报。申报指南涉及的项目均采用一轮申报程序。由牵头申报单位围绕具体申报指南（附件）编制申报书，通过湖北省科技计划项目管理平台（https://kjt.hubei.gov.cn/jhgl/pmshb/home.html）填报提交。受理时间为2026年9月30日至10月29日17时。申报书必须全面响应对应申报指南，文字表述简单明了。按照“解决什么‘卡脖子’问题或关键核心技术问题、形成什么‘看得见、摸得着’的产品、产品具体应用场景、推动问题解决”的思路，简要阐释创新思路，",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "人才计划",
+        "惠企资金"
+      ],
+      "publishedAt": "2026-09-30",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/202609/t20260930_6026461.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "湖北省科技厅通知公告",
+      "sourceCount": 1,
+      "score": 77,
+      "screeningReason": "可申报事项；存在明确资金或奖励信号；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-09-30T08:34:05.967Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://kjt.hubei.gov.cn/kjdt/tzgg/202609/t20260930_6026461.shtml",
+          "sourceType": "official_site",
+          "sourceName": "湖北省科技厅通知公告"
+        }
+      ]
+    },
+    {
+      "id": "east-lake-notices-a18fc3eeee2a",
+      "title": "关于转发市经信局《关于开展2026年高端医疗装备推广应用项目申报工作的通知》的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉东湖新技术开发区管理委员会",
+      "summary": "各有关企业：根据部省市关于开展2026年高端医疗装备推广应用项目申报工作的通知的相关通知要求，目前正在组织开展申报工作，现将具体要求转发如下：一、重点方向面向高端医疗装备重点产品和典型场景，遴选一批技术创新水平与临床应用水平处于全国前列，对医工协同创新、中试验证、临床研究、迭代升级与推广应用等具有较强引领带动作用的项目。本年度重点开展5个方向、16种重点产品和1类典型场景（见附件1）的推广应用。二、申报条件（一）申报主体要求。原则上申报主体为牵头医疗装备生产企业、牵头医疗机构和参与生产企业或医疗机构组成的医工联合体，联合体内所有单位数量原则上不超过15个。（二）申报单位要求。医工联合体内所有单位须为在中华人民共和国境内注册，具有独立法人资格的企事业单位，近三年未发生重大安全、环保、质量或医疗事故等，没有司法、行政机关认定的违法失信行为或涉嫌违法正在接受审查等情况。牵头单位应拥有较强的行业引领地位。每个单位最多牵头或参与申报3个推广应用项目。同一单位在同一类别项目申报中，参加2个及以上联合体的相关申报均视为无效。（三）申报产品要求。申报重点产品类项目的产品，须由牵头医疗装备生产企业取得中",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "成果转化",
+        "惠企资金"
+      ],
+      "publishedAt": "2026-09-30",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202609/t20260930_2856295.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区通知公告",
+      "sourceCount": 1,
+      "score": 77,
+      "screeningReason": "可申报事项；存在明确资金或奖励信号；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-09-30T08:34:05.967Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202609/t20260930_2856295.shtml",
+          "sourceType": "official_site",
+          "sourceName": "东湖高新区通知公告"
+        }
+      ]
+    },
+    {
       "id": "hubei-kjt-notices-a43d335c109e",
       "title": "省科技厅关于开展2025年度部分省级科技计划项目资金执行情况调查的通知",
       "itemType": "application",
@@ -4267,10 +4337,10 @@
       "entryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-09-30T01:19:14.154Z",
-      "lastSuccessAt": "2026-09-30T01:19:14.154Z",
+      "lastCheckedAt": "2026-09-30T08:33:55.700Z",
+      "lastSuccessAt": "2026-09-30T08:33:55.700Z",
       "priority": 100,
-      "lastInsertedCount": 0,
+      "lastInsertedCount": 1,
       "loginExpiresAt": null,
       "lastErrorAt": null,
       "lastErrorMessage": null,
@@ -4284,8 +4354,8 @@
       "entryUrl": "https://kjj.wuhan.gov.cn/wmfw/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-09-30T01:19:15.115Z",
-      "lastSuccessAt": "2026-09-30T01:19:15.115Z",
+      "lastCheckedAt": "2026-09-30T08:33:56.515Z",
+      "lastSuccessAt": "2026-09-30T08:33:56.515Z",
       "priority": 95,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -4301,10 +4371,10 @@
       "entryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-09-30T01:19:19.309Z",
-      "lastSuccessAt": "2026-09-30T01:19:19.309Z",
+      "lastCheckedAt": "2026-09-30T08:34:00.942Z",
+      "lastSuccessAt": "2026-09-30T08:34:00.942Z",
       "priority": 94,
-      "lastInsertedCount": 0,
+      "lastInsertedCount": 1,
       "loginExpiresAt": null,
       "lastErrorAt": null,
       "lastErrorMessage": null,
@@ -4316,16 +4386,16 @@
       "sourceType": "official_site",
       "publisherName": "湖北省经济和信息化厅",
       "entryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/",
-      "healthStatus": "healthy",
+      "healthStatus": "degraded",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-09-30T01:19:29.794Z",
+      "lastCheckedAt": "2026-09-30T08:34:02.108Z",
       "lastSuccessAt": "2026-09-30T01:19:29.794Z",
       "priority": 93,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
-      "lastErrorAt": null,
-      "lastErrorMessage": null,
-      "consecutiveFailures": 0
+      "lastErrorAt": "2026-09-30T08:34:02.108Z",
+      "lastErrorMessage": "fetch failed",
+      "consecutiveFailures": 1
     },
     {
       "id": "hubei-rst-files",
@@ -4335,8 +4405,8 @@
       "entryUrl": "https://rst.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-09-30T01:19:32.631Z",
-      "lastSuccessAt": "2026-09-30T01:19:32.631Z",
+      "lastCheckedAt": "2026-09-30T08:34:05.842Z",
+      "lastSuccessAt": "2026-09-30T08:34:05.842Z",
       "priority": 92,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
