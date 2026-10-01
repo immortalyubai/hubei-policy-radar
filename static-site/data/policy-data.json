@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-10-01T08:56:20.646Z",
+    "generatedAt": "2026-10-01T17:02:31.888Z",
     "scope": "湖北省与武汉市优先",
     "updateIntervalMinutes": 120,
-    "lastCollectionCount": 7,
-    "successfulSources": 2,
-    "failedSources": 3
+    "lastCollectionCount": 22,
+    "successfulSources": 3,
+    "failedSources": 2
   },
   "items": [
     {
@@ -4370,16 +4370,16 @@
       "sourceType": "official_site",
       "publisherName": "湖北省科学技术厅",
       "entryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/",
-      "healthStatus": "healthy",
+      "healthStatus": "degraded",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-10-01T08:56:17.152Z",
+      "lastCheckedAt": "2026-10-01T17:02:12.693Z",
       "lastSuccessAt": "2026-10-01T08:56:17.152Z",
       "priority": 100,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
-      "lastErrorAt": null,
-      "lastErrorMessage": null,
-      "consecutiveFailures": 0
+      "lastErrorAt": "2026-10-01T17:02:12.693Z",
+      "lastErrorMessage": "fetch failed",
+      "consecutiveFailures": 1
     },
     {
       "id": "wuhan-kj-notices",
@@ -4389,8 +4389,8 @@
       "entryUrl": "https://kjj.wuhan.gov.cn/wmfw/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-10-01T08:56:18.060Z",
-      "lastSuccessAt": "2026-10-01T08:56:18.060Z",
+      "lastCheckedAt": "2026-10-01T17:02:13.591Z",
+      "lastSuccessAt": "2026-10-01T17:02:13.591Z",
       "priority": 95,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -4404,16 +4404,16 @@
       "sourceType": "official_site",
       "publisherName": "武汉东湖新技术开发区管理委员会",
       "entryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/",
-      "healthStatus": "degraded",
+      "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-10-01T08:56:18.824Z",
-      "lastSuccessAt": "2026-10-01T01:19:06.814Z",
+      "lastCheckedAt": "2026-10-01T17:02:19.658Z",
+      "lastSuccessAt": "2026-10-01T17:02:19.658Z",
       "priority": 94,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
-      "lastErrorAt": "2026-10-01T08:56:18.824Z",
-      "lastErrorMessage": "fetch failed",
-      "consecutiveFailures": 1
+      "lastErrorAt": null,
+      "lastErrorMessage": null,
+      "consecutiveFailures": 0
     },
     {
       "id": "hubei-jxt-files",
@@ -4421,16 +4421,16 @@
       "sourceType": "official_site",
       "publisherName": "湖北省经济和信息化厅",
       "entryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/",
-      "healthStatus": "degraded",
+      "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-10-01T08:56:19.611Z",
-      "lastSuccessAt": "2026-09-30T22:15:59.782Z",
+      "lastCheckedAt": "2026-10-01T17:02:30.687Z",
+      "lastSuccessAt": "2026-10-01T17:02:30.687Z",
       "priority": 93,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
-      "lastErrorAt": "2026-10-01T08:56:19.611Z",
-      "lastErrorMessage": "fetch failed",
-      "consecutiveFailures": 2
+      "lastErrorAt": null,
+      "lastErrorMessage": null,
+      "consecutiveFailures": 0
     },
     {
       "id": "hubei-rst-files",
@@ -4440,14 +4440,14 @@
       "entryUrl": "https://rst.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/",
       "healthStatus": "degraded",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-10-01T08:56:20.529Z",
+      "lastCheckedAt": "2026-10-01T17:02:31.762Z",
       "lastSuccessAt": "2026-10-01T01:19:09.565Z",
       "priority": 92,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
-      "lastErrorAt": "2026-10-01T08:56:20.529Z",
+      "lastErrorAt": "2026-10-01T17:02:31.762Z",
       "lastErrorMessage": "fetch failed",
-      "consecutiveFailures": 1
+      "consecutiveFailures": 2
     },
     {
       "id": "wechat-hubei-publish",
