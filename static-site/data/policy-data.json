@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-10-08T13:29:21.693Z",
+    "generatedAt": "2026-10-08T19:57:21.397Z",
     "scope": "湖北省与武汉市优先",
     "updateIntervalMinutes": 120,
-    "lastCollectionCount": 20,
-    "successfulSources": 3,
-    "failedSources": 2
+    "lastCollectionCount": 31,
+    "successfulSources": 5,
+    "failedSources": 0
   },
   "items": [
     {
@@ -3566,6 +3566,38 @@
       ]
     },
     {
+      "id": "east-lake-notices-b70eb41182bd",
+      "title": "东湖高新区关于2026年度绿色工厂推荐和动态管理工作的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉东湖新技术开发区管理委员会",
+      "summary": "各园区、各相关企业：为持续建设绿色制造体系，根据《绿色工厂梯度培育及管理暂行办法》（以下简称《办法》）、《湖北省绿色制造梯度培育及管理实施细则》（以下简称《细则》）及《省经信厅办公室关于2026年度绿色工厂推荐和动态管理工作的通知》、《市经信局关于2026年度绿色工厂推荐和动态管理工作的通知》（以下简称《通知》）等文件要求，现组织开展东湖高新区2026年度绿色制造名单推荐和动态管理工作，有关事项通知如下:一、加强绿色制造名单动态管理做好各层级现有绿色制造名单动态管理。根据《通知》要求，本年度动态管理工作包括：绿色工厂、绿色工业园区。现有绿色工厂、绿色工业园区（已公告移出名单的除外）应登录工业节能与绿色发展管理平台（https://green.miit.gov.cn，以下简称“平台”），选择“绿色工厂（梯度培育）/现有动态管理”，“绿色工业园区（梯度培育）/现有动态管理”对照新申报的评价要求开展自评申报（列入国家、省、市多个层级名单的单位按最高层级申报一次即可，请勿重复），按属地逐级审核提交。我区负责组织辖区现有国家级和省级绿色工厂、园区完成自评申报及其申报材料审核上报。如存在需调整或移",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [],
+      "publishedAt": "2026-10-08",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202610/t20261008_2857661.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区通知公告",
+      "sourceCount": 1,
+      "score": 67,
+      "screeningReason": "可申报事项；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-10-08T19:57:21.397Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202610/t20261008_2857661.shtml",
+          "sourceType": "official_site",
+          "sourceName": "东湖高新区通知公告"
+        }
+      ]
+    },
+    {
       "id": "east-lake-notices-c466839f6fed",
       "title": "关于转发《市经信局关于组织申报第六批工业产品质量控制和评价技术实验室的通知》的通知",
       "itemType": "application",
@@ -4472,10 +4504,10 @@
       "entryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-10-08T13:29:08.793Z",
-      "lastSuccessAt": "2026-10-08T13:29:08.793Z",
+      "lastCheckedAt": "2026-10-08T19:57:09.049Z",
+      "lastSuccessAt": "2026-10-08T19:57:09.049Z",
       "priority": 100,
-      "lastInsertedCount": 1,
+      "lastInsertedCount": 0,
       "loginExpiresAt": null,
       "lastErrorAt": null,
       "lastErrorMessage": null,
@@ -4487,16 +4519,16 @@
       "sourceType": "official_site",
       "publisherName": "武汉市科技创新局",
       "entryUrl": "https://kjj.wuhan.gov.cn/wmfw/tzgg/",
-      "healthStatus": "degraded",
+      "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-10-08T13:29:09.293Z",
-      "lastSuccessAt": "2026-10-08T06:03:48.734Z",
+      "lastCheckedAt": "2026-10-08T19:57:09.752Z",
+      "lastSuccessAt": "2026-10-08T19:57:09.752Z",
       "priority": 95,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
-      "lastErrorAt": "2026-10-08T13:29:09.293Z",
-      "lastErrorMessage": "fetch failed",
-      "consecutiveFailures": 1
+      "lastErrorAt": null,
+      "lastErrorMessage": null,
+      "consecutiveFailures": 0
     },
     {
       "id": "east-lake-notices",
@@ -4504,16 +4536,16 @@
       "sourceType": "official_site",
       "publisherName": "武汉东湖新技术开发区管理委员会",
       "entryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/",
-      "healthStatus": "degraded",
+      "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-10-08T13:29:10.416Z",
-      "lastSuccessAt": "2026-10-08T06:03:56.581Z",
+      "lastCheckedAt": "2026-10-08T19:57:12.782Z",
+      "lastSuccessAt": "2026-10-08T19:57:12.782Z",
       "priority": 94,
-      "lastInsertedCount": 0,
+      "lastInsertedCount": 1,
       "loginExpiresAt": null,
-      "lastErrorAt": "2026-10-08T13:29:10.416Z",
-      "lastErrorMessage": "fetch failed",
-      "consecutiveFailures": 1
+      "lastErrorAt": null,
+      "lastErrorMessage": null,
+      "consecutiveFailures": 0
     },
     {
       "id": "hubei-jxt-files",
@@ -4523,8 +4555,8 @@
       "entryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-10-08T13:29:19.655Z",
-      "lastSuccessAt": "2026-10-08T13:29:19.655Z",
+      "lastCheckedAt": "2026-10-08T19:57:19.142Z",
+      "lastSuccessAt": "2026-10-08T19:57:19.142Z",
       "priority": 93,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -4540,8 +4572,8 @@
       "entryUrl": "https://rst.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-10-08T13:29:21.570Z",
-      "lastSuccessAt": "2026-10-08T13:29:21.570Z",
+      "lastCheckedAt": "2026-10-08T19:57:21.272Z",
+      "lastSuccessAt": "2026-10-08T19:57:21.272Z",
       "priority": 92,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
