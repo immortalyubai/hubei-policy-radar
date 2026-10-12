@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generatedAt": "2026-10-12T05:57:49.329Z",
+    "generatedAt": "2026-10-12T15:24:51.430Z",
     "scope": "湖北省与武汉市优先",
     "updateIntervalMinutes": 120,
-    "lastCollectionCount": 28,
+    "lastCollectionCount": 31,
     "successfulSources": 5,
     "failedSources": 0
   },
@@ -1543,6 +1543,76 @@
       ]
     },
     {
+      "id": "east-lake-notices-fbdfc6d51724",
+      "title": "东湖高新区关于组织开展高端诊疗装备整机系统关键节点重大项目专项申报工作的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉东湖新技术开发区管理委员会",
+      "summary": "各有关单位：为深入实施创新驱动发展战略，进一步巩固东湖高新区高端医疗器械产业优势，根据《东湖高新区先进制造业“揭榜挂帅”重大项目专项实施办法（试行）》等文件精神，现就高端诊疗装备整机系统关键节点重大项目专项申报工作有关事项通知如下： 一、申报方向及任务名称申报方向：高端医疗器械任务名称：高端诊疗装备整机系统关键节点重大项目任务具体任务详见附件1。二、申报要求（一）申报主体任务可由单个企业或由企业联合产业链内行业上下游企业、高等学校、科研院所或其他组织机构等多个独立法人单位组建联合体进行申报，单个任务原则上只支持1个项目。对于组建联合体申报的情形，牵头单位应与各成员单位签订合作协议，明确各方合作方式、任务分工、经费投入及分配比例、收益分配、知识产权权属等事项。（二）申报条件1.申报单位（含联合体所有成员单位）应是依法注册的独立法人，具有在区内承担申报任务的条件和能力。2.申报的项目符合支持方向及技术要求。3.申报单位（含联合体所有成员单位）近三年未发生重大安全、环保、质量事故，申报期未被列入信用中国失信名单。4.已通过其他渠道获得区级研发费用等相关专项资金支持的项目不得参与本次申报。同一",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "惠企资金",
+        "智能制造"
+      ],
+      "publishedAt": "2026-10-12",
+      "deadlineAt": "2026-10-19",
+      "lifecycleStatus": "open",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202610/t20261012_2860177.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区通知公告",
+      "sourceCount": 1,
+      "score": 86,
+      "screeningReason": "可申报事项；存在明确资金或奖励信号；30 天内截止；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-10-12T15:24:51.430Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202610/t20261012_2860177.shtml",
+          "sourceType": "official_site",
+          "sourceName": "东湖高新区通知公告"
+        }
+      ]
+    },
+    {
+      "id": "east-lake-notices-8154d581a94c",
+      "title": "东湖高新区关于组织开展高性能医疗影像设备关键节点重大项目专项申报工作的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉东湖新技术开发区管理委员会",
+      "summary": "各有关单位：为深入实施创新驱动发展战略，进一步巩固东湖高新区高端医疗器械产业优势，根据《东湖高新区先进制造业“揭榜挂帅”重大项目专项实施办法（试行）》等文件精神，现就高性能医疗影像设备关键节点重大项目专项申报工作有关事项通知如下：一、申报方向及任务名称申报方向：高端医疗器械任务名称：高性能医疗影像设备关键节点重大项目任务具体任务详见附件1。二、申报要求（一）申报主体任务可由单个企业或由企业联合产业链内行业上下游企业、高等学校、科研院所或其他组织机构等多个独立法人单位组建联合体进行申报，单个任务原则上只支持1个项目。对于组建联合体申报的情形，牵头单位应与各成员单位签订合作协议，明确各方合作方式、任务分工、经费投入及分配比例、收益分配、知识产权权属等事项。（二）申报条件1.申报单位（含联合体所有成员单位）应是依法注册的独立法人，具有在区内承担申报任务的条件和能力。2.申报的项目符合支持方向及技术要求。3.申报单位（含联合体所有成员单位）近三年未发生重大安全、环保、质量事故，申报期未被列入信用中国失信名单。4.已通过其他渠道获得区级研发费用等相关专项资金支持的项目不得参与本次申报。同一投资内",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "惠企资金",
+        "智能制造"
+      ],
+      "publishedAt": "2026-10-12",
+      "deadlineAt": "2026-10-19",
+      "lifecycleStatus": "open",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202610/t20261012_2860167.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区通知公告",
+      "sourceCount": 1,
+      "score": 86,
+      "screeningReason": "可申报事项；存在明确资金或奖励信号；30 天内截止；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-10-12T15:24:51.430Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202610/t20261012_2860167.shtml",
+          "sourceType": "official_site",
+          "sourceName": "东湖高新区通知公告"
+        }
+      ]
+    },
+    {
       "id": "east-lake-notices-8b8e59c370dc",
       "title": "关于组织开展东湖高新区2026年度软件产业政策（第一批）资金申报的通知",
       "itemType": "application",
@@ -1770,6 +1840,72 @@
           "url": "https://mp.weixin.qq.com/s/4tzSn5DZSVghOIbdFYPYUA",
           "sourceType": "wechat",
           "sourceName": "武汉科技创新"
+        }
+      ]
+    },
+    {
+      "id": "east-lake-notices-a772784db2f1",
+      "title": "关于东湖高新区2025年人形机器人专业园区建设政策评审结果的公示",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉东湖新技术开发区管理委员会",
+      "summary": "各有关单位：按照《东湖高新区促进人形机器人产业创新发展若干措施》（武新管科创〔2025〕1号）中第八条——支持专业园区和专业机构建设的实施细则要求，经企业申报、形式审查、专家评审等程序，现将评审结果予以公示（见附件），公示期：10月12日—10月18日。如有异议，请在公示期内提出书面意见（盖公司/单位公章），并提供必要的证据材料。凡匿名、冒名、无具体事实根据或超出期限的异议不予受理。联系方式：027-65563264监督电话：027-67880042通讯地址：武汉东湖新技术开发区管理委员会2号楼4008人形机器人专业园区建设政策评审结果.docx 武汉东湖新技术开发区科技创新和新经济发展局2026年10月12日",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [],
+      "publishedAt": "2026-10-12",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202610/t20261012_2859753.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区通知公告",
+      "sourceCount": 1,
+      "score": 83,
+      "screeningReason": "可申报事项；命中重点产业或企业关键词；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-10-12T15:24:51.430Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202610/t20261012_2859753.shtml",
+          "sourceType": "official_site",
+          "sourceName": "东湖高新区通知公告"
+        }
+      ]
+    },
+    {
+      "id": "east-lake-notices-8737544ce45f",
+      "title": "关于东湖高新区2025年人工智能产业集聚区政策评审结果的公示",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉东湖新技术开发区管理委员会",
+      "summary": "各有关单位：按照《东湖高新区促进人工智能产业创新发展若干措施》（武新管科创〔2025〕4号）中第十二条——打造人工智能产业集聚区的实施细则要求，经企业申报、形式审查、专家评审等程序，现将评审结果予以公示（见附件），公示期：10月12日—10月18日。如有异议，请在公示期内提出书面意见（盖公司/单位公章），并提供必要的证据材料。凡匿名、冒名、无具体事实根据或超出期限的异议不予受理。联系方式：027-65563264监督电话：027-67880042通讯地址：武汉东湖新技术开发区管理委员会2号楼4008 人工智能产业集聚区（OPC社区）评审结果.docx人工智能产业集聚区（人工智能产业园）评审结果.docx武汉东湖新技术开发区科技创新和新经济发展局2026年10月12日",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "人工智能"
+      ],
+      "publishedAt": "2026-10-12",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202610/t20261012_2859748.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区通知公告",
+      "sourceCount": 1,
+      "score": 83,
+      "screeningReason": "可申报事项；命中重点产业或企业关键词；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-10-12T15:24:51.430Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202610/t20261012_2859748.shtml",
+          "sourceType": "official_site",
+          "sourceName": "东湖高新区通知公告"
         }
       ]
     },
@@ -2913,6 +3049,40 @@
         {
           "label": "打开官网原文",
           "url": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/202604/t20260410_5911749.shtml",
+          "sourceType": "official_site",
+          "sourceName": "湖北省经信厅公开文件"
+        }
+      ]
+    },
+    {
+      "id": "hubei-jxt-files-b74fce79c82e",
+      "title": "省经信厅办公室关于开展2026年湖北省首版次软件产品申报工作的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": null,
+      "publisherName": "湖北省经济和信息化厅",
+      "summary": "各市、州、直管市、神农架林区经信局：为贯彻落实省委省政府关于突破发展自主安全计算产业的工作部署，根据《湖北省首版次软件产品暨关键软件独立研发企业补贴资料核查工作规程》，我厅拟组织开展2026年湖北省首版次软件产品申报工作。现将有关事项通知如下：一、申报要求申报主体须完全具备独立研发企业相关条件其申报产品类型不得超出申报范围（见附件1、附件2），并如实完整提交相关核查资料（见附件3）。申报产品知识产权应在2025年1月1日—12月31日存续有效。二、申报程序请各市州经信局面向社会广泛深入开展宣传征集工作，指导服务市场主体高质量汇总报送核查资料。各市州经信局应组织专家对申报材料进行完整性、符合性初审，可酌情对申报主体进行现场核实，遴选出推荐产品及申报主体，正式具文（推荐函）附核查资料清单于10月31日17：30前报送我厅。各市州经信局须对推荐的申报主体受处罚情况进行筛查，在2025年1月至今受到行政处罚或正在接受司法调查的主体不得推荐。三、注意事项请各市州经信局在截止时间前，将推荐函、申报材料及核查资料（纸质版一式两份，需申报主体加盖公章）邮寄至指定地址，推荐函、申报书PDF电子版同时发送",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "惠企资金"
+      ],
+      "publishedAt": "2026-10-09",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/202610/t20261012_6031558.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "湖北省经信厅公开文件",
+      "sourceCount": 1,
+      "score": 77,
+      "screeningReason": "可申报事项；存在明确资金或奖励信号；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-10-12T15:24:51.430Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/202610/t20261012_6031558.shtml",
           "sourceType": "official_site",
           "sourceName": "湖北省经信厅公开文件"
         }
@@ -4639,8 +4809,8 @@
       "entryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-10-12T05:57:33.355Z",
-      "lastSuccessAt": "2026-10-12T05:57:33.355Z",
+      "lastCheckedAt": "2026-10-12T15:24:33.571Z",
+      "lastSuccessAt": "2026-10-12T15:24:33.571Z",
       "priority": 100,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -4656,8 +4826,8 @@
       "entryUrl": "https://kjj.wuhan.gov.cn/wmfw/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-10-12T05:57:34.284Z",
-      "lastSuccessAt": "2026-10-12T05:57:34.284Z",
+      "lastCheckedAt": "2026-10-12T15:24:34.237Z",
+      "lastSuccessAt": "2026-10-12T15:24:34.237Z",
       "priority": 95,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -4673,10 +4843,10 @@
       "entryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-10-12T05:57:37.703Z",
-      "lastSuccessAt": "2026-10-12T05:57:37.703Z",
+      "lastCheckedAt": "2026-10-12T15:24:38.158Z",
+      "lastSuccessAt": "2026-10-12T15:24:38.158Z",
       "priority": 94,
-      "lastInsertedCount": 0,
+      "lastInsertedCount": 4,
       "loginExpiresAt": null,
       "lastErrorAt": null,
       "lastErrorMessage": null,
@@ -4690,10 +4860,10 @@
       "entryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-10-12T05:57:48.077Z",
-      "lastSuccessAt": "2026-10-12T05:57:48.077Z",
+      "lastCheckedAt": "2026-10-12T15:24:49.517Z",
+      "lastSuccessAt": "2026-10-12T15:24:49.517Z",
       "priority": 93,
-      "lastInsertedCount": 0,
+      "lastInsertedCount": 1,
       "loginExpiresAt": null,
       "lastErrorAt": null,
       "lastErrorMessage": null,
@@ -4707,8 +4877,8 @@
       "entryUrl": "https://rst.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-10-12T05:57:49.207Z",
-      "lastSuccessAt": "2026-10-12T05:57:49.207Z",
+      "lastCheckedAt": "2026-10-12T15:24:51.311Z",
+      "lastSuccessAt": "2026-10-12T15:24:51.311Z",
       "priority": 92,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
