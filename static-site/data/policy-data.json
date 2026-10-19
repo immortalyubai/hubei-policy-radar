@@ -1,13 +1,48 @@
 {
   "meta": {
-    "generatedAt": "2026-10-19T04:40:16.827Z",
+    "generatedAt": "2026-10-19T13:14:35.673Z",
     "scope": "湖北省与武汉市优先",
     "updateIntervalMinutes": 120,
-    "lastCollectionCount": 31,
+    "lastCollectionCount": 33,
     "successfulSources": 5,
     "failedSources": 0
   },
   "items": [
+    {
+      "id": "hubei-kjt-notices-3381f4097699",
+      "title": "关于组织申报2026年湖北省支持高新技术企业发展专项资金的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": null,
+      "publisherName": "湖北省科学技术厅",
+      "summary": "各市、州、直管市、神农架林区科技局：根据《湖北省支持高新技术企业发展专项资金管理办法》（鄂财产发〔2026〕83号，以下简称《高企资金管理办法》）有关要求，现组织开展2026年湖北省支持高新技术企业发展专项资金申报工作。通知如下：一、申报条件（一）企业应为当年湖北省有效期内高新技术企业，具有独立法人资格、健全的财务管理机构和财务管理制度。（二）企业诚信开展科研活动，依法纳税，无财政资金使用违纪、违规、违法行为。（三）按照要求填报了《高新技术企业优惠情况及明细表（A107041）》。（四）企业未被列入国家或省级严重失信主体名单。（五）其他应当具备的条件。二、支持方式专项资金支持方式为奖励性后补助。专项资金奖励由基础性奖励和激励性奖励两部分组成，专项资金在资金总额范围内优先落实基础性奖励，再安排激励性奖励。具体方式如下：（一）基础性奖励金额＝2025年度销售收入＊（2025年度企业研发强度－对应的研发强度基础要求）＊奖励系数6％。其中：研发强度＝研发费用／同期销售收入。对应的研发强度基础要求按照《高新技术企业认定管理办法》（国科发火〔2016〕32号）认定条件相关要求执行。即：最近一年销售",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "科技企业",
+        "惠企资金"
+      ],
+      "publishedAt": "2026-10-19",
+      "deadlineAt": "2026-11-15",
+      "lifecycleStatus": "open",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/202610/t20261019_6035490.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "湖北省科技厅通知公告",
+      "sourceCount": 1,
+      "score": 100,
+      "screeningReason": "可申报事项；命中重点产业或企业关键词；存在明确资金或奖励信号；30 天内截止；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-10-19T13:14:35.673Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://kjt.hubei.gov.cn/kjdt/tzgg/202610/t20261019_6035490.shtml",
+          "sourceType": "official_site",
+          "sourceName": "湖北省科技厅通知公告"
+        }
+      ]
+    },
     {
       "id": "east-lake-notices-a0e41ccb8cb8",
       "title": "关于转发《省科技厅关于组织申报2026年部分省级技术创新计划项目的通知》的通知",
@@ -3775,6 +3810,41 @@
       ]
     },
     {
+      "id": "hubei-kjt-notices-6e69c8af2fec",
+      "title": "省财政厅 省科学技术厅关于印发《湖北省支持高新技术企业发展专项资金管理办法》的通知",
+      "itemType": "policy",
+      "regionName": "湖北省",
+      "cityName": null,
+      "publisherName": "湖北省科学技术厅",
+      "summary": "各市（州）、直管市、神农架林区、县（市、区）财政局、科技主管部门：为落实省委、省政府关于打造全国科技创新高地的工作部署，进一步强化企业创新主体地位，引导企业开展研发活动，根据相关规定，立足我省实际，我们起草了《湖北省支持高新技术企业发展专项资金管理办法》，现印发给你们，请认真贯彻执行。附件：湖北省支持高新技术企业发展专项资金管理办法湖北省财政厅 湖北省科学技术厅 2026年10月15日",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "科技企业",
+        "惠企资金"
+      ],
+      "publishedAt": "2026-10-19",
+      "deadlineAt": null,
+      "lifecycleStatus": "evergreen",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/202610/t20261019_6035486.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "湖北省科技厅通知公告",
+      "sourceCount": 1,
+      "score": 73,
+      "screeningReason": "命中重点产业或企业关键词；存在明确资金或奖励信号；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-10-19T13:14:35.673Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://kjt.hubei.gov.cn/kjdt/tzgg/202610/t20261019_6035486.shtml",
+          "sourceType": "official_site",
+          "sourceName": "湖北省科技厅通知公告"
+        }
+      ]
+    },
+    {
       "id": "east-lake-notices-09da3f228f2b",
       "title": "关于东湖科学城人才创新基地地块收储情况的公示",
       "itemType": "policy",
@@ -5081,10 +5151,10 @@
       "entryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-10-19T04:40:01.198Z",
-      "lastSuccessAt": "2026-10-19T04:40:01.198Z",
+      "lastCheckedAt": "2026-10-19T13:14:14.267Z",
+      "lastSuccessAt": "2026-10-19T13:14:14.267Z",
       "priority": 100,
-      "lastInsertedCount": 0,
+      "lastInsertedCount": 2,
       "loginExpiresAt": null,
       "lastErrorAt": null,
       "lastErrorMessage": null,
@@ -5098,8 +5168,8 @@
       "entryUrl": "https://kjj.wuhan.gov.cn/wmfw/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-10-19T04:40:02.191Z",
-      "lastSuccessAt": "2026-10-19T04:40:02.191Z",
+      "lastCheckedAt": "2026-10-19T13:14:15.194Z",
+      "lastSuccessAt": "2026-10-19T13:14:15.194Z",
       "priority": 95,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -5115,8 +5185,8 @@
       "entryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-10-19T04:40:05.687Z",
-      "lastSuccessAt": "2026-10-19T04:40:05.687Z",
+      "lastCheckedAt": "2026-10-19T13:14:21.639Z",
+      "lastSuccessAt": "2026-10-19T13:14:21.639Z",
       "priority": 94,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -5132,8 +5202,8 @@
       "entryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-10-19T04:40:15.408Z",
-      "lastSuccessAt": "2026-10-19T04:40:15.408Z",
+      "lastCheckedAt": "2026-10-19T13:14:32.854Z",
+      "lastSuccessAt": "2026-10-19T13:14:32.854Z",
       "priority": 93,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -5149,8 +5219,8 @@
       "entryUrl": "https://rst.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-10-19T04:40:16.726Z",
-      "lastSuccessAt": "2026-10-19T04:40:16.726Z",
+      "lastCheckedAt": "2026-10-19T13:14:35.545Z",
+      "lastSuccessAt": "2026-10-19T13:14:35.545Z",
       "priority": 92,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
