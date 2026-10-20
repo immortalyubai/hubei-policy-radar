@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-10-19T23:41:50.829Z",
+    "generatedAt": "2026-10-20T04:50:56.239Z",
     "scope": "湖北省与武汉市优先",
     "updateIntervalMinutes": 120,
     "lastCollectionCount": 33,
@@ -8,6 +8,77 @@
     "failedSources": 0
   },
   "items": [
+    {
+      "id": "east-lake-notices-9fe4e76b40c2",
+      "title": "东湖高新区关于组织开展2026年新型显示领域重大项目专项（第一批）申报工作的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉东湖新技术开发区管理委员会",
+      "summary": "各有关单位：为深入实施创新驱动发展战略，进一步巩固东湖高新区新型显示产业优势，根据《东湖高新区先进制造业“揭榜挂帅”重大项目专项实施办法(试行)》等文件精神，现就2026年度第一批新型显示领域重大项目专项申报工作有关事项通知如下：一、申报方向及任务名称申报方向：新型显示任务名称：全彩Micro-LED微显示芯片量产制造关键工艺开发项目任务具体任务详见附件1。二、申报要求（一）申报主体本任务可由单个企业或由企业联合产业链内行业上下游企业、高等学校、科研院所或其他组织机构等多个独立法人单位组建联合体进行申报，本任务原则上只支持1个项目。对于组建联合体申报的情形，牵头单位应与各成员单位签订合作协议，明确各方合作方式、任务分工、经费投入及分配比例、收益分配、知识产权权属等事项。（二）申报条件1.申报单位（含联合体所有成员单位）应是依法注册的独立法人，具有在区内承担申报任务的条件和能力。2.申报的项目符合支持方向及技术要求。3.申报单位（含联合体所有成员单位）近三年未发生重大安全、环保、质量事故，申报期未被列入信用中国失信名单。4.已通过其他渠道获得区级研发费用等相关专项资金支持的项目（或子项目",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "人才计划",
+        "惠企资金",
+        "智能制造"
+      ],
+      "publishedAt": "2026-10-20",
+      "deadlineAt": "2026-10-26",
+      "lifecycleStatus": "open",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202610/t20261020_2863912.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区通知公告",
+      "sourceCount": 1,
+      "score": 100,
+      "screeningReason": "可申报事项；命中重点产业或企业关键词；存在明确资金或奖励信号；30 天内截止；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-10-20T04:50:56.239Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202610/t20261020_2863912.shtml",
+          "sourceType": "official_site",
+          "sourceName": "东湖高新区通知公告"
+        }
+      ]
+    },
+    {
+      "id": "east-lake-notices-14caaa22964e",
+      "title": "关于转发《省科技厅关于组织申报2026年湖北省支持高新技术企业发展专项资金的通知》的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉东湖新技术开发区管理委员会",
+      "summary": "各有关单位：根据《湖北省支持高新技术企业发展专项资金管理办法》（鄂财产发〔2026〕83号，以下简称《高企资金管理办法》）有关要求，省科技厅正在组织开展2026年湖北省支持高新技术企业发展专项资金申报工作。相关要求如下：一、申报条件（一）企业应为当年湖北省有效期内高新技术企业，具有独立法人资格、健全的财务管理机构和财务管理制度。（二）企业诚信开展科研活动，依法纳税，无财政资金使用违纪、违规、违法行为。（三）按照要求填报了《高新技术企业优惠情况及明细表（A107041）》。（四）企业未被列入国家或省级严重失信主体名单。（五）其他应当具备的条件。二、支持方式专项资金支持方式为奖励性后补助。专项资金奖励由基础性奖励和激励性奖励两部分组成，专项资金在资金总额范围内优先落实基础性奖励，再安排激励性奖励。具体方式如下：（一）基础性奖励金额＝2025年度销售收入＊（2025年度企业研发强度－对应的研发强度基础要求）＊奖励系数6％。其中：研发强度＝研发费用／同期销售收入。对应的研发强度基础要求按照《高新技术企业认定管理办法》（国科发火〔2016〕32号）认定条件相关要求执行。即：最近一年销售收入小于5",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "科技企业",
+        "惠企资金"
+      ],
+      "publishedAt": "2026-10-20",
+      "deadlineAt": "2026-11-10",
+      "lifecycleStatus": "open",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202610/t20261020_2864097.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区通知公告",
+      "sourceCount": 1,
+      "score": 100,
+      "screeningReason": "可申报事项；命中重点产业或企业关键词；存在明确资金或奖励信号；30 天内截止；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-10-20T04:50:56.239Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202610/t20261020_2864097.shtml",
+          "sourceType": "official_site",
+          "sourceName": "东湖高新区通知公告"
+        }
+      ]
+    },
     {
       "id": "hubei-kjt-notices-3381f4097699",
       "title": "关于组织申报2026年湖北省支持高新技术企业发展专项资金的通知",
@@ -5151,8 +5222,8 @@
       "entryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-10-19T23:41:36.979Z",
-      "lastSuccessAt": "2026-10-19T23:41:36.979Z",
+      "lastCheckedAt": "2026-10-20T04:50:41.621Z",
+      "lastSuccessAt": "2026-10-20T04:50:41.621Z",
       "priority": 100,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -5168,8 +5239,8 @@
       "entryUrl": "https://kjj.wuhan.gov.cn/wmfw/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-10-19T23:41:37.705Z",
-      "lastSuccessAt": "2026-10-19T23:41:37.705Z",
+      "lastCheckedAt": "2026-10-20T04:50:42.469Z",
+      "lastSuccessAt": "2026-10-20T04:50:42.469Z",
       "priority": 95,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -5185,10 +5256,10 @@
       "entryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-10-19T23:41:41.258Z",
-      "lastSuccessAt": "2026-10-19T23:41:41.258Z",
+      "lastCheckedAt": "2026-10-20T04:50:46.013Z",
+      "lastSuccessAt": "2026-10-20T04:50:46.013Z",
       "priority": 94,
-      "lastInsertedCount": 0,
+      "lastInsertedCount": 2,
       "loginExpiresAt": null,
       "lastErrorAt": null,
       "lastErrorMessage": null,
@@ -5202,8 +5273,8 @@
       "entryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-10-19T23:41:49.411Z",
-      "lastSuccessAt": "2026-10-19T23:41:49.411Z",
+      "lastCheckedAt": "2026-10-20T04:50:54.671Z",
+      "lastSuccessAt": "2026-10-20T04:50:54.671Z",
       "priority": 93,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -5219,8 +5290,8 @@
       "entryUrl": "https://rst.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-10-19T23:41:50.724Z",
-      "lastSuccessAt": "2026-10-19T23:41:50.724Z",
+      "lastCheckedAt": "2026-10-20T04:50:56.107Z",
+      "lastSuccessAt": "2026-10-20T04:50:56.107Z",
       "priority": 92,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
