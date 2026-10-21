@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generatedAt": "2026-10-21T00:37:44.071Z",
+    "generatedAt": "2026-10-21T07:39:28.315Z",
     "scope": "湖北省与武汉市优先",
     "updateIntervalMinutes": 120,
-    "lastCollectionCount": 32,
+    "lastCollectionCount": 35,
     "successfulSources": 5,
     "failedSources": 0
   },
@@ -1758,6 +1758,40 @@
       ]
     },
     {
+      "id": "east-lake-notices-07bc21f1df17",
+      "title": "关于报名2026年东湖高新区“乐购武汉”汽车消费券参与车企和核销商户的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉东湖新技术开发区管理委员会",
+      "summary": "各有关企业：为贯彻落实消费提振工作要求，我局拟于近期开展2026年东湖高新区“乐购武汉”汽车消费券活动，购买新车的消费者可以享受云闪付红包补贴。现开展本次汽车消费券活动参与车企和核销商户报名工作。参与车企须为正常开展经营活动的汽车销售企业，提交车企报名表、营业执照、信用中国报告及车企诚信承诺书；核销商户须支持云闪付支付功能，提交核销商户报名表、营业执照、信用中国报告及核销商户诚信承诺书。申报资料经区商务外事局审核通过后，纳入最终参与名单。请有意向报名参与此次活动的车企和云闪付红包核销商户的企业将盖章版材料（整理成一个PDF文件，承诺书需法人签字加盖章，以企业名称命名）提交至邮箱2508933109@qq.com，报名截止时间为2026年10月23日（本周五）下午17:30，逾期不再受理。咨询电话：65563219，13035107322。 东湖新技术开发区商务外事局 2026年10月21日",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "惠企资金"
+      ],
+      "publishedAt": "2026-10-21",
+      "deadlineAt": "2026-10-23",
+      "lifecycleStatus": "open",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202610/t20261021_2865031.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区通知公告",
+      "sourceCount": 1,
+      "score": 86,
+      "screeningReason": "可申报事项；存在明确资金或奖励信号；30 天内截止；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-10-21T07:39:28.315Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202610/t20261021_2865031.shtml",
+          "sourceType": "official_site",
+          "sourceName": "东湖高新区通知公告"
+        }
+      ]
+    },
+    {
       "id": "east-lake-notices-fbdfc6d51724",
       "title": "东湖高新区关于组织开展高端诊疗装备整机系统关键节点重大项目专项申报工作的通知",
       "itemType": "application",
@@ -2055,6 +2089,43 @@
           "url": "https://mp.weixin.qq.com/s/4tzSn5DZSVghOIbdFYPYUA",
           "sourceType": "wechat",
           "sourceName": "武汉科技创新"
+        }
+      ]
+    },
+    {
+      "id": "hubei-kjt-notices-23a386040c43",
+      "title": "省科技厅关于开展2027年前沿技术领域科技创新技术问题调研摸底的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": null,
+      "publisherName": "湖北省科学技术厅",
+      "summary": "各有关单位：为贯彻落实未来产业发展工作部署，深入推动科技创新和产业创新深度融合，精准掌握部分前沿技术领域科技创新技术问题，现组织开展部分前沿技术领域科技创新技术问题调研摸底工作。有关事项如下：一、调研目的了解省域相关领域产业发展需求，厘清创新主体、创新人才、创新平台分布情况，分析科技创新技术问题现状，为后续相关工作提供决策依据（含2027年省级技术创新计划指南编制）。二、调研领域6G、人形机器人、低空经济、量子科技、人工智能、氢能与核聚变能六大领域。三、调研要求（一）聚焦国家科技创新“十五五”规划、湖北省科技创新“十五五”规划、武汉科创中心建设任务及先进制造业重点产业链发展等前沿技术部署要求。（二）以产业需求为主线，以技术问题为导向，以实体产品为成果，以成果转化为目标。（三）本次调研为自愿参与，调研结果仅作参考，不予反馈。请务必站在全省产业、行业及领域的视角直面具体技术问题，严格按照字数要求填报，逻辑清晰，内容精练，不穿衣戴帽，不描述前因后果。（四）参与对象请登录湖北省科技计划项目管理平台（https://kjt.hubei.gov.cn/jhgl/），进入“省级技术创新计划指南建议征",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "人工智能",
+        "成果转化",
+        "人才计划",
+        "智能制造"
+      ],
+      "publishedAt": "2026-10-21",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/202610/t20261021_6036808.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "湖北省科技厅通知公告",
+      "sourceCount": 1,
+      "score": 83,
+      "screeningReason": "可申报事项；命中重点产业或企业关键词；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-10-21T07:39:28.315Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://kjt.hubei.gov.cn/kjdt/tzgg/202610/t20261021_6036808.shtml",
+          "sourceType": "official_site",
+          "sourceName": "湖北省科技厅通知公告"
         }
       ]
     },
@@ -4155,6 +4226,38 @@
       ]
     },
     {
+      "id": "east-lake-notices-f89a34ddc3c7",
+      "title": "武汉东湖新技术开发区教育局关于2026年秋季初中及以下阶 段教师资格认定的公告",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉东湖新技术开发区管理委员会",
+      "summary": "根据湖北省教师资格管理办公室《关于做好2026年我省中小学教师资格制度实施工作的通知》《湖北省2026年下半年中小学教师资格认定公告》要求，结合我区实际，现将2026年秋季初中及以下阶段教师资格认定工作有关事项公告如下：一、网报时间网上报名时间：10月21日9:00至10月30日17:00。二、认定对象及范围未达到国家法定退休年龄的中国公民，户籍所在地、居住地（须持有当地居住证且在有效期内）在武汉东湖新技术开发区的中国公民及驻汉部队现役军人、现役武警，已取得《中小学教师资格考试合格证明》（或《师范生教师职业能力证书》）且在有效期之内，可在我区申请认定幼儿园、小学和初级中学教师资格。根据《教育部办公厅 中共中央台湾工作办公室秘书局 国务院港澳事务办公室秘书行政司关于港澳台居民在内地（大陆）申请中小学教师资格有关问题的通知》（教师厅〔2019〕1 号）规定，在我区学习、工作和居住的港澳台居民，无犯罪记录，持港澳台居民居住证可在居住地、持港澳居民来往内地通行证或5年有效期台湾居民来往大陆通行证等有效证件，可在教师资格考试所在地申请认定中小学教师资格。申请认定教师资格的学历及其他条件、程序要求",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [],
+      "publishedAt": "2026-10-20",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/zfxxgk/fdzdgk/gysy/jyly/202610/t20261020_2864758.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区通知公告",
+      "sourceCount": 1,
+      "score": 67,
+      "screeningReason": "可申报事项；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-10-21T07:39:28.315Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://www.wehdz.gov.cn/2022/zfxxgk/fdzdgk/gysy/jyly/202610/t20261020_2864758.shtml",
+          "sourceType": "official_site",
+          "sourceName": "东湖高新区通知公告"
+        }
+      ]
+    },
+    {
       "id": "east-lake-notices-793c4e37bee8",
       "title": "关于组织开展湖北省第六批夜间消费集聚区推选工作的通知",
       "itemType": "application",
@@ -5291,10 +5394,10 @@
       "entryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-10-21T00:37:30.438Z",
-      "lastSuccessAt": "2026-10-21T00:37:30.438Z",
+      "lastCheckedAt": "2026-10-21T07:39:14.417Z",
+      "lastSuccessAt": "2026-10-21T07:39:14.417Z",
       "priority": 100,
-      "lastInsertedCount": 0,
+      "lastInsertedCount": 1,
       "loginExpiresAt": null,
       "lastErrorAt": null,
       "lastErrorMessage": null,
@@ -5308,8 +5411,8 @@
       "entryUrl": "https://kjj.wuhan.gov.cn/wmfw/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-10-21T00:37:31.327Z",
-      "lastSuccessAt": "2026-10-21T00:37:31.327Z",
+      "lastCheckedAt": "2026-10-21T07:39:15.368Z",
+      "lastSuccessAt": "2026-10-21T07:39:15.368Z",
       "priority": 95,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -5325,10 +5428,10 @@
       "entryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-10-21T00:37:34.818Z",
-      "lastSuccessAt": "2026-10-21T00:37:34.818Z",
+      "lastCheckedAt": "2026-10-21T07:39:18.853Z",
+      "lastSuccessAt": "2026-10-21T07:39:18.853Z",
       "priority": 94,
-      "lastInsertedCount": 0,
+      "lastInsertedCount": 2,
       "loginExpiresAt": null,
       "lastErrorAt": null,
       "lastErrorMessage": null,
@@ -5342,8 +5445,8 @@
       "entryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-10-21T00:37:42.493Z",
-      "lastSuccessAt": "2026-10-21T00:37:42.493Z",
+      "lastCheckedAt": "2026-10-21T07:39:26.924Z",
+      "lastSuccessAt": "2026-10-21T07:39:26.924Z",
       "priority": 93,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -5359,8 +5462,8 @@
       "entryUrl": "https://rst.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-10-21T00:37:43.959Z",
-      "lastSuccessAt": "2026-10-21T00:37:43.959Z",
+      "lastCheckedAt": "2026-10-21T07:39:28.220Z",
+      "lastSuccessAt": "2026-10-21T07:39:28.220Z",
       "priority": 92,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
