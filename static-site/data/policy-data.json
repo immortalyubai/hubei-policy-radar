@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generatedAt": "2026-10-26T07:48:10.859Z",
+    "generatedAt": "2026-10-26T15:11:39.625Z",
     "scope": "湖北省与武汉市优先",
     "updateIntervalMinutes": 120,
-    "lastCollectionCount": 31,
+    "lastCollectionCount": 32,
     "successfulSources": 5,
     "failedSources": 0
   },
@@ -2093,6 +2093,41 @@
       ]
     },
     {
+      "id": "east-lake-notices-aa74601caf8e",
+      "title": "关于转发《关于组织开展2026年5G工厂 名录遴选工作的通知》的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉东湖新技术开发区管理委员会",
+      "summary": "各相关企业：接上级通知，根据《工业和信息化部办公厅关于组织开展2026年5G工厂名录遴选工作的通知》（工信厅信管函〔2026〕477号）安排，为打造高水平5G工厂，进一步扩大应用规模、提升建设质量，促进5G/5G-A、人工智能、工业互联网等融合赋能工厂数智化发展、驱动产业变革，现组织开展2026年5G工厂名录及典型应用实践遴选工作，有关事项通知如下：一、申报主体项目申报主体为制造业、采矿业、电力、港口等重点领域企业，在中华人民共和国境内注册，具备独立法人资格。二、基本要求项目建设内容参照《5G全连接工厂建设指南》（工信厅信管〔2022〕23号）。三、组织申报（一）国家5G工厂名录。各符合上述条件的企业通过国家“5G+工业互联网发展管理平台”(https://5gii.aii-alliance.org/)填项目，于10月30 日前上传相关材料，省经信厅联合省通信管理局线上开展项目初审和推荐。其中，往年已将材料上传至国家平台但未入围国家5G工厂名录的企业可据实更新材料重新提交。入围国家5G工厂名录的企业将同步被认定为省级5G工厂。（二）省级5G工厂。省级5G工厂的评审将直接从国家平台导出此",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "人工智能",
+        "智能制造"
+      ],
+      "publishedAt": "2026-10-26",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202610/t20261026_2868322.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区通知公告",
+      "sourceCount": 1,
+      "score": 83,
+      "screeningReason": "可申报事项；命中重点产业或企业关键词；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-10-26T15:11:39.625Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202610/t20261026_2868322.shtml",
+          "sourceType": "official_site",
+          "sourceName": "东湖高新区通知公告"
+        }
+      ]
+    },
+    {
       "id": "hubei-kjt-notices-23a386040c43",
       "title": "省科技厅关于开展2027年前沿技术领域科技创新技术问题调研摸底的通知",
       "itemType": "policy",
@@ -3337,6 +3372,40 @@
           "url": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/202604/t20260410_5911749.shtml",
           "sourceType": "official_site",
           "sourceName": "湖北省经信厅公开文件"
+        }
+      ]
+    },
+    {
+      "id": "east-lake-notices-9c58654f63e6",
+      "title": "关于转发市经信局《关于组织开展2026年首台（套）重大技术装备政策资格申报的通知》的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉东湖新技术开发区管理委员会",
+      "summary": "各有关企业：根据市经信局《关于开展2026年首台（套）重大技术装备政策资格申报的通知》要求，目前正在组织开展申报工作，现将具体要求转发如下：一、申报范围（一）申报领域。2026年首台（套）重大技术装备政策资格申报范围为《首台（套）重大技术装备推广应用指导目录（2024版）》（工信部重装函〔2024〕254号，以下简称《目录》）全部领域。（二）时间范围。2024年10月至2026年9月之间实现《目录》内重大技术装备生产、销售与交付的企业。（三）计量单位。整机装备原则上以台（套）数方式为单位；核心系统、关键零部件、重大技术装备关键配套及基础件原则上以批次数为单位。其中，高端工业母机、电子专用装备、新型农业机械装备、精密仪器仪表等单台（套）装备价值不高的整机装备可以批次数为单位；航空发动机、船舶发动机等单件价值较高的核心系统、关键零部件等可以台（套）数为单位。三、申报程序（一）企业申报。具体要求见《首台（套）重大技术装备政策资格申报指南》（附件1）、政策资格审核汇总表（附件3）、政策资格审核意见表（附件4）企业相关部分，于2026年11月6日（周五）17：00前提交：（1）1份纸质版完整申报",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "惠企资金"
+      ],
+      "publishedAt": "2026-10-26",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202610/t20261026_2868410.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区通知公告",
+      "sourceCount": 1,
+      "score": 77,
+      "screeningReason": "可申报事项；存在明确资金或奖励信号；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-10-26T15:11:39.625Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202610/t20261026_2868410.shtml",
+          "sourceType": "official_site",
+          "sourceName": "东湖高新区通知公告"
         }
       ]
     },
@@ -5394,8 +5463,8 @@
       "entryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-10-26T07:47:55.124Z",
-      "lastSuccessAt": "2026-10-26T07:47:55.124Z",
+      "lastCheckedAt": "2026-10-26T15:11:24.065Z",
+      "lastSuccessAt": "2026-10-26T15:11:24.065Z",
       "priority": 100,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -5411,8 +5480,8 @@
       "entryUrl": "https://kjj.wuhan.gov.cn/wmfw/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-10-26T07:47:55.999Z",
-      "lastSuccessAt": "2026-10-26T07:47:55.999Z",
+      "lastCheckedAt": "2026-10-26T15:11:25.104Z",
+      "lastSuccessAt": "2026-10-26T15:11:25.104Z",
       "priority": 95,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -5428,10 +5497,10 @@
       "entryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-10-26T07:47:59.723Z",
-      "lastSuccessAt": "2026-10-26T07:47:59.723Z",
+      "lastCheckedAt": "2026-10-26T15:11:28.760Z",
+      "lastSuccessAt": "2026-10-26T15:11:28.760Z",
       "priority": 94,
-      "lastInsertedCount": 0,
+      "lastInsertedCount": 2,
       "loginExpiresAt": null,
       "lastErrorAt": null,
       "lastErrorMessage": null,
@@ -5445,8 +5514,8 @@
       "entryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-10-26T07:48:09.731Z",
-      "lastSuccessAt": "2026-10-26T07:48:09.731Z",
+      "lastCheckedAt": "2026-10-26T15:11:37.840Z",
+      "lastSuccessAt": "2026-10-26T15:11:37.840Z",
       "priority": 93,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -5462,8 +5531,8 @@
       "entryUrl": "https://rst.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-10-26T07:48:10.740Z",
-      "lastSuccessAt": "2026-10-26T07:48:10.740Z",
+      "lastCheckedAt": "2026-10-26T15:11:39.511Z",
+      "lastSuccessAt": "2026-10-26T15:11:39.511Z",
       "priority": 92,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
