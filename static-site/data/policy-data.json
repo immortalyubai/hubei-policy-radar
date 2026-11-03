@@ -1,13 +1,50 @@
 {
   "meta": {
-    "generatedAt": "2026-11-03T06:47:23.315Z",
+    "generatedAt": "2026-11-03T16:15:18.214Z",
     "scope": "湖北省与武汉市优先",
     "updateIntervalMinutes": 120,
-    "lastCollectionCount": 23,
-    "successfulSources": 3,
-    "failedSources": 2
+    "lastCollectionCount": 29,
+    "successfulSources": 5,
+    "failedSources": 0
   },
   "items": [
+    {
+      "id": "hubei-kjt-notices-82f2d027906d",
+      "title": "关于组织2026年度湖北省概念验证中心培育建设工作的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": null,
+      "publisherName": "湖北省科学技术厅",
+      "summary": "各市、州、直管市、神农架林区科技局，各有关单位：为高质量推进湖北省概念验证中心（以下简称“省概念验证中心”）建设，依据《湖北省概念验证中心管理暂行办法》（以下简称《办法》），省科技厅拟组织2026年度省概念验证中心培育建设工作。现将有关事项通知如下：一、申报类型与领域分综合型、专业型两类，优先支持专业型概念验证中心申报。申报领域重点聚焦全省先进制造业、现代农业、未来产业及其他优势特色产业。二、申报条件1．依托单位（牵头建设单位）须为在湖北省内注册登记、具备独立法人资格的高校院所、科研机构和企事业单位等。鼓励建立相对独立的人、财、物管理运行机制，实行理事会（董事会）领导下的中心主任（总经理）负责制。（注：2025年培育建设的31家省概念验证中心，其依托单位或牵头建设单位不得重复申报。）2．具备完善的组织架构、成熟的运行管理制度、规范的验证项目管理机制、严格的信息保密制度，以及灵活的市场化服务与考评激励机制。3．配备专业化服务团队。中心负责人应具有高级职称，从事科技成果转化相关工作5年（含）以上；概念验证项目服务团队不少于20人，其中专职人员不少于5人；组建本领域专业权威的专家顾问团队不少",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "成果转化",
+        "人才计划",
+        "惠企资金",
+        "智能制造"
+      ],
+      "publishedAt": "2026-11-03",
+      "deadlineAt": "2026-11-26",
+      "lifecycleStatus": "open",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/202611/t20261103_6056788.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "湖北省科技厅通知公告",
+      "sourceCount": 1,
+      "score": 100,
+      "screeningReason": "可申报事项；命中重点产业或企业关键词；存在明确资金或奖励信号；30 天内截止；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-11-03T16:15:18.214Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://kjt.hubei.gov.cn/kjdt/tzgg/202611/t20261103_6056788.shtml",
+          "sourceType": "official_site",
+          "sourceName": "湖北省科技厅通知公告"
+        }
+      ]
+    },
     {
       "id": "east-lake-notices-9fe4e76b40c2",
       "title": "东湖高新区关于组织开展2026年新型显示领域重大项目专项（第一批）申报工作的通知",
@@ -5313,6 +5350,43 @@
       ]
     },
     {
+      "id": "east-lake-notices-438a4136ff44",
+      "title": "关于转发《省科技厅关于开展2027年前沿技术领域科技创新技术问题调研摸底的通知》的通知",
+      "itemType": "policy",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉东湖新技术开发区管理委员会",
+      "summary": "各有关单位：为贯彻落实未来产业发展工作部署，深入推动科技创新和产业创新深度融合，精准掌握部分前沿技术领域科技创新技术问题，湖北省科技厅现组织开展部分前沿技术领域科技创新技术问题调研摸底工作。有关事项通知如下：一、调研目的了解省域相关领域产业发展需求，厘清创新主体、创新人才、创新平台分布情况，分析科技创新技术问题现状，为后续相关工作提供决策依据（含2027年省级技术创新计划指南编制）。二、调研领域6G、人形机器人、低空经济、量子科技、人工智能、氢能与核聚变能六大领域。三、调研要求（一）聚焦国家科技创新“十五五”规划、湖北省科技创新“十五五”规划、武汉科创中心建设任务及先进制造业重点产业链发展等前沿技术部署要求。（二）以产业需求为主线，以技术问题为导向，以实体产品为成果，以成果转化为目标。（三）本次调研为自愿参与，调研结果仅作参考，不予反馈。请务必站在全省产业、行业及领域的视角直面具体技术问题，严格按照字数要求填报，逻辑清晰，内容精练，不穿衣戴帽，不描述前因后果。（四）参与对象请登录湖北省科技计划项目管理平台（https://kjt.hubei.gov.cn/jhgl/），进入“2027年",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "人工智能",
+        "成果转化",
+        "人才计划",
+        "智能制造"
+      ],
+      "publishedAt": "2026-11-03",
+      "deadlineAt": null,
+      "lifecycleStatus": "evergreen",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202611/t20261103_2873150.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区通知公告",
+      "sourceCount": 1,
+      "score": 63,
+      "screeningReason": "命中重点产业或企业关键词；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-11-03T16:15:18.214Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202611/t20261103_2873150.shtml",
+          "sourceType": "official_site",
+          "sourceName": "东湖高新区通知公告"
+        }
+      ]
+    },
+    {
       "id": "east-lake-notices-b55edd01e57b",
       "title": "关于转发《关于开展人工智能应用服务商培育专项行动的通知》的通知",
       "itemType": "policy",
@@ -5600,8 +5674,8 @@
       "entryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-11-03T06:47:08.997Z",
-      "lastSuccessAt": "2026-11-03T06:47:08.997Z",
+      "lastCheckedAt": "2026-11-03T16:15:05.173Z",
+      "lastSuccessAt": "2026-11-03T16:15:05.173Z",
       "priority": 100,
       "lastInsertedCount": 1,
       "loginExpiresAt": null,
@@ -5615,16 +5689,16 @@
       "sourceType": "official_site",
       "publisherName": "武汉市科技创新局",
       "entryUrl": "https://kjj.wuhan.gov.cn/wmfw/tzgg/",
-      "healthStatus": "degraded",
+      "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-11-03T06:47:09.557Z",
-      "lastSuccessAt": "2026-11-02T23:30:40.284Z",
+      "lastCheckedAt": "2026-11-03T16:15:05.884Z",
+      "lastSuccessAt": "2026-11-03T16:15:05.884Z",
       "priority": 95,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
-      "lastErrorAt": "2026-11-03T06:47:09.557Z",
-      "lastErrorMessage": "fetch failed",
-      "consecutiveFailures": 1
+      "lastErrorAt": null,
+      "lastErrorMessage": null,
+      "consecutiveFailures": 0
     },
     {
       "id": "east-lake-notices",
@@ -5632,16 +5706,16 @@
       "sourceType": "official_site",
       "publisherName": "武汉东湖新技术开发区管理委员会",
       "entryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/",
-      "healthStatus": "degraded",
+      "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-11-03T06:47:10.319Z",
-      "lastSuccessAt": "2026-11-02T23:30:42.820Z",
+      "lastCheckedAt": "2026-11-03T16:15:12.657Z",
+      "lastSuccessAt": "2026-11-03T16:15:12.657Z",
       "priority": 94,
-      "lastInsertedCount": 0,
+      "lastInsertedCount": 1,
       "loginExpiresAt": null,
-      "lastErrorAt": "2026-11-03T06:47:10.319Z",
-      "lastErrorMessage": "fetch failed",
-      "consecutiveFailures": 1
+      "lastErrorAt": null,
+      "lastErrorMessage": null,
+      "consecutiveFailures": 0
     },
     {
       "id": "hubei-jxt-files",
@@ -5651,8 +5725,8 @@
       "entryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-11-03T06:47:21.515Z",
-      "lastSuccessAt": "2026-11-03T06:47:21.515Z",
+      "lastCheckedAt": "2026-11-03T16:15:17.320Z",
+      "lastSuccessAt": "2026-11-03T16:15:17.320Z",
       "priority": 93,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -5668,8 +5742,8 @@
       "entryUrl": "https://rst.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-11-03T06:47:23.186Z",
-      "lastSuccessAt": "2026-11-03T06:47:23.186Z",
+      "lastCheckedAt": "2026-11-03T16:15:18.100Z",
+      "lastSuccessAt": "2026-11-03T16:15:18.100Z",
       "priority": 92,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
