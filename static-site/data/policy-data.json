@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-11-16T06:28:04.478Z",
+    "generatedAt": "2026-11-16T18:32:39.825Z",
     "scope": "湖北省与武汉市优先",
     "updateIntervalMinutes": 120,
-    "lastCollectionCount": 0,
-    "successfulSources": 0,
-    "failedSources": 5
+    "lastCollectionCount": 23,
+    "successfulSources": 5,
+    "failedSources": 0
   },
   "items": [
     {
@@ -1407,6 +1407,40 @@
       "screeningReason": "覆盖企业面广，且各地推荐节点可能更早，需要持续追踪市区通知。",
       "documentNumber": null,
       "discoveredAt": "2026-07-17T09:30:00+08:00"
+    },
+    {
+      "id": "hubei-jxt-files-d41a4985a573",
+      "title": "省经信厅办公室关于开展湖北省第九批专精特新中小企业认定的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": null,
+      "publisherName": "湖北省经济和信息化厅",
+      "summary": "各市（州）、直管市、神农架林区经信局：根据《优质中小企业梯度培育管理办法》（工信部企业〔2026〕2号）（以下简称《办法》），现就组织开展湖北省第九批专精特新中小企业认定工作有关事项通知如下：一、申请条件有效期内的创新型中小企业可申请湖北省第九批专精特新中小企业，申请企业应符合2026年印发的《办法》有关认定标准。二、申请程序（一）申请企业登录工信部优质中小企业梯度培育平台（https://zjtx.miit.gov.cn/，以下简称培育平台），点击“专精特新中小企业——去自评”进行自评。企业填报的财务数据应以会计师事务所出具的审计报告为依据，2025年财务审计报告需提供财政部注册会计师行业统一监管平台（http://acc.mof.gov.cn）报备后的已赋码版，完成线上资料填报后，导出对应申请书，确保线上、线下数据一致。线上申报时间：2026年11月23日-11月29日。企业申请书及佐证材料纸质件由市州经信部门妥善留存备查，无需报送我厅。市州经信部门应通过组织实地抽查、第三方数据验证、财务报表对照等方式，确保数据真实性。市州经信部门根据认定标准，对企业申报信息和相关佐证材料进行初审",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "科技企业"
+      ],
+      "publishedAt": "2026-11-16",
+      "deadlineAt": "2026-11-29",
+      "lifecycleStatus": "open",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/202611/t20261116_6086000.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "湖北省经信厅公开文件",
+      "sourceCount": 1,
+      "score": 92,
+      "screeningReason": "可申报事项；命中重点产业或企业关键词；30 天内截止；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-11-16T18:32:39.825Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/202611/t20261116_6086000.shtml",
+          "sourceType": "official_site",
+          "sourceName": "湖北省经信厅公开文件"
+        }
+      ]
     },
     {
       "id": "east-lake-notices-2aec9d2db89c",
@@ -4208,6 +4242,38 @@
       ]
     },
     {
+      "id": "east-lake-notices-a8f2246fe835",
+      "title": "关于转发开展2026年国家级首版次软件申报工作的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉东湖新技术开发区管理委员会",
+      "summary": "各相关企业：为贯彻落实《工业和信息化部办公厅关于开展 2026 年首版次软件申报工作的通知》（工信厅信发函〔2026〕496 号），根据省、市经信部门工作部署，现就组织我区企业开展 2026 年国家级首版次软件申报工作有关事项通知如下：一、申报方向本年度首版次软件申报方向为工业软件。二、申报条件1. 申报单位注册地必须在东湖新技术开发区，且主要创新工作开展地位于中华人民共和国境内。2. 申报单位拥有申报软件产品的核心技术和自主知识产权，具备相应的研发能力。3. 申报软件产品取得技术创新突破，在质量水平、市场能力等方面具有一定优势，已实现市场化正常销售，且三年内无停售计划。三、申报材料要求（一）截止时间：2026年11月20日（周五）12:00前，逾期将不受理。（二）提交地点：东湖高新区管委会7号楼7016房间（三）材料要求请有关企业积极申报，于11月20日前将所有材料胶装成册。提交一份至光谷管委会企业服务局信息技术发展科（武汉市高新大道777号7号楼7层7016室），电子版现场U盘拷贝给工作人员。 附件: 1.填报说明 2.首版次软件产品申报书 3.首版次软件测评意见 4.首版次软件测",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [],
+      "publishedAt": "2026-11-16",
+      "deadlineAt": "2026-11-20",
+      "lifecycleStatus": "open",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202611/t20261116_2880445.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区通知公告",
+      "sourceCount": 1,
+      "score": 76,
+      "screeningReason": "可申报事项；30 天内截止；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-11-16T18:32:39.825Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202611/t20261116_2880445.shtml",
+          "sourceType": "official_site",
+          "sourceName": "东湖高新区通知公告"
+        }
+      ]
+    },
+    {
       "id": "hubei-kjt-notices-641b0c3e74fe",
       "title": "省科技厅关于组织申报国家重点研发计划 “政府间国际科技创新合作”重点专项 2027年度第一批联合研发项目的通知",
       "itemType": "application",
@@ -6005,16 +6071,16 @@
       "sourceType": "official_site",
       "publisherName": "湖北省科学技术厅",
       "entryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/",
-      "healthStatus": "degraded",
+      "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-11-16T06:28:01.711Z",
-      "lastSuccessAt": "2026-11-15T22:48:31.291Z",
+      "lastCheckedAt": "2026-11-16T18:32:29.800Z",
+      "lastSuccessAt": "2026-11-16T18:32:29.800Z",
       "priority": 100,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
-      "lastErrorAt": "2026-11-16T06:28:01.711Z",
-      "lastErrorMessage": "fetch failed",
-      "consecutiveFailures": 1
+      "lastErrorAt": null,
+      "lastErrorMessage": null,
+      "consecutiveFailures": 0
     },
     {
       "id": "wuhan-kj-notices",
@@ -6022,16 +6088,16 @@
       "sourceType": "official_site",
       "publisherName": "武汉市科技创新局",
       "entryUrl": "https://kjj.wuhan.gov.cn/wmfw/tzgg/",
-      "healthStatus": "degraded",
+      "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-11-16T06:28:02.053Z",
-      "lastSuccessAt": "2026-11-15T22:48:32.251Z",
+      "lastCheckedAt": "2026-11-16T18:32:30.572Z",
+      "lastSuccessAt": "2026-11-16T18:32:30.572Z",
       "priority": 95,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
-      "lastErrorAt": "2026-11-16T06:28:02.053Z",
-      "lastErrorMessage": "fetch failed",
-      "consecutiveFailures": 1
+      "lastErrorAt": null,
+      "lastErrorMessage": null,
+      "consecutiveFailures": 0
     },
     {
       "id": "east-lake-notices",
@@ -6039,16 +6105,16 @@
       "sourceType": "official_site",
       "publisherName": "武汉东湖新技术开发区管理委员会",
       "entryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/",
-      "healthStatus": "degraded",
+      "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-11-16T06:28:02.568Z",
-      "lastSuccessAt": "2026-11-15T22:48:35.195Z",
+      "lastCheckedAt": "2026-11-16T18:32:33.620Z",
+      "lastSuccessAt": "2026-11-16T18:32:33.620Z",
       "priority": 94,
-      "lastInsertedCount": 0,
+      "lastInsertedCount": 1,
       "loginExpiresAt": null,
-      "lastErrorAt": "2026-11-16T06:28:02.568Z",
-      "lastErrorMessage": "fetch failed",
-      "consecutiveFailures": 1
+      "lastErrorAt": null,
+      "lastErrorMessage": null,
+      "consecutiveFailures": 0
     },
     {
       "id": "hubei-jxt-files",
@@ -6056,16 +6122,16 @@
       "sourceType": "official_site",
       "publisherName": "湖北省经济和信息化厅",
       "entryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/",
-      "healthStatus": "degraded",
+      "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-11-16T06:28:03.613Z",
-      "lastSuccessAt": "2026-11-15T22:48:39.476Z",
+      "lastCheckedAt": "2026-11-16T18:32:38.338Z",
+      "lastSuccessAt": "2026-11-16T18:32:38.338Z",
       "priority": 93,
-      "lastInsertedCount": 0,
+      "lastInsertedCount": 1,
       "loginExpiresAt": null,
-      "lastErrorAt": "2026-11-16T06:28:03.613Z",
-      "lastErrorMessage": "fetch failed",
-      "consecutiveFailures": 1
+      "lastErrorAt": null,
+      "lastErrorMessage": null,
+      "consecutiveFailures": 0
     },
     {
       "id": "hubei-rst-files",
@@ -6073,16 +6139,16 @@
       "sourceType": "official_site",
       "publisherName": "湖北省人力资源和社会保障厅",
       "entryUrl": "https://rst.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/",
-      "healthStatus": "degraded",
+      "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-11-16T06:28:04.396Z",
-      "lastSuccessAt": "2026-11-15T22:48:40.854Z",
+      "lastCheckedAt": "2026-11-16T18:32:39.706Z",
+      "lastSuccessAt": "2026-11-16T18:32:39.706Z",
       "priority": 92,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
-      "lastErrorAt": "2026-11-16T06:28:04.396Z",
-      "lastErrorMessage": "fetch failed",
-      "consecutiveFailures": 1
+      "lastErrorAt": null,
+      "lastErrorMessage": null,
+      "consecutiveFailures": 0
     },
     {
       "id": "wechat-hubei-publish",
