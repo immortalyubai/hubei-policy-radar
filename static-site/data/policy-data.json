@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-11-19T00:22:42.977Z",
+    "generatedAt": "2026-11-19T10:20:17.924Z",
     "scope": "湖北省与武汉市优先",
     "updateIntervalMinutes": 120,
-    "lastCollectionCount": 12,
-    "successfulSources": 1,
-    "failedSources": 4
+    "lastCollectionCount": 22,
+    "successfulSources": 5,
+    "failedSources": 0
   },
   "items": [
     {
@@ -979,6 +979,41 @@
           "url": "https://www.wehdz.gov.cn/2022/zfxxgk/zc_68632/qtzdgk/qzfwj/202503/t20250318_2553634.shtml",
           "sourceType": "official_site",
           "sourceName": "东湖高新区管委会"
+        }
+      ]
+    },
+    {
+      "id": "hubei-kjt-notices-1184b4a68276",
+      "title": "关于组织申报2027年度湖北省自然科学基金项目的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": null,
+      "publisherName": "湖北省科学技术厅",
+      "summary": "各有关单位：湖北省自然科学基金（以下简称省基金）立足人才培养、学科建设和源头创新，主要支持科研人才、团队和基础研究平台围绕我省经济社会发展中的重大科学问题和关键核心技术突破，开展应用性基础研究和探索性基础研究。为贯彻落实《湖北省基础研究规划（2022－2030年）》重点任务及加强基础研究有关措施，做好2027年度省基金项目申报工作，根据《湖北省自然科学基金管理办法》和省级科技计划年度工作安排，现将有关事项通知如下：一、项目类型2027年度省基金项目类型包括卓越研究群体项目、创新研究群体项目、青年A类项目、青年B类项目、面上项目、非共识项目，所有项目均为前资助项目。二、申请条件（一）卓越研究群体项目1．申请人为依托单位全职固定研究人员；2．牵头申请人应当是本领域国内知名科学家，具有正高级专业技术职务（职称）。骨干成员应当具有高级专业技术职务（职称），在相关的科学研究领域中取得过出色的研究成果并具有持续发展的潜力。项目应聚焦我省优势基础科学领域、有望实现重大突破的研究方向。3．牵头申请人和骨干成员均在55周岁以下（1972年1月1日后出生），且牵头申请人和骨干成员的平均年龄不超过50周岁。",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "人才计划",
+        "惠企资金"
+      ],
+      "publishedAt": "2026-11-19",
+      "deadlineAt": "2026-12-21",
+      "lifecycleStatus": "open",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/202611/t20261119_6128125.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "湖北省科技厅通知公告",
+      "sourceCount": 1,
+      "score": 93,
+      "screeningReason": "可申报事项；命中重点产业或企业关键词；存在明确资金或奖励信号；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-11-19T10:20:17.924Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://kjt.hubei.gov.cn/kjdt/tzgg/202611/t20261119_6128125.shtml",
+          "sourceType": "official_site",
+          "sourceName": "湖北省科技厅通知公告"
         }
       ]
     },
@@ -2001,6 +2036,40 @@
         {
           "label": "打开官网原文",
           "url": "https://kjt.hubei.gov.cn/kjdt/tzgg/202607/t20260707_5972505.shtml",
+          "sourceType": "official_site",
+          "sourceName": "湖北省科技厅通知公告"
+        }
+      ]
+    },
+    {
+      "id": "hubei-kjt-notices-4fbc006e3e41",
+      "title": "关于发布2027年度湖北省自然科学基金联合基金项目申报指南的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": null,
+      "publisherName": "湖北省科学技术厅",
+      "summary": "各有关单位：湖北省自然科学基金联合基金（以下简称省联合基金）是由省科技厅与市州政府、行业部门、企业或其他法人组织等联合资助方共同出资设立的省基金项目，用于在双方商定的科学技术领域内共同支持应用性基础研究和探索性基础研究。根据《湖北省自然科学基金管理办法》有关规定和年度联合基金组织工作安排，现将2027年度省联合基金项目申报有关事项通知如下：一、实施依据省联合基金是湖北省自然科学基金的组成部分，有关项目申请、评审和管理按照《湖北省自然科学基金管理办法》以及相关协议实施。二、项目类型及申请条件省联合基金项目包括重点项目、培育项目，均为前资助项目。省联合基金项目仅面向具有省自然科学基金（含省联合基金）依托单位资质的单位申报。（一）重点项目申请条件：1．申请人为依托单位全职固定研究人员；2．年龄在55周岁以下（1972年1月1日后出生）；3．副高级专业技术职务（职称）及以上；4．具有承担基础研究课题或者其他从事基础研究的经历。5．符合所申请的联合基金项目指南要求的其他条件。（二）培育项目申请条件：1．申请人为依托单位全职固定研究人员；2．年龄在50周岁以下（1977年1月1日后出生）；3．具有",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "惠企资金"
+      ],
+      "publishedAt": "2026-11-19",
+      "deadlineAt": "2026-12-10",
+      "lifecycleStatus": "open",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/202611/t20261119_6128097.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "湖北省科技厅通知公告",
+      "sourceCount": 1,
+      "score": 86,
+      "screeningReason": "可申报事项；存在明确资金或奖励信号；30 天内截止；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-11-19T10:20:17.924Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://kjt.hubei.gov.cn/kjdt/tzgg/202611/t20261119_6128097.shtml",
           "sourceType": "official_site",
           "sourceName": "湖北省科技厅通知公告"
         }
@@ -4781,6 +4850,38 @@
       ]
     },
     {
+      "id": "hubei-kjt-notices-82ca79712413",
+      "title": "省科技厅关于推荐申报国家重点研发计划“重大需求导向的数学理论及应用”等重点专项2026年度项目的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": null,
+      "publisherName": "湖北省科学技术厅",
+      "summary": "各有关单位：按照《国家自然科学基金委员会关于发布国家重点研发计划“重大需求导向的数学理论及应用”等重点专项2026年度项目申报指南的通知》要求，我厅拟组织开展项目申报及推荐工作，具体要求如下：一、申报要求1．各申报单位需严格按照申报通知中申报指南、工作流程、申报资格、申报方式等相关要求进行线上填报。2．项目牵头申报单位及所有参与单位要落实《关于进一步加强科研诚信建设的若干意见》《关于进一步弘扬科学家精神加强作风和学风建设的意见》等要求，加强对申报材料审核把关，杜绝夸大不实，严禁弄虚作假。3．申报单位同一个项目只能通过单个推荐渠道申报，不得多头申报和重复申报。二、申报及推荐程序1．网上填报。请各申报单位根据相关申报要求，通过国家科技管理信息系统公共服务平台（http://service.most.gov.cn）进行网上填报，注意网上填报申报书受理截止时间。2．组织推荐。由各市、州、直管市、神农架林区科技局，东湖国家自主创新示范区管委会，高校院所及中央在汉单位、省直部门作为归口管理单位出具推荐函。请项目申报单位于2026年12月9日16：00前将加盖单位公章的推荐函（PDF电子版）附上项目",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [],
+      "publishedAt": "2026-11-19",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/202611/t20261119_6128134.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "湖北省科技厅通知公告",
+      "sourceCount": 1,
+      "score": 67,
+      "screeningReason": "可申报事项；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-11-19T10:20:17.924Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://kjt.hubei.gov.cn/kjdt/tzgg/202611/t20261119_6128134.shtml",
+          "sourceType": "official_site",
+          "sourceName": "湖北省科技厅通知公告"
+        }
+      ]
+    },
+    {
       "id": "east-lake-notices-5b64773947dc",
       "title": "关于2026年东湖高新区特色产业园区拟认定名单的公示",
       "itemType": "application",
@@ -6144,16 +6245,16 @@
       "sourceType": "official_site",
       "publisherName": "湖北省科学技术厅",
       "entryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/",
-      "healthStatus": "degraded",
+      "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-11-19T00:22:26.135Z",
-      "lastSuccessAt": "2026-11-18T17:15:52.723Z",
+      "lastCheckedAt": "2026-11-19T10:20:02.762Z",
+      "lastSuccessAt": "2026-11-19T10:20:02.762Z",
       "priority": 100,
-      "lastInsertedCount": 0,
+      "lastInsertedCount": 3,
       "loginExpiresAt": null,
-      "lastErrorAt": "2026-11-19T00:22:26.135Z",
-      "lastErrorMessage": "fetch failed",
-      "consecutiveFailures": 1
+      "lastErrorAt": null,
+      "lastErrorMessage": null,
+      "consecutiveFailures": 0
     },
     {
       "id": "wuhan-kj-notices",
@@ -6161,16 +6262,16 @@
       "sourceType": "official_site",
       "publisherName": "武汉市科技创新局",
       "entryUrl": "https://kjj.wuhan.gov.cn/wmfw/tzgg/",
-      "healthStatus": "degraded",
+      "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-11-19T00:22:26.690Z",
-      "lastSuccessAt": "2026-11-18T17:15:53.605Z",
+      "lastCheckedAt": "2026-11-19T10:20:04.024Z",
+      "lastSuccessAt": "2026-11-19T10:20:04.024Z",
       "priority": 95,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
-      "lastErrorAt": "2026-11-19T00:22:26.690Z",
-      "lastErrorMessage": "fetch failed",
-      "consecutiveFailures": 1
+      "lastErrorAt": null,
+      "lastErrorMessage": null,
+      "consecutiveFailures": 0
     },
     {
       "id": "east-lake-notices",
@@ -6178,16 +6279,16 @@
       "sourceType": "official_site",
       "publisherName": "武汉东湖新技术开发区管理委员会",
       "entryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/",
-      "healthStatus": "degraded",
+      "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-11-19T00:22:27.209Z",
-      "lastSuccessAt": "2026-11-18T17:15:57.857Z",
+      "lastCheckedAt": "2026-11-19T10:20:07.079Z",
+      "lastSuccessAt": "2026-11-19T10:20:07.079Z",
       "priority": 94,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
-      "lastErrorAt": "2026-11-19T00:22:27.209Z",
-      "lastErrorMessage": "fetch failed",
-      "consecutiveFailures": 1
+      "lastErrorAt": null,
+      "lastErrorMessage": null,
+      "consecutiveFailures": 0
     },
     {
       "id": "hubei-jxt-files",
@@ -6197,8 +6298,8 @@
       "entryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-11-19T00:22:41.868Z",
-      "lastSuccessAt": "2026-11-19T00:22:41.868Z",
+      "lastCheckedAt": "2026-11-19T10:20:16.149Z",
+      "lastSuccessAt": "2026-11-19T10:20:16.149Z",
       "priority": 93,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -6212,16 +6313,16 @@
       "sourceType": "official_site",
       "publisherName": "湖北省人力资源和社会保障厅",
       "entryUrl": "https://rst.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/",
-      "healthStatus": "degraded",
+      "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-11-19T00:22:42.893Z",
-      "lastSuccessAt": "2026-11-18T17:16:08.124Z",
+      "lastCheckedAt": "2026-11-19T10:20:17.822Z",
+      "lastSuccessAt": "2026-11-19T10:20:17.822Z",
       "priority": 92,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
-      "lastErrorAt": "2026-11-19T00:22:42.893Z",
-      "lastErrorMessage": "fetch failed",
-      "consecutiveFailures": 1
+      "lastErrorAt": null,
+      "lastErrorMessage": null,
+      "consecutiveFailures": 0
     },
     {
       "id": "wechat-hubei-publish",
