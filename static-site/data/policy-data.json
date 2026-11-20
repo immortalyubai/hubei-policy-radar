@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-11-20T03:14:37.873Z",
+    "generatedAt": "2026-11-20T12:54:25.646Z",
     "scope": "湖北省与武汉市优先",
     "updateIntervalMinutes": 120,
     "lastCollectionCount": 22,
@@ -8,6 +8,41 @@
     "failedSources": 0
   },
   "items": [
+    {
+      "id": "east-lake-notices-ebbde2213195",
+      "title": "关于开展2026年武汉东湖新技术开发区工程技术初级职称初定申报工作的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉东湖新技术开发区管理委员会",
+      "summary": "各有关单位：根据《关于进一步规范我省专业技术人员职称初定政策的通知》（鄂人社发〔2026〕26号）和武汉市职改办《2026年度职称评定工作提示》文件要求，现就东湖高新区2026年初级职称初定申报工作通知如下: 一、初定专业范围及申报对象初定专业范围为“本区属单位”各系列（中小学教师、城市轨道交通、体育教练、自主评审高校实验技术和高校教师除外）初级职称。（一）在我区各类企事业单位、社会团体、个体经济组织等（以下称“用人单位”）专业技术岗位上从事专业技术工作，与用人单位建立劳动（聘用）关系的专业技术人员。原则上应具有在申报单位连续参加基本养老保险一年以上的缴费记录。（二）在东湖高新区就业的港澳台专业技术人员、持有外国人来华工作许可证或海外高层次等外籍人员。（三）在东湖高新区具有连续参加基本养老保险一年以上缴费记录的自由职业（灵活就业）专业技术人员。（四）以下情形人员不得申报初定职称：1.公务员（含参照公务员法管理人员）。2.退休人员。3.受到刑事处罚、政务处分、党纪处分、行政处分等，刑期和处分期（含影响期）未满的。4.被记入全省职称失信黑名单，且仍在记录期限的。申报后发现上述情形的，审核不",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "人才计划",
+        "惠企资金"
+      ],
+      "publishedAt": "2026-11-20",
+      "deadlineAt": "2026-12-03",
+      "lifecycleStatus": "open",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202611/t20261120_2882726.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区通知公告",
+      "sourceCount": 1,
+      "score": 100,
+      "screeningReason": "可申报事项；命中重点产业或企业关键词；存在明确资金或奖励信号；30 天内截止；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-11-20T12:54:25.646Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202611/t20261120_2882726.shtml",
+          "sourceType": "official_site",
+          "sourceName": "东湖高新区通知公告"
+        }
+      ]
+    },
     {
       "id": "hubei-kjt-notices-82f2d027906d",
       "title": "关于组织2026年度湖北省概念验证中心培育建设工作的通知",
@@ -2038,6 +2073,41 @@
           "url": "https://kjt.hubei.gov.cn/kjdt/tzgg/202607/t20260707_5972505.shtml",
           "sourceType": "official_site",
           "sourceName": "湖北省科技厅通知公告"
+        }
+      ]
+    },
+    {
+      "id": "east-lake-notices-bdf8e852210e",
+      "title": "关于组织开展新能源汽车关键零部件量产产线重大项目专项申报工作的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉东湖新技术开发区管理委员会",
+      "summary": "各有关单位：根据《东湖高新区先进制造业“揭榜挂帅”重大项目专项实施办法（试行）》等文件精神，现就新能源汽车关键零部件量产产线重大项目专项申报工作有关事项通知如下：一、申报方向及任务名称申报方向：新能源汽车任务名称：新能源汽车关键零部件量产产线重大项目任务具体任务详见附件1。二、申报要求（一）申报主体任务可由单个企业或由企业联合产业链内行业上下游企业、高等学校、科研院所或其他组织机构等多个独立法人单位组建联合体进行申报，单个任务原则上只支持1个项目。对于组建联合体申报的情形，牵头单位应与各成员单位签订合作协议，明确各方合作方式、任务分工、经费投入及分配比例、收益分配、知识产权权属等事项。（二）申报条件1.申报单位（含联合体所有成员单位）应是依法注册的独立法人，具有在区内承担申报任务的条件和能力。2.申报的项目符合支持方向及技术要求。3.申报单位（含联合体所有成员单位）近三年未发生重大安全、环保、质量事故，申报期未被列入信用中国失信名单。4.已通过其他渠道获得区级研发费用等相关专项资金支持的项目不得参与本次申报。同一投资内容不得在区级专项项目中多次、多头申报。（三）申报材料申报企业按申报材",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "惠企资金",
+        "智能制造"
+      ],
+      "publishedAt": "2026-11-20",
+      "deadlineAt": "2026-11-27",
+      "lifecycleStatus": "open",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202611/t20261120_2883064.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区通知公告",
+      "sourceCount": 1,
+      "score": 86,
+      "screeningReason": "可申报事项；存在明确资金或奖励信号；30 天内截止；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-11-20T12:54:25.646Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202611/t20261120_2883064.shtml",
+          "sourceType": "official_site",
+          "sourceName": "东湖高新区通知公告"
         }
       ]
     },
@@ -4384,6 +4454,38 @@
       ]
     },
     {
+      "id": "east-lake-notices-276af5f932d6",
+      "title": "关于转发《省科技厅关于征集2027年度社会发展领域科技攻关需求建议的通知》的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉东湖新技术开发区管理委员会",
+      "summary": "各有关单位：根据省科技厅相关工作安排通知，现征集社会发展领域科技攻关需求建议。本次征集重点方向包含创新药、长江大保护、公共安全等10个领域（具体方向详见附件1）。有关要求通知如下：一、征集原则需求建议须紧密贴合湖北省产业发展、民生保障和社会治理实际，坚持问题导向、应用导向，突出急需紧缺、可落地转化，优先支持产业链、民生领域短板技术攻关。二、报送安排（一）报送材料：按附件模板填写《2027年度社会发展领域科技攻关需求建议表》（附件2），加盖单位公章后扫描为PDF，同步报送Excel可编辑版。（二）报送截止时间：2026年11月23日（周一）12:00。（三）报送方式：发送PDF盖章版及Excel版至科创局邮箱contactforwork@163.com。联系电话：027-67880178 附件1-2027年度社会发展领域科技攻关领域目录.xlsx 附件2-2026年度社会发展领域科技攻关需求建议表.xlsx 科技创新和新经济发展局2026年11月20日",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [],
+      "publishedAt": "2026-11-20",
+      "deadlineAt": "2026-11-23",
+      "lifecycleStatus": "open",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202611/t20261120_2882812.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区通知公告",
+      "sourceCount": 1,
+      "score": 76,
+      "screeningReason": "可申报事项；30 天内截止；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-11-20T12:54:25.646Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202611/t20261120_2882812.shtml",
+          "sourceType": "official_site",
+          "sourceName": "东湖高新区通知公告"
+        }
+      ]
+    },
+    {
       "id": "east-lake-notices-a8f2246fe835",
       "title": "关于转发开展2026年国家级首版次软件申报工作的通知",
       "itemType": "application",
@@ -6279,10 +6381,10 @@
       "entryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-11-20T03:14:23.095Z",
-      "lastSuccessAt": "2026-11-20T03:14:23.095Z",
+      "lastCheckedAt": "2026-11-20T12:54:12.272Z",
+      "lastSuccessAt": "2026-11-20T12:54:12.272Z",
       "priority": 100,
-      "lastInsertedCount": 1,
+      "lastInsertedCount": 0,
       "loginExpiresAt": null,
       "lastErrorAt": null,
       "lastErrorMessage": null,
@@ -6296,8 +6398,8 @@
       "entryUrl": "https://kjj.wuhan.gov.cn/wmfw/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-11-20T03:14:24.052Z",
-      "lastSuccessAt": "2026-11-20T03:14:24.052Z",
+      "lastCheckedAt": "2026-11-20T12:54:13.043Z",
+      "lastSuccessAt": "2026-11-20T12:54:13.043Z",
       "priority": 95,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -6313,10 +6415,10 @@
       "entryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-11-20T03:14:27.415Z",
-      "lastSuccessAt": "2026-11-20T03:14:27.415Z",
+      "lastCheckedAt": "2026-11-20T12:54:17.074Z",
+      "lastSuccessAt": "2026-11-20T12:54:17.074Z",
       "priority": 94,
-      "lastInsertedCount": 0,
+      "lastInsertedCount": 3,
       "loginExpiresAt": null,
       "lastErrorAt": null,
       "lastErrorMessage": null,
@@ -6330,8 +6432,8 @@
       "entryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-11-20T03:14:36.079Z",
-      "lastSuccessAt": "2026-11-20T03:14:36.079Z",
+      "lastCheckedAt": "2026-11-20T12:54:24.506Z",
+      "lastSuccessAt": "2026-11-20T12:54:24.506Z",
       "priority": 93,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -6347,8 +6449,8 @@
       "entryUrl": "https://rst.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-11-20T03:14:37.783Z",
-      "lastSuccessAt": "2026-11-20T03:14:37.783Z",
+      "lastCheckedAt": "2026-11-20T12:54:25.516Z",
+      "lastSuccessAt": "2026-11-20T12:54:25.516Z",
       "priority": 92,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
