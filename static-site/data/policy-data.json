@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-11-24T04:48:35.828Z",
+    "generatedAt": "2026-11-24T17:44:57.147Z",
     "scope": "湖北省与武汉市优先",
     "updateIntervalMinutes": 120,
-    "lastCollectionCount": 17,
-    "successfulSources": 3,
-    "failedSources": 2
+    "lastCollectionCount": 21,
+    "successfulSources": 5,
+    "failedSources": 0
   },
   "items": [
     {
@@ -1518,6 +1518,44 @@
       "discoveredAt": "2026-07-17T09:30:00+08:00"
     },
     {
+      "id": "east-lake-notices-d7a43a9b9df1",
+      "title": "关于转发《市科协关于组织开展武汉市科学企业家培育库入库推荐工作的通知》",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉东湖新技术开发区管理委员会",
+      "summary": "各企业科协、各有关单位：为认真贯彻市委十四届十三次全会精神，落实《武汉市培育服务科学企业家若干措施》（武人才〔2026〕5号），根据市科协相关工作安排（详见附件1），开展东湖高新区科学企业家培育入库推荐工作，现将有关事项通知如下： 一、推荐对象及条件 科学企业家是具备高水平科技素养、较强创新研发和成果转化能力，能够将前沿科技成果转化为现实生产力并引领企业创新发展和产业升级的复合型人才。科学企业家培育库是培育科学企业家后备人才的综合性平台，是实施重点跟踪服务的人才储备载体。 （一）入库人员需具备以下条件 1.身份要求。在身份品德方面，具有良好的道德品行、遵纪守法，无不良信用，在业界有良好声誉、得到广泛认可。科学企业家培育对象主要聚焦三类群体：一是两院院士及院士团队核心成员创办企业并任负责人；二是在汉高校院所教授等科研骨干创办企业并任董事长、总经理；三是具备专业科技背景的科技型企业创始人、实控人。 2.科技背景。具备高水平科学技术素养与深厚扎实的专业积累，拥有核心技术原创性、突破性能力；主持或领导的创新研发项目实现转化应用与产业化且成效显著，在行业内具有较高知名度。 3.社会责任。具有强烈",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "人工智能",
+        "科技企业",
+        "成果转化",
+        "人才计划",
+        "生物医药"
+      ],
+      "publishedAt": "2026-11-24",
+      "deadlineAt": "2026-12-08",
+      "lifecycleStatus": "open",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202611/t20261124_2884125.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区通知公告",
+      "sourceCount": 1,
+      "score": 92,
+      "screeningReason": "可申报事项；命中重点产业或企业关键词；30 天内截止；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-11-24T17:44:57.147Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202611/t20261124_2884125.shtml",
+          "sourceType": "official_site",
+          "sourceName": "东湖高新区通知公告"
+        }
+      ]
+    },
+    {
       "id": "hubei-jxt-files-d41a4985a573",
       "title": "省经信厅办公室关于开展湖北省第九批专精特新中小企业认定的通知",
       "itemType": "application",
@@ -2502,7 +2540,7 @@
       "primarySourceName": "湖北省科技厅通知公告",
       "sourceCount": 1,
       "score": 83,
-      "screeningReason": "可申报事项；命中重点产业或企业关键词；近 7 天发布。",
+      "screeningReason": "可申报事项；命中重点产业或企业关键词。",
       "documentNumber": null,
       "discoveredAt": "2026-11-18T07:28:52.415Z",
       "sourceLinks": [
@@ -6381,8 +6419,8 @@
       "entryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-11-24T04:48:28.027Z",
-      "lastSuccessAt": "2026-11-24T04:48:28.027Z",
+      "lastCheckedAt": "2026-11-24T17:44:45.182Z",
+      "lastSuccessAt": "2026-11-24T17:44:45.182Z",
       "priority": 100,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -6396,16 +6434,16 @@
       "sourceType": "official_site",
       "publisherName": "武汉市科技创新局",
       "entryUrl": "https://kjj.wuhan.gov.cn/wmfw/tzgg/",
-      "healthStatus": "degraded",
+      "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-11-24T04:48:28.262Z",
-      "lastSuccessAt": "2026-11-23T20:14:07.058Z",
+      "lastCheckedAt": "2026-11-24T17:44:45.981Z",
+      "lastSuccessAt": "2026-11-24T17:44:45.981Z",
       "priority": 95,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
-      "lastErrorAt": "2026-11-24T04:48:28.262Z",
-      "lastErrorMessage": "fetch failed",
-      "consecutiveFailures": 1
+      "lastErrorAt": null,
+      "lastErrorMessage": null,
+      "consecutiveFailures": 0
     },
     {
       "id": "east-lake-notices",
@@ -6413,16 +6451,16 @@
       "sourceType": "official_site",
       "publisherName": "武汉东湖新技术开发区管理委员会",
       "entryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/",
-      "healthStatus": "degraded",
+      "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-11-24T04:48:28.774Z",
-      "lastSuccessAt": "2026-11-23T20:14:09.649Z",
+      "lastCheckedAt": "2026-11-24T17:44:48.558Z",
+      "lastSuccessAt": "2026-11-24T17:44:48.558Z",
       "priority": 94,
-      "lastInsertedCount": 0,
+      "lastInsertedCount": 1,
       "loginExpiresAt": null,
-      "lastErrorAt": "2026-11-24T04:48:28.774Z",
-      "lastErrorMessage": "fetch failed",
-      "consecutiveFailures": 1
+      "lastErrorAt": null,
+      "lastErrorMessage": null,
+      "consecutiveFailures": 0
     },
     {
       "id": "hubei-jxt-files",
@@ -6432,8 +6470,8 @@
       "entryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-11-24T04:48:34.066Z",
-      "lastSuccessAt": "2026-11-24T04:48:34.066Z",
+      "lastCheckedAt": "2026-11-24T17:44:55.650Z",
+      "lastSuccessAt": "2026-11-24T17:44:55.650Z",
       "priority": 93,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -6449,8 +6487,8 @@
       "entryUrl": "https://rst.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-11-24T04:48:35.716Z",
-      "lastSuccessAt": "2026-11-24T04:48:35.716Z",
+      "lastCheckedAt": "2026-11-24T17:44:57.027Z",
+      "lastSuccessAt": "2026-11-24T17:44:57.027Z",
       "priority": 92,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
