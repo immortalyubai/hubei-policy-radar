@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generatedAt": "2026-11-25T02:28:45.464Z",
+    "generatedAt": "2026-11-25T14:22:22.138Z",
     "scope": "湖北省与武汉市优先",
     "updateIntervalMinutes": 120,
-    "lastCollectionCount": 21,
+    "lastCollectionCount": 23,
     "successfulSources": 5,
     "failedSources": 0
   },
@@ -3939,6 +3939,40 @@
       ]
     },
     {
+      "id": "east-lake-notices-5a2ff860a557",
+      "title": "关于东湖高新区2026年度软件和信息技术服务业发展奖补资金审核结果（第一批） 公示的通知",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉东湖新技术开发区管理委员会",
+      "summary": "各相关单位：根据《东湖高新区加快促进软件和信息技术服务业创新发展的若干措施》（武新管〔2025〕3号）等文件规定，经企业自主申报、材料初审、专家评审、第三方机构审计、征求相关部门意见等流程，现将2026年度软件和信息技术服务业发展专项资金审核结果第一批（第2条除外）予以公示（名单见附件），公示期为2026年11月25日至2026年12月1日。如有异议，请于2026年12月1日下午17:30前将书面意见（盖公司/单位公章）反馈至企服局，逾期不予受理。联系方式：027-65563330联系地址：高新大道777号7号楼7016室东湖高新区企服局2026年11月25日附件-评审结果表.xlsx",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [
+        "惠企资金"
+      ],
+      "publishedAt": "2026-11-25",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202611/t20261125_2884943.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区通知公告",
+      "sourceCount": 1,
+      "score": 77,
+      "screeningReason": "可申报事项；存在明确资金或奖励信号；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-11-25T14:22:22.138Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202611/t20261125_2884943.shtml",
+          "sourceType": "official_site",
+          "sourceName": "东湖高新区通知公告"
+        }
+      ]
+    },
+    {
       "id": "hubei-jxt-files-9f7696d3da00",
       "title": "省经信厅办公室关于开展2026年工业软件券兑付申请工作的通知",
       "itemType": "application",
@@ -4986,6 +5020,38 @@
           "url": "https://kjt.hubei.gov.cn/kjdt/tzgg/202607/t20260701_5967857.shtml",
           "sourceType": "official_site",
           "sourceName": "湖北省科技厅通知公告"
+        }
+      ]
+    },
+    {
+      "id": "east-lake-notices-a137eb17f7b1",
+      "title": "东湖新技术开发区2026年 “名特优新”个体工商户拟认定名单信息公示",
+      "itemType": "application",
+      "regionName": "湖北省",
+      "cityName": "武汉市",
+      "publisherName": "武汉东湖新技术开发区管理委员会",
+      "summary": "根据《武汉市个体工商户分型分类精准帮扶提升发展质量工作实施方案》（武市监〔2024〕39号），经过自愿申报（部门推荐）、初步审查、走访核实，现将东湖新技术开发区2026年“名特优新”个体工商户拟认定名单信息予以公示。公示期为2026年11月25日至2026年12月1日，共5个工作日。监督电话：027-67880265。 序号 统一社会信用代码 个体工商户名称 名特优新类别 1 92420100MA4EFMLR39 武汉东湖新技术开发区明明生鲜超市 “知名”类 2 92420100MA4DX9UP6B 武汉东湖新技术开发区鑫佳源酒店 “知名”类 3 92420100MAD5UGCX9U 武汉东湖新技术开发区小思餐饮店（个体工商户） “知名”类 4 92420100MABW8AAF30 武汉东湖新技术开发区惠零零食店 “知名”类 5 92420100MABW9PMH23 武汉东湖新技术开发区杜泽群餐饮店（个体工商户） “知名”类 6 92420100MACDY80C6Q 武汉东湖新技术开发区宝澥餐饮店 “知名”类 7 92420100MA4DM29X94 武汉东湖开发区世纪购超市 “知名”",
+      "applicationTargets": null,
+      "benefits": null,
+      "topics": [],
+      "publishedAt": "2026-11-25",
+      "deadlineAt": null,
+      "lifecycleStatus": "pending_deadline",
+      "verificationStatus": "official_verified",
+      "primaryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202611/t20261125_2884949.shtml",
+      "primarySourceType": "official_site",
+      "primarySourceName": "东湖高新区通知公告",
+      "sourceCount": 1,
+      "score": 67,
+      "screeningReason": "可申报事项；近 7 天发布。",
+      "documentNumber": null,
+      "discoveredAt": "2026-11-25T14:22:22.138Z",
+      "sourceLinks": [
+        {
+          "label": "打开官网原文",
+          "url": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/202611/t20261125_2884949.shtml",
+          "sourceType": "official_site",
+          "sourceName": "东湖高新区通知公告"
         }
       ]
     },
@@ -6419,8 +6485,8 @@
       "entryUrl": "https://kjt.hubei.gov.cn/kjdt/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-11-25T02:28:30.180Z",
-      "lastSuccessAt": "2026-11-25T02:28:30.180Z",
+      "lastCheckedAt": "2026-11-25T14:22:09.946Z",
+      "lastSuccessAt": "2026-11-25T14:22:09.946Z",
       "priority": 100,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -6436,8 +6502,8 @@
       "entryUrl": "https://kjj.wuhan.gov.cn/wmfw/tzgg/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-11-25T02:28:31.118Z",
-      "lastSuccessAt": "2026-11-25T02:28:31.118Z",
+      "lastCheckedAt": "2026-11-25T14:22:10.782Z",
+      "lastSuccessAt": "2026-11-25T14:22:10.782Z",
       "priority": 95,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -6453,10 +6519,10 @@
       "entryUrl": "https://www.wehdz.gov.cn/2022/ggxw_68627/tz_68628/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-11-25T02:28:33.346Z",
-      "lastSuccessAt": "2026-11-25T02:28:33.346Z",
+      "lastCheckedAt": "2026-11-25T14:22:12.983Z",
+      "lastSuccessAt": "2026-11-25T14:22:12.983Z",
       "priority": 94,
-      "lastInsertedCount": 0,
+      "lastInsertedCount": 2,
       "loginExpiresAt": null,
       "lastErrorAt": null,
       "lastErrorMessage": null,
@@ -6470,8 +6536,8 @@
       "entryUrl": "https://jxt.hubei.gov.cn/fbjd/zc/qtzdgkwj/gwfb/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-11-25T02:28:44.193Z",
-      "lastSuccessAt": "2026-11-25T02:28:44.193Z",
+      "lastCheckedAt": "2026-11-25T14:22:20.474Z",
+      "lastSuccessAt": "2026-11-25T14:22:20.474Z",
       "priority": 93,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
@@ -6487,8 +6553,8 @@
       "entryUrl": "https://rst.hubei.gov.cn/zfxxgk/zc/qtzdgkwj/",
       "healthStatus": "healthy",
       "pollIntervalMinutes": 120,
-      "lastCheckedAt": "2026-11-25T02:28:45.377Z",
-      "lastSuccessAt": "2026-11-25T02:28:45.377Z",
+      "lastCheckedAt": "2026-11-25T14:22:22.017Z",
+      "lastSuccessAt": "2026-11-25T14:22:22.017Z",
       "priority": 92,
       "lastInsertedCount": 0,
       "loginExpiresAt": null,
